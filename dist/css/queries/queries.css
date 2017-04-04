@@ -1,0 +1,28 @@
+/*------------CELULARES-----*/
+/*------------TABLET-----*/
+/*------------DESKTOP-----*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  body section.hero div.hero-container header ul#menu {
+    display: inline-flex; }
+    body section.hero div.hero-container header ul#menu li a {
+      color: #fff; } }
+/*------------DESKTOP LARGE-----*/
+@media screen and (min-width: 1200px) {
+  body section.hero div.hero-container header h3 ul#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333; }
+    body section.hero div.hero-container header h3 ul#menu li {
+      float: right; }
+      body section.hero div.hero-container header h3 ul#menu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none; }
+        body section.hero div.hero-container header h3 ul#menu li a:hover {
+          background-color: #111111; } }
+
+/*# sourceMappingURL=queries.css.map */

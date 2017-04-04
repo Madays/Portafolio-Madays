@@ -1,0 +1,115 @@
+@import "../variables/variables";
+/*------------DESKTOP-----*/
+@media screen and (min-width:992px) and (max-width:1199px){
+    body {    
+        div.container-canvas{
+        div#particle-canvas{        
+            
+            }    
+        }    
+            section.hero{
+
+            div.hero-container{
+                header{
+
+                    h2{
+
+                    }                 
+                        i{
+
+                        }
+                        ul#menu{                        
+                            
+                            li{
+
+                                a{
+                                    
+                                }
+                            }
+                        }                                     
+                }
+                div#background-presentation{
+
+                }
+            }
+        }
+            section.about-me{
+
+            h3{
+
+            }
+            hr{
+
+            }
+            div.container-colum{
+
+                h3{
+
+                }
+                div.content{
+
+                    ul{
+
+                    }
+
+                } 
+                div.content:hover{
+
+                }
+            }        
+        }
+            section.skill{
+
+            h3{
+
+            }
+            hr{
+
+            }
+            span{
+
+            }
+            #myProgress {
+
+                .myBar{                
+
+                }
+            }            
+        }
+            section.projects{
+
+            h3{
+
+            }
+            hr{
+
+            }
+            .box-categoria-proyecto{
+
+            }
+            .box-p{
+
+            }
+            .box-p:hover,.box-p:focus,.box-p:active{
+
+            }
+            .box-categoria-proyecto p{
+
+            }
+
+            .box-categoria-proyecto p:hover,.box-categoria-proyecto p:focus,.box-categoria-proyecto p:active{
+
+            }
+        }
+            section.contact-me{            
+            ul{
+                li{                
+
+                    a{
+
+                    }
+                }
+            }            
+        }
+    }  
+}

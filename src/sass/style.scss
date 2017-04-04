@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*outline: 1px solid red;*/
+}
+@import "variables/variables";
+@import "mixin/mixin";
+
+html,
+body {    
+    div.container-canvas{
+        div#particle-canvas{        
+            overflow: hidden;
+            height: 100vh;
+            width: 100wh;
+            margin: 0;
+            padding: 0;                
+        }    
+    }
+    section.hero{
+        /*background-color: rgba(255, 205, 13,.4);*/        
+        height: 100vh;
+        width: 100wh;
+        position: absolute;
+        z-index: 100;        
+        top: 0;
+        right: 0;
+        left: 0;
+        color: #fff;
+        div.hero-container{
+            header{
+                position: fixed;
+                top: 0;
+                right: 43px;
+                left: 43px;
+                z-index: 300;
+                h2{
+                    background-color: #000;
+                    font-size: 10px;
+                    display: inline-block;
+                    padding: 7px;
+                }                 
+                    i{
+                        background-color: #000;
+                        padding: 10px;
+                        margin: 20px 10px;
+                    }                
+                    ul#menu{                        
+                        display: inline-block;
+                        list-style: none;
+                        margin: 0;
+                        padding: 0;
+                        display: inline-flex;
+                        background-color: #000;
+                        li{
+                                
+                            a{
+                                display: block;
+                                color: white;
+                                text-align: center;
+                                padding: 10px 20px;
+                                text-decoration: none;
+                                &:hover{
+                                    background-color: #111111;    
+                                }
+                            }
+                        }
+                    }                                    
+            }
+            div#background-presentation{
+                text-align: center;
+                margin: auto;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);    
+            }
+        }
+    }
+    section.about-me{
+        position: relative;
+        padding: 40px 0;
+        h3{
+            color: #0F8B8D;
+            font-family: 'Gloria Hallelujah', cursive;
+        }
+        hr{
+            color: #1A252F;
+            width: 50px;
+            text-align: center;
+            margin: auto;
+            border-top: 2px solid #1a252f;
+            margin-bottom: 20px;
+        }
+        div.container-colum{
+            position: relative;            
+            h3{
+                font-size: 60px;
+                color: #D62246;
+            }
+            div.content{
+                height: 100%;
+                position: absolute;    
+                top: 0;
+                right: 0;
+                left: 0;
+                margin: auto;
+                opacity: 0;
+                color: #fff;
+                background: #0F8B8D;
+                border-radius: 20px;
+                padding: 5px 40px;
+                ul{
+                    list-style: none;
+                }
+                
+            } 
+            div.content:hover{
+                opacity: 1;
+            }
+        }        
+    }
+    section.skill{
+        padding: 40px 0;
+        h3{
+            color: #0F8B8D;
+            font-family: 'Gloria Hallelujah', cursive;
+        }
+        hr{
+            color: #1A252F;
+            width: 50px;
+            text-align: center;
+            margin: auto;
+            border-top: 2px solid #1a252f;
+            margin-bottom: 20px;
+        }
+        span{
+            color: #D62246;
+        }
+        #myProgress {
+            width: 100%;
+            background-color: #ddd;                        
+            .myBar{                
+                width: 1%;
+                height: 30px;
+                background-color: #0F8B8D;                
+            }
+        }            
+    }
+    section.projects{
+        position: relative;
+        padding: 40px 0;
+        h3{
+            color: #0F8B8D;
+            font-family: 'Gloria Hallelujah', cursive;
+        }
+        hr{
+            color: #1A252F;
+            width: 50px;
+            text-align: center;
+            margin: auto;
+            border-top: 2px solid #1a252f;
+            margin-bottom: 20px;
+        }
+        .box-categoria-proyecto{
+            position: relative;        
+        }
+        .box-p{
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0; 
+            background: rgba(240, 95, 64,.6);
+            opacity: 0;
+        }
+        .box-p:hover,.box-p:focus,.box-p:active{
+            opacity: 1;
+        }
+        .box-categoria-proyecto p{
+            position: absolute;
+            font-size: 30px;        
+            color: #fff;
+            top: 50%;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            transform: translateY(-50%);  
+        }
+
+        .box-categoria-proyecto p:hover,.box-categoria-proyecto p:focus,.box-categoria-proyecto p:active{
+            opacity: 1;
+        }
+    }
+    section.contact-me{ 
+        position: relative;
+        padding: 40px 0;
+        h3{
+            color: #0F8B8D;
+            font-family: 'Gloria Hallelujah', cursive;
+        }
+        hr{
+            color: #1A252F;
+            width: 50px;
+            text-align: center;
+            margin: auto;
+            border-top: 2px solid #1a252f;
+            margin-bottom: 20px;
+        } 
+        i{
+            font-size: $font-size-base*2;
+        }
+    }
+}
+
+

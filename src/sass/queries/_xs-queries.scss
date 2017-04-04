@@ -1,0 +1,30 @@
+@import "../variables/variables";
+/*------------CELULARES-----*/
+@media screen and (max-width:767px){
+    section.hero{
+        ul#menu-xs-sm{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            li{
+
+                a{
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 10px 20px;
+                    text-decoration: none;
+                    &:hover{
+                        color: #111111;    
+                    }
+                }
+            }
+        }
+        div#background-presentation{
+            h1{
+                font-size: $font-size-base*1.5;
+            }            
+        }
+    }        
+} 
