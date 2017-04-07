@@ -36,31 +36,32 @@ body {
                 left: 43px;
                 z-index: 300;
                 h2{
-                    background-color: #000;
-                    font-size: 10px;
+                    background-color: rgba(0,0,0,.7);
+                    font-size: 16px;
                     display: inline-block;
                     padding: 7px;
                 }                 
                     i{
-                        background-color: #000;
+                        background-color: rgba(0,0,0,.7);
                         padding: 10px;
                         margin: 20px 10px;
+                        font-size: 16px;
                     }                
                     ul#menu{                        
                         display: inline-block;
                         list-style: none;
                         margin: 0;
                         padding: 0;
-                        display: inline-flex;
-                        background-color: #000;
-                        li{
-                                
+                        display: inline-flex;                        
+                        li{                                
                             a{
                                 display: block;
                                 color: white;
+                                font-size: 16px;
                                 text-align: center;
                                 padding: 10px 20px;
                                 text-decoration: none;
+                                background-color: rgba(0,0,0,.3);
                                 &:hover{
                                     background-color: #111111;    
                                 }
@@ -142,10 +143,12 @@ body {
         #myProgress {
             width: 100%;
             background-color: #ddd;                        
-            .myBar{                
+            #myBarHTML5,#myBarCss,#myBarJs,#myBarJquery,#myBarSass,#myBarGithub,#myBarGulp,#myBarProactividad,#myBarEquipo,#myBarLiderazgo,#myBarResponsabilidad,#myBarEntuciasmo,#myBarPensamiento,#myBarPuntualidad{                
                 width: 1%;
                 height: 30px;
-                background-color: #0F8B8D;                
+                background-color: #0F8B8D;  
+                color: #fff;
+                align-content: center;
             }
         }            
     }
