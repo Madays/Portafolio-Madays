@@ -200,6 +200,9 @@ body {
             opacity: 1;
         }
     }
+    section.contact-me *{
+        outline: solid 1px purple;
+    }
     section.contact-me{ 
         position: relative;
         padding: 40px 0;
@@ -218,6 +221,12 @@ body {
         i{
             font-size: $font-size-base*6;
         }
+    }
+    footer{
+        padding-top: 10px;
+        background-color: #0F8B8D;
+        color: #fff;
+        font-size: $font-size-base*1.5;
     }
 }
 
