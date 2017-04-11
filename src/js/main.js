@@ -1,44 +1,57 @@
 $(document).ready(function(){
-    //move();
+    move("myBarHTML5",90);
+    move("myBarCss",90);    
+    move("myBarJs",70);
+    move("myBarJquery",70);
+    move("myBarSass",80);
+    move("myBarGithub",70);
+    move("myBarGulp",70);
+    
+    move("myBarProactividad",98);
+    move("myBarEquipo",90);
+    move("myBarLiderazgo",70);
+    move("myBarResponsabilidad",90);
+    move("myBarEntuciasmo",90);
+    move("myBarPensamiento",80);
+    move("myBarPuntualidad",80);
 });
-$('i.fa').click(function(){
+$('header i.fa').click(function(){
     $(this).toggleClass('fa-bars');
     $('#menu').toggleClass('hidden');
     $('#menu-xs-sm').toggleClass('hidden');
 });
 
 $('#link-skills').click(function(){
-    //move(100);
+    move("myBarHTML5",90);
+    move("myBarCss",90);    
+    move("myBarJs",70);
+    move("myBarJquery",70);
+    move("myBarSass",80);
+    move("myBarGithub",70);
+    move("myBarGulp",70);
+    
+    move("myBarProactividad",98);
+    move("myBarEquipo",90);
+    move("myBarLiderazgo",70);
+    move("myBarResponsabilidad",90);
+    move("myBarEntuciasmo",90);
+    move("myBarPensamiento",80);
+    move("myBarPuntualidad",80);
 });
 
-/*function move() {
-  //var elem = document.getElementById("myBar");   
-  /*var elem = $(".myBar");   
-    console.log(elem);
-  var width = 1;
+function move(_id,_valor) {
+  var elem = document.getElementById(_id);   
+  var width = 10;
   var id = setInterval(frame, 10);
   function frame() {
-    if (width >= 100) {
+    if (width >= _valor) {
       clearInterval(id);
     } else {
       width++; 
       elem.style.width = width + '%'; 
+      elem.innerHTML = width * 1  + '%';
     }
-  }*/
-   /* var elem = $(".myBar");   
-    console.log(elem);    
-    var width = 1;
-    var id = setInterval(frame, 20);
-    function frame() { 
-        for(var i=0;i<=elem.length;i++){
-            if (width >= 100) {
-              clearInterval(id);
-            } else {
-              width++; 
-              elem[i].style.width = width + '%'; 
-                console.log(elem[i]);  
-            }
-        }
-    }              
-}*/
+  }
+    console.log(elem.textContent);
+}
 
