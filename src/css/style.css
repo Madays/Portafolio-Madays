@@ -171,6 +171,7 @@ body section.projects {
     margin-bottom: 20px; }
   html section.projects .box-categoria-proyecto,
   body section.projects .box-categoria-proyecto {
+    margin-top: 20px;
     position: relative; }
     html section.projects .box-categoria-proyecto img,
     body section.projects .box-categoria-proyecto img {
