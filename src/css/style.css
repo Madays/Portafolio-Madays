@@ -73,12 +73,15 @@ body section.hero {
     html section.hero div.hero-container div#background-presentation h1,
     body section.hero div.hero-container div#background-presentation h1 {
       text-align: center; }
-
-html marquee,
-body marquee {
-  color: #fff;
-  margin: 0;
-  font-size: 30px; }
+  html section.hero marquee,
+  body section.hero marquee {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: #fff;
+    margin: 0;
+    font-size: 30px; }
 
 html section.about-me,
 body section.about-me {
