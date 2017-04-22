@@ -11,6 +11,7 @@ body div.container-canvas div#particle-canvas {
   width: 100wh;
   margin: 0;
   padding: 0; }
+
 html section.hero,
 body section.hero {
   /*background-color: rgba(255, 205, 13,.4);*/
@@ -69,48 +70,93 @@ body section.hero {
     right: 0;
     left: 50%;
     transform: translateX(-50%) translateY(-50%); }
+    html section.hero div.hero-container div#background-presentation h1,
+    body section.hero div.hero-container div#background-presentation h1 {
+      text-align: center; }
+
+html marquee,
+body marquee {
+  color: #fff;
+  margin: 0;
+  font-size: 30px; }
+
 html section.about-me,
 body section.about-me {
+  background-image: url(../img/maday.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
   position: relative;
-  padding: 40px 0; }
-  html section.about-me h3,
-  body section.about-me h3 {
-    color: #0F8B8D;
-    font-family: 'Gloria Hallelujah', cursive; }
-  html section.about-me hr,
-  body section.about-me hr {
-    color: #1A252F;
-    width: 50px;
-    text-align: center;
+  padding: 0; }
+  html section.about-me .box-p,
+  body section.about-me .box-p {
+    display: table;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    margin-top: 20px; }
+    html section.about-me .box-p .container-box-p,
+    body section.about-me .box-p .container-box-p {
+      display: table-cell;
+      vertical-align: middle; }
+      html section.about-me .box-p .container-box-p h3,
+      body section.about-me .box-p .container-box-p h3 {
+        color: #fff;
+        font-family: 'Lato', sans-serif; }
+      html section.about-me .box-p .container-box-p hr,
+      body section.about-me .box-p .container-box-p hr {
+        color: #fff;
+        width: 50px;
+        text-align: center;
+        margin: auto;
+        border-top: 2px solid #fff;
+        margin-bottom: 20px; }
+      html section.about-me .box-p .container-box-p p,
+      body section.about-me .box-p .container-box-p p {
+        color: #DBEBC2;
+        text-align: justify;
+        font-size: 16px;
+        padding: 0 20px;
+        font-family: 'Ubuntu', sans-serif;
+        display: none; }
+  html section.about-me .info,
+  body section.about-me .info {
+    display: table;
+    padding: 10px;
+    height: 150px;
+    width: 150px;
     margin: auto;
-    border-top: 2px solid #1a252f;
-    margin-bottom: 20px; }
-  html section.about-me div.container-colum,
-  body section.about-me div.container-colum {
-    position: relative; }
-    html section.about-me div.container-colum h3,
-    body section.about-me div.container-colum h3 {
-      font-size: 60px;
-      color: #D62246; }
-    html section.about-me div.container-colum div.content,
-    body section.about-me div.container-colum div.content {
+    -webkit-perspective: 700; }
+  html section.about-me .container_info,
+  body section.about-me .container_info {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 1s; }
+    html section.about-me .container_info .side,
+    body section.about-me .container_info .side {
       height: 100%;
-      position: absolute;
-      top: 0;
-      right: 0;
-      left: 0;
-      margin: auto;
-      opacity: 0;
-      color: #fff;
-      background: #0F8B8D;
-      border-radius: 20px;
-      padding: 5px 40px; }
-      html section.about-me div.container-colum div.content ul,
-      body section.about-me div.container-colum div.content ul {
-        list-style: none; }
-    html section.about-me div.container-colum div.content:hover,
-    body section.about-me div.container-colum div.content:hover {
-      opacity: 1; }
+      width: 100%;
+      backface-visibility: hidden;
+      position: absolute; }
+    html section.about-me .container_info div.front h3 i,
+    body section.about-me .container_info div.front h3 i {
+      font-size: 60px;
+      color: #fff; }
+    html section.about-me .container_info .back,
+    body section.about-me .container_info .back {
+      transform: rotateY(180deg);
+      font-size: 16px;
+      color: #fff; }
+  html section.about-me .container_info:hover,
+  body section.about-me .container_info:hover {
+    transform: rotateY(180deg); }
+
 html section.skill,
 body section.skill {
   padding: 40px 0; }
@@ -153,6 +199,7 @@ body section.skill {
       background-color: #0F8B8D;
       color: #fff;
       align-content: center; }
+
 html section.projects,
 body section.projects {
   position: relative;
@@ -205,6 +252,7 @@ body section.projects {
   body section.projects .box-categoria-proyecto p:focus,
   body section.projects .box-categoria-proyecto p:active {
     opacity: 1; }
+
 html section.contact-me,
 body section.contact-me {
   position: relative;
@@ -224,10 +272,9 @@ body section.contact-me {
   html section.contact-me i,
   body section.contact-me i {
     font-size: 96px; }
+
 html footer,
 body footer {
   padding-top: 10px;
   background-color: #0F8B8D;
   color: #fff; }
-
-/*# sourceMappingURL=style.css.map */
