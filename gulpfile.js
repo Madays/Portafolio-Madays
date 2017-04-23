@@ -87,4 +87,4 @@ gulp.task('pocy-img-to-dist',function(){
 });
 
 
-gulp.task('default', ['fontawesome-css','fontawesome','images', 'style', 'script-bootstrap','script-jquery','pocy-css-style-to-dist','pocy-css-queries-to-dist','pocy-js-to-dist','pocy-index-to-dist','pocy-package-to-dist','pocy-gulpfile-to-dist','pocy-gitignore-to-dist','pocy-img-to-dist','pocy-index-to-src','sass','sass:watch']);
+gulp.task('default', ['fontawesome-css','fontawesome','images', 'style', 'script-bootstrap','script-jquery','pocy-css-style-to-dist','pocy-css-queries-to-dist','pocy-js-to-dist','pocy-package-to-dist','pocy-gulpfile-to-dist','pocy-gitignore-to-dist','pocy-img-to-dist','sass','sass:watch']);

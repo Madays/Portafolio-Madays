@@ -1,319 +1,93 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  /*outline: 1px solid red;*/ }
+  box-sizing: border-box; }
 
 html,
 body {
-  /*marquee{  
-        background-color: #fff;
-        color: purple;
-        margin: 0;
-        padding: 0;
-        font-size: 50px;
-    }*/ }
-  html div.container-canvas div#particle-canvas,
-  body div.container-canvas div#particle-canvas {
-    overflow: hidden;
-    height: 100vh;
-    width: 100wh;
-    margin: 0;
-    padding: 0; }
-  html section.hero,
-  body section.hero {
-    /*background-color: rgba(255, 205, 13,.4);*/
-    height: 100vh;
-    width: 100wh;
-    position: absolute;
-    z-index: 100;
-    top: 0;
-    right: 0;
-    left: 0;
-    color: #fff; }
-    html section.hero div.hero-container header,
-    body section.hero div.hero-container header {
-      position: fixed;
-      top: 0;
-      right: 43px;
-      left: 43px;
-      z-index: 300; }
-      html section.hero div.hero-container header h2,
-      body section.hero div.hero-container header h2 {
-        background-color: rgba(0, 0, 0, 0.7);
-        font-size: 16px;
-        display: inline-block;
-        padding: 7px; }
-      html section.hero div.hero-container header i,
-      body section.hero div.hero-container header i {
-        background-color: rgba(0, 0, 0, 0.7);
-        padding: 10px;
-        margin: 20px 10px;
-        font-size: 16px; }
-      html section.hero div.hero-container header ul#menu,
-      body section.hero div.hero-container header ul#menu {
-        display: inline-block;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: inline-flex; }
-        html section.hero div.hero-container header ul#menu li a,
-        body section.hero div.hero-container header ul#menu li a {
-          display: block;
-          color: white;
-          font-size: 16px;
-          text-align: center;
-          padding: 10px 20px;
-          text-decoration: none;
-          background-color: rgba(0, 0, 0, 0.3); }
-          html section.hero div.hero-container header ul#menu li a:hover,
-          body section.hero div.hero-container header ul#menu li a:hover {
-            background-color: #111111; }
-    html section.hero div.hero-container div#background-presentation,
-    body section.hero div.hero-container div#background-presentation {
-      text-align: center;
-      margin: auto;
+  margin: 0;
+  padding: 0; }
+  html #hero,
+  body #hero {
+    /*----section-start---*/ }
+    html #hero .col-xs-10, html #hero .col-xs-2,
+    body #hero .col-xs-10,
+    body #hero .col-xs-2 {
+      padding: 0;
+      margin: 0; }
+    html #hero #link-content,
+    body #hero #link-content {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: #FF6B57;
+      /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(left top, #FF6B57, #FF884D);
+      /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(bottom right, #FF6B57, #FF884D);
+      /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(bottom right, #FF6B57, #FF884D);
+      /* For Firefox 3.6 to 15 */
+      background: linear-gradient(to bottom right, #FF6B57, #FF884D);
+      /* Standard syntax (must be last) */ }
+    html #hero section,
+    body #hero section {
       position: absolute;
-      top: 50%;
-      right: 0;
-      left: 50%;
-      transform: translateX(-50%) translateY(-50%); }
-      html section.hero div.hero-container div#background-presentation h1,
-      body section.hero div.hero-container div#background-presentation h1 {
-        text-align: center; }
-  html section.about-me,
-  body section.about-me {
-    /*
-        margin-top: 0;
-        background-image: url(../img/maday.jpg);
-        background-size:cover;
-        background-position: top center;
-        background-repeat: no-repeat;    
-        background-attachment: fixed; 
-        height: 100vh;
-        position: relative;
-        padding: 0;                 
-        .box-p{            
-            display: table;
-            height: 80vh;
-            background-color: rgba(255,255,255,.3);
-            border-radius: 10px;
-            margin-top: 20px;
-            .container-box-p{                
-                display: table-cell;
-                vertical-align: middle; 
-                h3{
-                    color: #fff;
-                    font-family: 'Lato', sans-serif;
-                }
-                hr{
-                    color: #fff;
-                    width: 50px;
-                    text-align: center;
-                    margin: auto;
-                    border-top: 2px solid #fff;
-                    margin-bottom: 20px;
-                }
-                p{
-                    color: #DBEBC2;
-                    text-align: justify;                
-                    font-size: 16px;
-                    padding: 0 20px;   
-                    font-family: 'Ubuntu', sans-serif;
-                    display: none;
-                }
-            }
-                
-        } 
-        .info {
-            display: table;
-            padding: 10px;
-            height: 150px;
-            width: 150px;
-            margin: auto;
-            -webkit-perspective:700;
-        }
-        .container_info {
-            display: table-cell;
-            vertical-align: middle;
-            height: 100%;
-            width: 100%;
-            position: relative;
-            transform-style: preserve-3d;
-            transition: 1s;
-            .side {
-                height: 100%;
-                width: 100%; 
-                backface-visibility: hidden;
-                position: absolute;
-            }
-            div.front {
-                //background: red;
-                h3 i{
-                    font-size: 60px;
-                    color: #fff;
-                }
-            }
-            .back {
-                //background: gold;
-                transform: rotateY(180deg);
-                font-size: 16px;
-                color: #fff;
-            }
-        }
-        .container_info:hover{
-            transform: rotateY(180deg);
-        }  */ }
-    html section.about-me .info,
-    body section.about-me .info {
-      display: table;
-      padding: 10px;
-      height: 150px;
-      width: 150px;
-      margin: auto;
-      -webkit-perspective: 700; }
-    html section.about-me .container_info,
-    body section.about-me .container_info {
-      display: table-cell;
-      vertical-align: middle;
+      width: 100%;
       height: 100%;
-      width: 100%;
-      position: relative;
-      transform-style: preserve-3d;
-      transition: 1s; }
-      html section.about-me .container_info .side,
-      body section.about-me .container_info .side {
-        height: 100%;
-        width: 100%;
-        backface-visibility: hidden;
-        position: absolute; }
-      html section.about-me .container_info div.front h3 i,
-      body section.about-me .container_info div.front h3 i {
-        font-size: 60px;
-        color: #000; }
-      html section.about-me .container_info .back,
-      body section.about-me .container_info .back {
-        transform: rotateY(180deg);
-        font-size: 16px;
-        color: #000; }
-    html section.about-me .container_info:hover,
-    body section.about-me .container_info:hover {
-      transform: rotateY(180deg); }
-  html section.skill,
-  body section.skill {
-    padding: 40px 0; }
-    html section.skill h3,
-    body section.skill h3 {
-      color: #0F8B8D;
-      font-family: 'Gloria Hallelujah', cursive; }
-    html section.skill hr,
-    body section.skill hr {
-      color: #1A252F;
-      width: 50px;
-      text-align: center;
-      margin: auto;
-      border-top: 2px solid #1a252f;
-      margin-bottom: 20px; }
-    html section.skill span,
-    body section.skill span {
-      color: #D62246; }
-    html section.skill #myProgress,
-    body section.skill #myProgress {
-      width: 100%;
-      background-color: #ddd; }
-      html section.skill #myProgress #myBarHTML5, html section.skill #myProgress #myBarCss, html section.skill #myProgress #myBarJs, html section.skill #myProgress #myBarJquery, html section.skill #myProgress #myBarSass, html section.skill #myProgress #myBarGithub, html section.skill #myProgress #myBarGulp, html section.skill #myProgress #myBarProactividad, html section.skill #myProgress #myBarEquipo, html section.skill #myProgress #myBarLiderazgo, html section.skill #myProgress #myBarResponsabilidad, html section.skill #myProgress #myBarEntuciasmo, html section.skill #myProgress #myBarPensamiento, html section.skill #myProgress #myBarPuntualidad,
-      body section.skill #myProgress #myBarHTML5,
-      body section.skill #myProgress #myBarCss,
-      body section.skill #myProgress #myBarJs,
-      body section.skill #myProgress #myBarJquery,
-      body section.skill #myProgress #myBarSass,
-      body section.skill #myProgress #myBarGithub,
-      body section.skill #myProgress #myBarGulp,
-      body section.skill #myProgress #myBarProactividad,
-      body section.skill #myProgress #myBarEquipo,
-      body section.skill #myProgress #myBarLiderazgo,
-      body section.skill #myProgress #myBarResponsabilidad,
-      body section.skill #myProgress #myBarEntuciasmo,
-      body section.skill #myProgress #myBarPensamiento,
-      body section.skill #myProgress #myBarPuntualidad {
-        width: 1%;
-        height: 30px;
-        background-color: #0F8B8D;
-        color: #fff;
-        align-content: center; }
-  html section.projects,
-  body section.projects {
-    position: relative;
-    padding: 40px 0; }
-    html section.projects h3,
-    body section.projects h3 {
-      color: #0F8B8D;
-      font-family: 'Gloria Hallelujah', cursive; }
-    html section.projects hr,
-    body section.projects hr {
-      color: #1A252F;
-      width: 50px;
-      text-align: center;
-      margin: auto;
-      border-top: 2px solid #1a252f;
-      margin-bottom: 20px; }
-    html section.projects .box-categoria-proyecto,
-    body section.projects .box-categoria-proyecto {
-      margin-top: 20px;
-      position: relative; }
-      html section.projects .box-categoria-proyecto img,
-      body section.projects .box-categoria-proyecto img {
-        margin: 0 auto; }
-    html section.projects .box-p,
-    body section.projects .box-p {
-      position: absolute;
       top: 0;
-      right: 0;
       left: 0;
-      bottom: 0;
-      background: rgba(15, 139, 141, 0.7);
+      display: none;
       opacity: 0; }
-    html section.projects .box-p:hover, html section.projects .box-p:focus, html section.projects .box-p:active,
-    body section.projects .box-p:hover,
-    body section.projects .box-p:focus,
-    body section.projects .box-p:active {
-      opacity: 1; }
-    html section.projects .box-categoria-proyecto p,
-    body section.projects .box-categoria-proyecto p {
-      position: absolute;
-      font-size: 30px;
-      color: #fff;
-      top: 50%;
-      left: 0;
-      right: 0;
-      margin: 0 auto;
-      transform: translateY(-50%); }
-    html section.projects .box-categoria-proyecto p:hover, html section.projects .box-categoria-proyecto p:focus, html section.projects .box-categoria-proyecto p:active,
-    body section.projects .box-categoria-proyecto p:hover,
-    body section.projects .box-categoria-proyecto p:focus,
-    body section.projects .box-categoria-proyecto p:active {
-      opacity: 1; }
-  html section.contact-me,
-  body section.contact-me {
-    position: relative;
-    padding: 40px 0; }
-    html section.contact-me h3,
-    body section.contact-me h3 {
-      color: #0F8B8D;
-      font-family: 'Gloria Hallelujah', cursive; }
-    html section.contact-me hr,
-    body section.contact-me hr {
-      color: #1A252F;
-      width: 50px;
-      text-align: center;
-      margin: auto;
-      border-top: 2px solid #1a252f;
-      margin-bottom: 20px; }
-    html section.contact-me i,
-    body section.contact-me i {
-      font-size: 96px; }
-  html footer,
-  body footer {
-    padding-top: 10px;
-    background-color: #0F8B8D;
-    color: #fff; }
+    html #hero .visible,
+    body #hero .visible {
+      opacity: 1;
+      display: table; }
+      html #hero .visible div.content,
+      body #hero .visible div.content {
+        display: table-cell;
+        vertical-align: middle; }
+        html #hero .visible div.content h2,
+        body #hero .visible div.content h2 {
+          color: #fff; }
+    html #hero ul#menu,
+    body #hero ul#menu {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      width: 100%; }
+      html #hero ul#menu #start,
+      body #hero ul#menu #start {
+        background-color: #FF6B57; }
+      html #hero ul#menu #about-me,
+      body #hero ul#menu #about-me {
+        background-color: #FF884D; }
+      html #hero ul#menu #skill,
+      body #hero ul#menu #skill {
+        background-color: #32526E; }
+      html #hero ul#menu #projects,
+      body #hero ul#menu #projects {
+        background-color: #81B9C3; }
+      html #hero ul#menu #contact-me,
+      body #hero ul#menu #contact-me {
+        background-color: #41C3AC; }
+      html #hero ul#menu .link,
+      body #hero ul#menu .link {
+        display: table;
+        width: 100%; }
+        html #hero ul#menu .link a,
+        body #hero ul#menu .link a {
+          width: 100%;
+          height: 20vh;
+          display: table-cell;
+          vertical-align: middle;
+          text-align: center;
+          color: #fff;
+          width: 100%;
+          text-decoration: none; }
+        html #hero ul#menu .link a#a-contact-me,
+        body #hero ul#menu .link a#a-contact-me {
+          height: 20.1vh; }
+    html #hero section#section-start h1,
+    body #hero section#section-start h1 {
+      color: #fff; }
