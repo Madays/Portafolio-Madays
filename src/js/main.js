@@ -1,5 +1,7 @@
-$(document).ready(function(){
-    //timedText();
+$(document).ready(function(){                
+    //about Me
+    componentAboutMe();
+    //skill
     $(".container-box-p p").fadeIn(); 
     move("myBarHTML5",90);
     move("myBarCss",90);    
@@ -28,9 +30,18 @@ $('header i.fa').click(function(){
     $('#menu-xs-sm').toggleClass('hidden');
 });
 $('#link-about-me').click(function(){
-    $(".container-box-p p").css('display','none');
-    $(".container-box-p p").fadeIn();    
+    componentAboutMe();       
 });
+
+function componentAboutMe(){
+    $('#about-me img').addClass('slideInLeft');
+    $('#about-me div.front').addClass('slideInRight');
+    
+    setInterval(function(){
+        $('#about-me img').removeClass('slideInLeft');
+        $('#about-me div.front').removeClass('slideInRight');
+    },900); 
+}
                         
 $('#link-skills').click(function(){
     move("myBarHTML5",90);

@@ -81,21 +81,18 @@ body {
                     text-align: center;
                 }
             }            
-        }
-        marquee{  
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            color: #fff;
-            margin: 0;
-            font-size: 30px;
-        }
+        }        
     }    
-    section.about-me *{
-        //outline: solid 1px purple;
-    }    
+    /*marquee{  
+        background-color: #fff;
+        color: purple;
+        margin: 0;
+        padding: 0;
+        font-size: 50px;
+    }*/   
     section.about-me{
+        /*
+        margin-top: 0;
         background-image: url(../img/maday.jpg);
         background-size:cover;
         background-position: top center;
@@ -174,7 +171,49 @@ body {
         }
         .container_info:hover{
             transform: rotateY(180deg);
-        }        
+        }  */
+        #img-maday{
+            //display: none;
+        }
+        .info {
+            display: table;
+            padding: 10px;
+            height: 150px;
+            width: 150px;
+            margin: auto;
+            -webkit-perspective:700;
+        }
+        .container_info {
+            display: table-cell;
+            vertical-align: middle;
+            height: 100%;
+            width: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: 1s;
+            .side {
+                height: 100%;
+                width: 100%; 
+                backface-visibility: hidden;
+                position: absolute;
+            }
+            div.front {
+                //background: red;
+                h3 i{
+                    font-size: 60px;
+                    color: #000;
+                }
+            }
+            .back {
+                //background: gold;
+                transform: rotateY(180deg);
+                font-size: 16px;
+                color: #000;
+            }
+        }
+        .container_info:hover{
+            transform: rotateY(180deg);
+        }
     }
     section.skill{
         padding: 40px 0;

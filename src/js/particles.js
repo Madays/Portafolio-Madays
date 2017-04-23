@@ -8,9 +8,24 @@
 var canvasDiv = document.getElementById('particle-canvas');
 var options = {
   particleColor: '#fff',
-  background: 'https://raw.githubusercontent.com/JulianLaval/canvas-particle-network/master/img/demo-bg.jpg',
+  background: 'https://yt3.ggpht.com/-vZ47fupnYtc/AAAAAAAAAAI/AAAAAAAAAAA/u57Osovf8OA/s900-c-k-no-mo-rj-c0xffffff/photo.jpg',
   interactive: true,
   speed: 'medium',
-  density: 'high'
+  density: 'low'
+};
+var options1 = {
+  particleColor: '#fff',
+  background: 'http://www.shwaerydesign.com/demo/mainslides/coding.jpg',
+  interactive: true,
+  speed: 'medium',
+  density: 'low'
 };
 var particleCanvas = new ParticleNetwork(canvasDiv, options);
+var sff = [options,options1];
+for(var i=0; i<=sff.length;i++){
+    
+}
+
+//var particleCanvas1 = new ParticleNetwork(canvasDiv, options1);
+
+    
