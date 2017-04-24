@@ -47,6 +47,7 @@ function onClickBtnSkill(){
     gotoSection('section-skill');
     move("myBarHTML5",90);
     move("myBarCss",90);
+    move("myBarBootstrap",80);
     move("myBarJs",70);
     move("myBarJquery",70);
     move("myBarSass",80);

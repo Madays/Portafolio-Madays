@@ -172,13 +172,18 @@ body {
     body #hero section#section-about-me div.container-box-p {
       color: #fff;
       text-align: justify; }
+    html #hero section#section-skill h3,
+    body #hero section#section-skill h3 {
+      color: #fff;
+      padding-bottom: 10px; }
     html #hero section#section-skill #myProgress,
     body #hero section#section-skill #myProgress {
       width: 100%;
       background-color: #ddd; }
-      html #hero section#section-skill #myProgress #myBarHTML5, html #hero section#section-skill #myProgress #myBarCss, html #hero section#section-skill #myProgress #myBarJs, html #hero section#section-skill #myProgress #myBarJquery, html #hero section#section-skill #myProgress #myBarSass, html #hero section#section-skill #myProgress #myBarGithub, html #hero section#section-skill #myProgress #myBarGulp, html #hero section#section-skill #myProgress #myBarProactividad, html #hero section#section-skill #myProgress #myBarEquipo, html #hero section#section-skill #myProgress #myBarLiderazgo, html #hero section#section-skill #myProgress #myBarResponsabilidad, html #hero section#section-skill #myProgress #myBarEntuciasmo, html #hero section#section-skill #myProgress #myBarPensamiento, html #hero section#section-skill #myProgress #myBarPuntualidad,
+      html #hero section#section-skill #myProgress #myBarHTML5, html #hero section#section-skill #myProgress #myBarCss, html #hero section#section-skill #myProgress #myBarBootstrap, html #hero section#section-skill #myProgress #myBarJs, html #hero section#section-skill #myProgress #myBarJquery, html #hero section#section-skill #myProgress #myBarSass, html #hero section#section-skill #myProgress #myBarGithub, html #hero section#section-skill #myProgress #myBarGulp, html #hero section#section-skill #myProgress #myBarProactividad, html #hero section#section-skill #myProgress #myBarEquipo, html #hero section#section-skill #myProgress #myBarLiderazgo, html #hero section#section-skill #myProgress #myBarResponsabilidad, html #hero section#section-skill #myProgress #myBarEntuciasmo, html #hero section#section-skill #myProgress #myBarPensamiento, html #hero section#section-skill #myProgress #myBarPuntualidad,
       body #hero section#section-skill #myProgress #myBarHTML5,
       body #hero section#section-skill #myProgress #myBarCss,
+      body #hero section#section-skill #myProgress #myBarBootstrap,
       body #hero section#section-skill #myProgress #myBarJs,
       body #hero section#section-skill #myProgress #myBarJquery,
       body #hero section#section-skill #myProgress #myBarSass,
