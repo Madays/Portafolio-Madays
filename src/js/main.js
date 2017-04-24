@@ -45,6 +45,13 @@ function onClickBtnAboutMe(){
 }
 function onClickBtnSkill(){
     gotoSection('section-skill');
+    move("myBarHTML5",90);
+    move("myBarCss",90);
+    move("myBarJs",70);
+    move("myBarJquery",70);
+    move("myBarSass",80);
+    move("myBarGithub",70);
+    move("myBarGulp",70);
 }
 function onClickBtnProjects(){
     gotoSection('section-projects');
@@ -77,4 +84,21 @@ function gotoSection(_identificadorDeSeccion)
         },900);*/ 
     }
 /*---END--section#about-me-----*/
+/*-----section#skill-----*/
+    function move(_id,_valor) {
+      var elem = document.getElementById(_id);   
+      var width = 10;
+      var id = setInterval(frame, 10);
+      function frame() {
+        if (width >= _valor) {
+          clearInterval(id);
+        } else {
+          width++; 
+          elem.style.width = width + '%'; 
+          elem.innerHTML = width * 1  + '%';
+        }
+      }
+        console.log(elem.textContent);
+    }
+/*---END--section#skill-----*/
 

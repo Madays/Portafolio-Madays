@@ -124,16 +124,14 @@ body {
       border-radius: 10px; }
     html #hero section#section-about-me .info,
     body #hero section#section-about-me .info {
-      display: table;
       padding: 10px;
-      height: 150px;
-      width: 150px;
+      height: 250px;
+      width: 250px;
       margin: auto;
       -webkit-perspective: 700; }
     html #hero section#section-about-me .container_info,
     body #hero section#section-about-me .container_info {
-      display: table-cell;
-      vertical-align: middle;
+      display: table;
       height: 100%;
       width: 100%;
       position: relative;
@@ -141,14 +139,22 @@ body {
       transition: 1s; }
       html #hero section#section-about-me .container_info .side,
       body #hero section#section-about-me .container_info .side {
+        display: table-cell;
+        vertical-align: middle;
         height: 100%;
         width: 100%;
         backface-visibility: hidden;
         position: absolute; }
-      html #hero section#section-about-me .container_info div.front h3 i,
-      body #hero section#section-about-me .container_info div.front h3 i {
-        font-size: 60px;
-        color: #fff; }
+      html #hero section#section-about-me .container_info div.front,
+      body #hero section#section-about-me .container_info div.front {
+        display: table-cell;
+        vertical-align: middle; }
+        html #hero section#section-about-me .container_info div.front h3 i,
+        body #hero section#section-about-me .container_info div.front h3 i {
+          display: table-cell;
+          vertical-align: middle;
+          font-size: 60px;
+          color: #fff; }
       html #hero section#section-about-me .container_info .back,
       body #hero section#section-about-me .container_info .back {
         transform: rotateY(180deg);
@@ -156,6 +162,37 @@ body {
         color: #fff;
         text-align: justify;
         display: block; }
+      html #hero section#section-about-me .container_info #awards,
+      body #hero section#section-about-me .container_info #awards {
+        color: #fff; }
     html #hero section#section-about-me .container_info:hover,
     body #hero section#section-about-me .container_info:hover {
       transform: rotateY(180deg); }
+    html #hero section#section-about-me div.container-box-p,
+    body #hero section#section-about-me div.container-box-p {
+      color: #fff;
+      text-align: justify; }
+    html #hero section#section-skill #myProgress,
+    body #hero section#section-skill #myProgress {
+      width: 100%;
+      background-color: #ddd; }
+      html #hero section#section-skill #myProgress #myBarHTML5, html #hero section#section-skill #myProgress #myBarCss, html #hero section#section-skill #myProgress #myBarJs, html #hero section#section-skill #myProgress #myBarJquery, html #hero section#section-skill #myProgress #myBarSass, html #hero section#section-skill #myProgress #myBarGithub, html #hero section#section-skill #myProgress #myBarGulp, html #hero section#section-skill #myProgress #myBarProactividad, html #hero section#section-skill #myProgress #myBarEquipo, html #hero section#section-skill #myProgress #myBarLiderazgo, html #hero section#section-skill #myProgress #myBarResponsabilidad, html #hero section#section-skill #myProgress #myBarEntuciasmo, html #hero section#section-skill #myProgress #myBarPensamiento, html #hero section#section-skill #myProgress #myBarPuntualidad,
+      body #hero section#section-skill #myProgress #myBarHTML5,
+      body #hero section#section-skill #myProgress #myBarCss,
+      body #hero section#section-skill #myProgress #myBarJs,
+      body #hero section#section-skill #myProgress #myBarJquery,
+      body #hero section#section-skill #myProgress #myBarSass,
+      body #hero section#section-skill #myProgress #myBarGithub,
+      body #hero section#section-skill #myProgress #myBarGulp,
+      body #hero section#section-skill #myProgress #myBarProactividad,
+      body #hero section#section-skill #myProgress #myBarEquipo,
+      body #hero section#section-skill #myProgress #myBarLiderazgo,
+      body #hero section#section-skill #myProgress #myBarResponsabilidad,
+      body #hero section#section-skill #myProgress #myBarEntuciasmo,
+      body #hero section#section-skill #myProgress #myBarPensamiento,
+      body #hero section#section-skill #myProgress #myBarPuntualidad {
+        width: 1%;
+        height: 30px;
+        background-color: #0F8B8D;
+        color: #fff;
+        align-content: center; }

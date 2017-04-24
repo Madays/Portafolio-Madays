@@ -128,23 +128,23 @@ body {
                 border: solid 4px #fff;
                 border-radius: 10px;
             }
-            .info {
-                display: table;
+            .info {                
                 padding: 10px;
-                height: 150px;
-                width: 150px;
+                height: 250px;
+                width: 250px;
                 margin: auto;
                 -webkit-perspective:700;
             }
             .container_info {
-                display: table-cell;
-                vertical-align: middle;
+                display: table;
                 height: 100%;
                 width: 100%;
                 position: relative;
                 transform-style: preserve-3d;
                 transition: 1s;
                 .side {
+                    display: table-cell;
+                    vertical-align: middle;
                     height: 100%;
                     width: 100%; 
                     backface-visibility: hidden;
@@ -152,22 +152,47 @@ body {
                 }
                 div.front {
                     //background: red;
+                    display: table-cell;
+                    vertical-align: middle;
                     h3 i{
+                        display: table-cell;
+                        vertical-align: middle;
                         font-size: 60px;
                         color: #fff;
                     }
                 }
-                .back {
-                    //background: gold;
+                .back {                    
                     transform: rotateY(180deg);
                     font-size: 16px;
                     color: #fff;
                     text-align: justify;
                     display: block;
                 }
+                #awards{
+                    color: #fff;
+                }
             }
             .container_info:hover{
                 transform: rotateY(180deg);
+            }
+            div.container-box-p{
+                color: #fff;
+                text-align: justify;
+            }
+        }
+        section#section-skill *{
+            //outline: solid 1px purple;
+        }
+        section#section-skill{
+            #myProgress {
+            width: 100%;
+            background-color: #ddd;             #myBarHTML5,#myBarCss,#myBarJs,#myBarJquery,#myBarSass,#myBarGithub,#myBarGulp,#myBarProactividad,#myBarEquipo,#myBarLiderazgo,#myBarResponsabilidad,#myBarEntuciasmo,#myBarPensamiento,#myBarPuntualidad{              
+                    width: 1%;
+                    height: 30px;
+                    background-color: #0F8B8D;  
+                    color: #fff;
+                    align-content: center;
+                }
             }    
         }
     }
