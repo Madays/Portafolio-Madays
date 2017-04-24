@@ -115,6 +115,13 @@ body {
     html #hero section#section-start h2,
     body #hero section#section-start h2 {
       top: 20px; }
+    html #hero section#section-about-me h2,
+    body #hero section#section-about-me h2 {
+      padding-bottom: 10px; }
+    html #hero section#section-about-me img,
+    body #hero section#section-about-me img {
+      border: solid 4px #fff;
+      border-radius: 10px; }
     html #hero section#section-about-me .info,
     body #hero section#section-about-me .info {
       display: table;
@@ -141,12 +148,14 @@ body {
       html #hero section#section-about-me .container_info div.front h3 i,
       body #hero section#section-about-me .container_info div.front h3 i {
         font-size: 60px;
-        color: #000; }
+        color: #fff; }
       html #hero section#section-about-me .container_info .back,
       body #hero section#section-about-me .container_info .back {
         transform: rotateY(180deg);
         font-size: 16px;
-        color: #000; }
+        color: #fff;
+        text-align: justify;
+        display: block; }
     html #hero section#section-about-me .container_info:hover,
     body #hero section#section-about-me .container_info:hover {
       transform: rotateY(180deg); }

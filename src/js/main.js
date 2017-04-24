@@ -66,13 +66,15 @@ function gotoSection(_identificadorDeSeccion)
 
 /*-----section#about-me-----*/
     function animateAboutMe(){
-        $('#section-about-me .content img').addClass('slideInLeft');
-        $('#section-about-me .content div.front').addClass('slideInRight');
+        $('#section-about-me .content img').addClass('slideInDown');
+        $('#section-about-me .content div.front').addClass('slideInDown');        
+        $('#section-about-me .content .info .container_info div#awards').addClass('slideInUp');
+        $('#section-about-me .content div.container-box-p').addClass('slideInUp');
 
-        setInterval(function(){
+        /*setInterval(function(){
             $('#section-about-me .content img').removeClass('slideInLeft');
             $('#section-about-me .content div.front').removeClass('slideInRight');
-        },900); 
+        },900);*/ 
     }
 /*---END--section#about-me-----*/
 
