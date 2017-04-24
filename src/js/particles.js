@@ -13,18 +13,8 @@ var options = {
   speed: 'medium',
   density: 'low'
 };
-var options1 = {
-  particleColor: '#fff',
-  background: 'http://www.shwaerydesign.com/demo/mainslides/coding.jpg',
-  interactive: true,
-  speed: 'medium',
-  density: 'low'
-};
 var particleCanvas = new ParticleNetwork(canvasDiv, options);
-var sff = [options,options1];
-for(var i=0; i<=sff.length;i++){
-    
-}
+
 
 //var particleCanvas1 = new ParticleNetwork(canvasDiv, options1);
 

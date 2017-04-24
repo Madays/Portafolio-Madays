@@ -49,14 +49,13 @@ body {
                         color: #fff;
                     }
             }
-            }
-                    
-               
-        ul#menu{   
+            }       
+        ul#menu{ 
+            opacity: 0;
             margin: 0;
             padding: 0;
             list-style: none;
-            width: 100%;
+            width: 100%;            
             #start{
                 background-color: #FF6B57;
             }
@@ -92,9 +91,75 @@ body {
         }
         /*----section-start---*/
         section#section-start{
-            h1{
+            div.container-canvas{
+                div#particle-canvas{        
+                    overflow: hidden;
+                    height: 100vh;
+                    width: 100wh;
+                    margin: 0;
+                    padding: 0;                
+                }    
+            }             
+            h1,h2{
+                position: absolute;
+                left: 0;
+                right: 0;                
+                margin: auto;
                 color: #fff;
+                z-index: 1000;
+                display: inline-block;
             }
+            h1{
+                //background-color: rgba(255, 107, 87,.3);
+                background-color: rgba(0,0,0,.3);
+                display: inline;
+                bottom: 5px;
+                padding: 10px 0;
+            }
+            h2{
+               top: 20px; 
+            }
+        }
+        section#section-about-me{
+            .info {
+                display: table;
+                padding: 10px;
+                height: 150px;
+                width: 150px;
+                margin: auto;
+                -webkit-perspective:700;
+            }
+            .container_info {
+                display: table-cell;
+                vertical-align: middle;
+                height: 100%;
+                width: 100%;
+                position: relative;
+                transform-style: preserve-3d;
+                transition: 1s;
+                .side {
+                    height: 100%;
+                    width: 100%; 
+                    backface-visibility: hidden;
+                    position: absolute;
+                }
+                div.front {
+                    //background: red;
+                    h3 i{
+                        font-size: 60px;
+                        color: #000;
+                    }
+                }
+                .back {
+                    //background: gold;
+                    transform: rotateY(180deg);
+                    font-size: 16px;
+                    color: #000;
+                }
+            }
+            .container_info:hover{
+                transform: rotateY(180deg);
+            }    
         }
     }
 }
