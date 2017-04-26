@@ -10,9 +10,9 @@ body {
   html #hero,
   body #hero {
     /*----section-start---*/ }
-    html #hero .col-xs-10, html #hero .col-xs-2,
-    body #hero .col-xs-10,
-    body #hero .col-xs-2 {
+    html #hero .col-sm-10, html #hero .col-sm-2,
+    body #hero .col-sm-10,
+    body #hero .col-sm-2 {
       padding: 0;
       margin: 0; }
     html #hero #link-content,
@@ -175,7 +175,8 @@ body {
     html #hero section#section-skill h3,
     body #hero section#section-skill h3 {
       color: #fff;
-      padding-bottom: 10px; }
+      padding-bottom: 10px;
+      font-family: 'Pacifico', cursive; }
     html #hero section#section-skill #myProgress,
     body #hero section#section-skill #myProgress {
       width: 100%;

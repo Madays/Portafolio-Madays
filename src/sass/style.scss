@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 0;
     #hero{         
-        .col-xs-10,.col-xs-2{
+        .col-sm-10,.col-sm-2{
             padding: 0;  
             margin: 0;
         }
@@ -180,13 +180,11 @@ body {
                 text-align: justify;
             }
         }
-        section#section-skill *{
-            //outline: solid 1px purple;
-        }
         section#section-skill{
             h3{
                 color: #fff;
                 padding-bottom: 10px;
+                font-family: 'Pacifico', cursive;
             }
             #myProgress {
             width: 100%;
