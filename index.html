@@ -20,11 +20,11 @@
                 <div class="col-xs-12">
                     <div class="nav">
                         <ul id="menu">
-                            <li class="link animated slideInRight" id="start"><a href="#" >INICIO</a></li>
-                            <li class="link animated" id="about-me"><a href="#" >SOBRE MI</a></li>
-                            <li class="link animated" id="skill"><a href="#" >HABILIDADES</a></li>
-                            <li class="link animated" id="projects"><a href="#" >PROYECTOS</a></li>
-                            <li class="link animated" id="contact-me"><a href="#" id="a-contact-me">CONTACTAME</a></li>
+                            <li class="link animated slideInRight" id="start"></li>
+                            <li class="link animated" id="about-me"></li>
+                            <li class="link animated" id="skill"></li>
+                            <li class="link animated" id="projects"></li>
+                            <li class="link animated" id="contact-me"> </li>
                         </ul>
                     </div>                    
                     <div id="link-content">                        
@@ -44,9 +44,18 @@
                                         <button onclick="openNav()">Click me</button>
                                     </p>
                                 </div>-->
-                                <div class="container-canvas">
-                                    <div id="particle-canvas"></div> 
-                                </div> 
+                                <ul id="scene" class="text-center">
+                                  <li class="layer" data-depth="0.00">    <div class="container-canvas">
+                                        <div id="particle-canvas"></div> 
+                                     </div>
+                                  </li>
+                                  <li class="layer" data-depth="0.20"><img src="src/img/clock.png" width="100px"></li>
+                                  <li class="layer" data-depth="0.40"><img src="src/img/cup.png"></li>
+                                  <li class="layer" data-depth="0.60"><img src="src/img/mac.png"></li>
+                                  <li class="layer" data-depth="0.80"><img src="src/img/pen.png"></li>
+                                  <!--<li class="layer" data-depth="1.00"><img src="src/img/wave.png"></li>-->
+                                </ul> 
+                                 
                                 <h2 class="text-center">MI PORTAFOLIO</h2>
                                 <h1 class="text-center"></h1>
                             </div>                        
@@ -169,11 +178,8 @@
                             </div>
                         </section>   
                         <section id="section-contact-me">
-                            <div class="content">
-                                <h2 class="text-center">PORTAFOLIO</h2>
-                                555555555555    
-                            </div>
-                        </section>
+                                       
+                        </section>                        
                     </div>
                 </div>                                    
             </div>               
@@ -547,6 +553,7 @@
     <script src="src/js/jquery.min.js"></script>
 	<script src="src/js/bootstrap.min.js"></script>
 	<script src="src/js/particles.js"></script>
+	<script src="src/js/parallax.js"></script>
 	<script src="src/js/hero_section.js"></script>
      	
 	<script src="src/js/main.js"></script>

@@ -9,7 +9,10 @@ function init()
     
     /*-----Funciones de paginación-----*/
     currentSection = $('#section-start');
+    $('#particle-canvas').mouseover(onMouseSecStart);
     $('#start').click(onClickBtnStart);
+    $('#menu').mouseover(onMouseMenu);
+    $('#menu').mouseleave(leaveMouseMenu);
     $('#about-me').click(onClickBtnAboutMe);
     $('#skill').click(onClickBtnSkill);
     $('#projects').click(onClickBtnProjects);
@@ -17,6 +20,33 @@ function init()
     /*---END--Funciones de paginación-----*/
 }
 /*-----Funcione animacion de menu-----*/
+function onMouseMenu(evt){
+    switch(evt.target.id){
+        case 'start':
+            $('li#start').css('width','100px');
+            $('li#start').text('INICIO');
+            break;
+        case 'about-me':
+            $('li#about-me').css('width','100px');
+            $('li#about-me').text('SOBRE MI');
+            break;        
+    }
+}
+function leaveMouseMenu(evt){
+    switch(evt.target.id){
+        case 'start':
+            $('li#start').css('width','10px');
+            $('li#start').text('');
+            break;
+        case 'about-me':
+            $('li#about-me').css('width','10px');
+            $('li#about-me').text('');
+            break;        
+    }
+}
+function writeTextMenu(){
+    $('#start').text('INICIO');
+}
 function loadLinkMenu(){
     setInterval(function(){
         $('ul#menu').css('opacity','1');
@@ -72,6 +102,12 @@ function gotoSection(_identificadorDeSeccion)
 }
 /*---END--Funciones de paginación-----*/
 
+/*-----section#section-start-----*/
+    function onMouseSecStart(){
+        //alert('sdfg');
+        //$('.cavas').css('transform','translate(10px,10px)');
+    }
+/*---END--section#section-start-----*/
 /*-----section#about-me-----*/
     function animateAboutMe(){
         $('#section-about-me .content img').addClass('slideInDown');
@@ -102,4 +138,17 @@ function gotoSection(_identificadorDeSeccion)
         console.log(elem.textContent);
     }
 /*---END--section#skill-----*/
+/*-----section-contact-me-----*/
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+    parallax.enable();
+    //parallax.disable();
+    parallax.updateLayers(); // Useful for reparsing the layers in your scene if you change their data-depth value
+    parallax.calibrate(false, true);
+    parallax.invert(false, true);
+    parallax.limit(false, 10);
+    parallax.scalar(2, 8);
+    parallax.friction(0.2, 0.8);
+    parallax.origin(0.0, 1.0);
+/*---END--section-contact-me-----*/
 

@@ -10,56 +10,67 @@
 html,
 body { 
     margin: 0;
-    padding: 0;
-    div.nav{
-        position: absolute;
-        top: 0;
-        right: 0;
-        z-index: 200;
-        ul#menu{ 
-            opacity: 0;
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            width: 100%;            
-            #start{
-                background-color: #FF6B57;
-            }
-            #about-me{
-                background-color: #FF884D;
-            }
-            #skill{
-                background-color: #32526E;
-            }
-            #projects{
-                background-color: #81B9C3;
-            }
-            #contact-me{
-                background-color: #41C3AC;
-            }
-            .link{                
-                display: table;                 
-                width: 100%;
-                    a{
-                        width: 100%;
-                        height: 20vh;
-                        display: table-cell;
-                        vertical-align: middle;                           
-                        text-align: center;
-                        color: #fff;
-                        width: 100%;
-                        text-decoration: none;
-                    } 
-                a#a-contact-me{
-                    height: 20.1vh;    
-                }
-            }    
-        }
-    }
+    padding: 0;    
     #hero{         
         .col-sm-10,.col-sm-2{
             padding: 0;  
             margin: 0;
+        }
+        div.nav{
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 200;
+            ul#menu{ 
+                opacity: 0;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                width: 10px; 
+                #start{
+                    background-color: #FF6B57;
+                    height: 20vh;
+                    float: right;
+                    vertical-align: middle;
+                }
+                #about-me{
+                    background-color: #FF884D;
+                    height: 20vh;
+                    float: right;
+                }
+                #skill{
+                    background-color: #32526E;
+                    width: 10px;
+                    height: 20vh;
+                }
+                #projects{
+                    background-color: #81B9C3;
+                    width: 10px;
+                    height: 20vh;
+                }
+                #contact-me{
+                    background-color: #41C3AC;
+                    width: 10px;
+                    height: 20vh;
+                }
+                .link{                
+                    display: table;                 
+                    width: 10px;
+                        /*a{
+                            width: 100%;
+                            height: 20vh;
+                            display: table-cell;
+                            vertical-align: middle;                           
+                            text-align: center;
+                            color: #fff;
+                            width: 10px;
+                            text-decoration: none;
+                        } 
+                    a#a-contact-me{
+                        height: 20.1vh;    
+                    }*/
+                }    
+            }
         }
         #link-content{  
         margin: 0;
@@ -97,7 +108,7 @@ body {
             }               
         /*----section-start---*/
         section#section-start{
-            div.container-contact-me{
+            /*div.container-contact-me{
                 display: table;            
                 height: 90vh; 
                 margin: auto;
@@ -157,7 +168,7 @@ body {
                     right: 35px;
                   }
                 }
-            }
+            }*/
             div.container-canvas{
                 div#particle-canvas{        
                     overflow: hidden;
