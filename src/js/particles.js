@@ -8,7 +8,7 @@
 var canvasDiv = document.getElementById('particle-canvas');
 var options = {
   particleColor: '#fff',
-  background: 'https://yt3.ggpht.com/-vZ47fupnYtc/AAAAAAAAAAI/AAAAAAAAAAA/u57Osovf8OA/s900-c-k-no-mo-rj-c0xffffff/photo.jpg',
+  //background: 'https://yt3.ggpht.com/-vZ47fupnYtc/AAAAAAAAAAI/AAAAAAAAAAA/u57Osovf8OA/s900-c-k-no-mo-rj-c0xffffff/photo.jpg',
   interactive: true,
   speed: 'medium',
   density: 'low'
