@@ -7,6 +7,51 @@ html,
 body {
   margin: 0;
   padding: 0; }
+  html div.nav,
+  body div.nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 200; }
+    html div.nav ul#menu,
+    body div.nav ul#menu {
+      opacity: 0;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      width: 100%; }
+      html div.nav ul#menu #start,
+      body div.nav ul#menu #start {
+        background-color: #FF6B57; }
+      html div.nav ul#menu #about-me,
+      body div.nav ul#menu #about-me {
+        background-color: #FF884D; }
+      html div.nav ul#menu #skill,
+      body div.nav ul#menu #skill {
+        background-color: #32526E; }
+      html div.nav ul#menu #projects,
+      body div.nav ul#menu #projects {
+        background-color: #81B9C3; }
+      html div.nav ul#menu #contact-me,
+      body div.nav ul#menu #contact-me {
+        background-color: #41C3AC; }
+      html div.nav ul#menu .link,
+      body div.nav ul#menu .link {
+        display: table;
+        width: 100%; }
+        html div.nav ul#menu .link a,
+        body div.nav ul#menu .link a {
+          width: 100%;
+          height: 20vh;
+          display: table-cell;
+          vertical-align: middle;
+          text-align: center;
+          color: #fff;
+          width: 100%;
+          text-decoration: none; }
+        html div.nav ul#menu .link a#a-contact-me,
+        body div.nav ul#menu .link a#a-contact-me {
+          height: 20.1vh; }
   html #hero,
   body #hero {
     /*----section-start---*/ }
@@ -50,45 +95,6 @@ body {
         html #hero .visible div.content h2,
         body #hero .visible div.content h2 {
           color: #fff; }
-    html #hero ul#menu,
-    body #hero ul#menu {
-      opacity: 0;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      width: 100%; }
-      html #hero ul#menu #start,
-      body #hero ul#menu #start {
-        background-color: #FF6B57; }
-      html #hero ul#menu #about-me,
-      body #hero ul#menu #about-me {
-        background-color: #FF884D; }
-      html #hero ul#menu #skill,
-      body #hero ul#menu #skill {
-        background-color: #32526E; }
-      html #hero ul#menu #projects,
-      body #hero ul#menu #projects {
-        background-color: #81B9C3; }
-      html #hero ul#menu #contact-me,
-      body #hero ul#menu #contact-me {
-        background-color: #41C3AC; }
-      html #hero ul#menu .link,
-      body #hero ul#menu .link {
-        display: table;
-        width: 100%; }
-        html #hero ul#menu .link a,
-        body #hero ul#menu .link a {
-          width: 100%;
-          height: 20vh;
-          display: table-cell;
-          vertical-align: middle;
-          text-align: center;
-          color: #fff;
-          width: 100%;
-          text-decoration: none; }
-        html #hero ul#menu .link a#a-contact-me,
-        body #hero ul#menu .link a#a-contact-me {
-          height: 20.1vh; }
     html #hero section#section-start div.container-contact-me,
     body #hero section#section-start div.container-contact-me {
       display: table;

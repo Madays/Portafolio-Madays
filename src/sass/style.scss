@@ -11,45 +11,11 @@ html,
 body { 
     margin: 0;
     padding: 0;
-    #hero{         
-        .col-sm-10,.col-sm-2{
-            padding: 0;  
-            margin: 0;
-        }
-        #link-content{  
-        margin: 0;
-        padding: 0;
-        height: 100vh;
-        background: #FF6B57; /* For browsers that do not support gradients */    
-    background: -webkit-linear-gradient(left top, #FF6B57, #FF884D); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #FF6B57, #FF884D); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #FF6B57, #FF884D); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #FF6B57, #FF884D); /* Standard syntax (must be last) */
-        }
-        section
-        {
-            //background: rgba(255, 0, 0, 0.3);
-            position: absolute;
-            width:100%;
-            height:100%;
-            top:0;
-            left:0;
-            display: none;
-            opacity:0;               
-        }
-        .visible{
-                opacity:1;
-                display: table;
-                div.content
-                {
-                    //background: rgba(0, 255, 0, 0.1);
-                    display:table-cell;
-                    vertical-align: middle;
-                    h2{
-                        color: #fff;
-                    }
-            }
-            }       
+    div.nav{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 200;
         ul#menu{ 
             opacity: 0;
             margin: 0;
@@ -89,6 +55,46 @@ body {
                 }
             }    
         }
+    }
+    #hero{         
+        .col-sm-10,.col-sm-2{
+            padding: 0;  
+            margin: 0;
+        }
+        #link-content{  
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background: #FF6B57; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #FF6B57, #FF884D); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #FF6B57, #FF884D); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #FF6B57, #FF884D); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #FF6B57, #FF884D); /* Standard syntax (must be last) */
+        }
+        section
+        {
+            //background: rgba(255, 0, 0, 0.3);
+            position: absolute;
+            width:100%;
+            height:100%;
+            top:0;
+            left:0;
+            display: none;
+            opacity:0;               
+        }
+        .visible{
+                opacity:1;
+                display: table;
+                div.content
+                {
+                    //background: rgba(0, 255, 0, 0.1);
+                    display:table-cell;
+                    vertical-align: middle;
+                    h2{
+                        color: #fff;
+                    }
+            }
+            }               
         /*----section-start---*/
         section#section-start{
             div.container-contact-me{
