@@ -18,8 +18,9 @@ body {
     html #hero div.nav,
     body #hero div.nav {
       position: absolute;
-      top: 0;
+      top: 50%;
       right: 0;
+      transform: translateY(-50%);
       z-index: 200; }
       html #hero div.nav ul#menu,
       body #hero div.nav ul#menu {
@@ -28,32 +29,39 @@ body {
         padding: 0;
         list-style: none;
         width: 10px; }
+        html #hero div.nav ul#menu li,
+        body #hero div.nav ul#menu li {
+          padding: 10px 0;
+          float: right;
+          text-align: center;
+          margin: 2px; }
         html #hero div.nav ul#menu #start,
         body #hero div.nav ul#menu #start {
-          background-color: #FF6B57;
-          height: 20vh;
-          float: right;
-          vertical-align: middle; }
+          background-color: #FF6B57; }
         html #hero div.nav ul#menu #about-me,
         body #hero div.nav ul#menu #about-me {
           background-color: #FF884D;
-          height: 20vh;
-          float: right; }
+          /*padding: 10px 0;
+                        float: right;
+                        text-align: center;*/ }
         html #hero div.nav ul#menu #skill,
         body #hero div.nav ul#menu #skill {
           background-color: #32526E;
-          width: 10px;
-          height: 20vh; }
+          /*padding: 10px 0;
+                        float: right;
+                        text-align: center;*/ }
         html #hero div.nav ul#menu #projects,
         body #hero div.nav ul#menu #projects {
           background-color: #81B9C3;
-          width: 10px;
-          height: 20vh; }
+          /*padding: 10px 0;
+                        float: right;
+                        text-align: center;*/ }
         html #hero div.nav ul#menu #contact-me,
         body #hero div.nav ul#menu #contact-me {
           background-color: #41C3AC;
-          width: 10px;
-          height: 20vh; }
+          /*padding: 10px 0;
+                        float: right;
+                        text-align: center;*/ }
         html #hero div.nav ul#menu .link,
         body #hero div.nav ul#menu .link {
           display: table;

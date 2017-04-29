@@ -18,8 +18,9 @@ body {
         }
         div.nav{
             position: absolute;
-            top: 0;
+            top: 50%;
             right: 0;
+            transform: translateY(-50%);
             z-index: 200;
             ul#menu{ 
                 opacity: 0;
@@ -27,32 +28,39 @@ body {
                 padding: 0;
                 list-style: none;
                 width: 10px; 
-                #start{
-                    background-color: #FF6B57;
-                    height: 20vh;
+                li{
+                    padding: 10px 0;
                     float: right;
-                    vertical-align: middle;
+                    text-align: center;
+                    margin: 2px;
                 }
-                #about-me{
-                    background-color: #FF884D;
-                    height: 20vh;
-                    float: right;
-                }
-                #skill{
-                    background-color: #32526E;
-                    width: 10px;
-                    height: 20vh;
-                }
-                #projects{
-                    background-color: #81B9C3;
-                    width: 10px;
-                    height: 20vh;
-                }
-                #contact-me{
-                    background-color: #41C3AC;
-                    width: 10px;
-                    height: 20vh;
-                }
+                    #start{
+                        background-color: #FF6B57;            
+                    }
+                    #about-me{
+                        background-color: #FF884D;
+                        /*padding: 10px 0;
+                        float: right;
+                        text-align: center;*/
+                    }
+                    #skill{
+                        background-color: #32526E;
+                        /*padding: 10px 0;
+                        float: right;
+                        text-align: center;*/
+                    }
+                    #projects{
+                        background-color: #81B9C3;
+                        /*padding: 10px 0;
+                        float: right;
+                        text-align: center;*/
+                    }
+                    #contact-me{
+                        background-color: #41C3AC;
+                        /*padding: 10px 0;
+                        float: right;
+                        text-align: center;*/
+                    }                                   
                 .link{                
                     display: table;                 
                     width: 10px;
