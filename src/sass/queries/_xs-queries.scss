@@ -20,7 +20,7 @@
                         padding: 10px 20px;
                         text-decoration: none;
                         &:hover{
-                            color: #fff;    
+                            color: #purple;    
                             background-color: #000;
                         }
                     }
@@ -32,5 +32,18 @@
                 font-size: $font-size-base*1.5;
             }            
         }
-    }        
+    }
+    section.about-me{
+                 
+    }
+    section.contact-me{
+        a{
+            i#icon-contact{
+                font-size: $font-size-base*2;
+            }    
+        }            
+    }
+    footer{
+        font-size: $font-size-base*.7;
+    }
 } 

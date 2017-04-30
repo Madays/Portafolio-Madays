@@ -14,11 +14,19 @@
       padding: 10px 20px;
       text-decoration: none; }
       section.hero header ul#menu-xs-sm li a:hover {
-        color: #fff;
+        color: #purple;
         background-color: #000; }
   section.hero div#background-presentation h1 {
-    font-size: 24px; } }
+    font-size: 24px; }
+  section.contact-me a i#icon-contact {
+    font-size: 32px; }
+  footer {
+    font-size: 11.2px; } }
 
 /*------------TABLET-----*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section.contact-me a i#icon-contact {
+    font-size: 48px; } }
+
 /*------------DESKTOP-----*/
 /*------------DESKTOP LARGE-----*/

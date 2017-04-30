@@ -2,226 +2,225 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /*outline: 1px solid red;*/ }
+  outline: 1px solid purple; }
 
-html div.container-canvas div#particle-canvas,
-body div.container-canvas div#particle-canvas {
-  overflow: hidden;
-  height: 100vh;
-  width: 100wh;
+html,
+body {
   margin: 0;
   padding: 0; }
-
-html section.hero,
-body section.hero {
-  /*background-color: rgba(255, 205, 13,.4);*/
-  height: 100vh;
-  width: 100wh;
-  position: absolute;
-  z-index: 100;
-  top: 0;
-  right: 0;
-  left: 0;
-  color: #fff; }
-  html section.hero div.hero-container header,
-  body section.hero div.hero-container header {
-    position: fixed;
-    top: 0;
-    right: 43px;
-    left: 43px;
-    z-index: 300; }
-    html section.hero div.hero-container header h2,
-    body section.hero div.hero-container header h2 {
-      background-color: rgba(0, 0, 0, 0.7);
-      font-size: 16px;
-      display: inline-block;
-      padding: 7px; }
-    html section.hero div.hero-container header i,
-    body section.hero div.hero-container header i {
-      background-color: rgba(0, 0, 0, 0.7);
-      padding: 10px;
-      margin: 20px 10px;
-      font-size: 16px; }
-    html section.hero div.hero-container header ul#menu,
-    body section.hero div.hero-container header ul#menu {
-      display: inline-block;
-      list-style: none;
+  html #hero,
+  body #hero {
+    /*.col-sm-10,.col-sm-2{
+            padding: 0;  
+            margin: 0;
+        }*/
+    /*----section-start---*/ }
+    html #hero div.nav,
+    body #hero div.nav {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      z-index: 200; }
+      html #hero div.nav ul#menu,
+      body #hero div.nav ul#menu {
+        opacity: 0;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        width: 10px; }
+        html #hero div.nav ul#menu li,
+        body #hero div.nav ul#menu li {
+          padding: 10px 0;
+          float: right;
+          text-align: center;
+          margin: 2px; }
+        html #hero div.nav ul#menu #start,
+        body #hero div.nav ul#menu #start {
+          background-color: #FF6B57; }
+        html #hero div.nav ul#menu #about-me,
+        body #hero div.nav ul#menu #about-me {
+          background-color: #FF884D;
+          /*padding: 10px 0;
+                        float: right;
+                        text-align: center;*/ }
+        html #hero div.nav ul#menu #skill,
+        body #hero div.nav ul#menu #skill {
+          background-color: #32526E;
+          /*padding: 10px 0;
+                        float: right;
+                        text-align: center;*/ }
+        html #hero div.nav ul#menu #projects,
+        body #hero div.nav ul#menu #projects {
+          background-color: #81B9C3;
+          /*padding: 10px 0;
+                        float: right;
+                        text-align: center;*/ }
+        html #hero div.nav ul#menu #contact-me,
+        body #hero div.nav ul#menu #contact-me {
+          background-color: #41C3AC;
+          /*padding: 10px 0;
+                        float: right;
+                        text-align: center;*/ }
+        html #hero div.nav ul#menu .link,
+        body #hero div.nav ul#menu .link {
+          display: table;
+          width: 10px;
+          /*a{
+                            width: 100%;
+                            height: 20vh;
+                            display: table-cell;
+                            vertical-align: middle;                           
+                            text-align: center;
+                            color: #fff;
+                            width: 10px;
+                            text-decoration: none;
+                        } 
+                    a#a-contact-me{
+                        height: 20.1vh;    
+                    }*/ }
+    html #hero #link-content,
+    body #hero #link-content {
       margin: 0;
       padding: 0;
-      display: inline-flex; }
-      html section.hero div.hero-container header ul#menu li a,
-      body section.hero div.hero-container header ul#menu li a {
-        display: block;
-        color: white;
-        font-size: 16px;
-        text-align: center;
-        padding: 10px 20px;
-        text-decoration: none;
-        background-color: rgba(0, 0, 0, 0.3); }
-        html section.hero div.hero-container header ul#menu li a:hover,
-        body section.hero div.hero-container header ul#menu li a:hover {
-          background-color: #111111; }
-  html section.hero div.hero-container div#background-presentation,
-  body section.hero div.hero-container div#background-presentation {
-    text-align: center;
-    margin: auto;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%); }
-
-html section.about-me,
-body section.about-me {
-  position: relative;
-  padding: 40px 0; }
-  html section.about-me h3,
-  body section.about-me h3 {
-    color: #0F8B8D;
-    font-family: 'Gloria Hallelujah', cursive; }
-  html section.about-me hr,
-  body section.about-me hr {
-    color: #1A252F;
-    width: 50px;
-    text-align: center;
-    margin: auto;
-    border-top: 2px solid #1a252f;
-    margin-bottom: 20px; }
-  html section.about-me div.container-colum,
-  body section.about-me div.container-colum {
-    position: relative; }
-    html section.about-me div.container-colum h3,
-    body section.about-me div.container-colum h3 {
-      font-size: 60px;
-      color: #D62246; }
-    html section.about-me div.container-colum div.content,
-    body section.about-me div.container-colum div.content {
-      height: 100%;
+      height: 100vh;
+      background: #FF6B57;
+      /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(left top, #FF6B57, #FF884D);
+      /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(bottom right, #FF6B57, #FF884D);
+      /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(bottom right, #FF6B57, #FF884D);
+      /* For Firefox 3.6 to 15 */
+      background: linear-gradient(to bottom right, #FF6B57, #FF884D);
+      /* Standard syntax (must be last) */ }
+    html #hero section,
+    body #hero section {
       position: absolute;
+      width: 100%;
+      height: 100%;
       top: 0;
-      right: 0;
       left: 0;
+      right: 0;
+      display: none;
+      opacity: 0; }
+    html #hero .visible,
+    body #hero .visible {
+      opacity: 1;
+      display: table; }
+    html #hero div.content,
+    body #hero div.content {
+      display: table-cell;
+      vertical-align: middle; }
+    html #hero section#section-start ul#scene li div.container-canvas div#particle-canvas,
+    body #hero section#section-start ul#scene li div.container-canvas div#particle-canvas {
+      overflow: hidden;
+      height: 100vh;
+      width: 100wh;
+      margin: 0;
+      padding: 0; }
+    html #hero section#section-start ul#scene li #img2,
+    body #hero section#section-start ul#scene li #img2 {
+      width: 50px; }
+    html #hero section#section-start ul#scene li #img3,
+    body #hero section#section-start ul#scene li #img3 {
+      width: 300px; }
+    html #hero section#section-start h2,
+    body #hero section#section-start h2 {
+      position: absolute;
+      left: 0;
+      right: 0;
       margin: auto;
-      opacity: 0;
       color: #fff;
-      background: #0F8B8D;
-      border-radius: 20px;
-      padding: 5px 40px; }
-      html section.about-me div.container-colum div.content ul,
-      body section.about-me div.container-colum div.content ul {
-        list-style: none; }
-    html section.about-me div.container-colum div.content:hover,
-    body section.about-me div.container-colum div.content:hover {
-      opacity: 1; }
-
-html section.skill,
-body section.skill {
-  padding: 40px 0; }
-  html section.skill h3,
-  body section.skill h3 {
-    color: #0F8B8D;
-    font-family: 'Gloria Hallelujah', cursive; }
-  html section.skill hr,
-  body section.skill hr {
-    color: #1A252F;
-    width: 50px;
-    text-align: center;
-    margin: auto;
-    border-top: 2px solid #1a252f;
-    margin-bottom: 20px; }
-  html section.skill span,
-  body section.skill span {
-    color: #D62246; }
-  html section.skill #myProgress,
-  body section.skill #myProgress {
-    width: 100%;
-    background-color: #ddd; }
-    html section.skill #myProgress #myBarHTML5, html section.skill #myProgress #myBarCss, html section.skill #myProgress #myBarJs, html section.skill #myProgress #myBarJquery, html section.skill #myProgress #myBarSass, html section.skill #myProgress #myBarGithub, html section.skill #myProgress #myBarGulp, html section.skill #myProgress #myBarProactividad, html section.skill #myProgress #myBarEquipo, html section.skill #myProgress #myBarLiderazgo, html section.skill #myProgress #myBarResponsabilidad, html section.skill #myProgress #myBarEntuciasmo, html section.skill #myProgress #myBarPensamiento, html section.skill #myProgress #myBarPuntualidad,
-    body section.skill #myProgress #myBarHTML5,
-    body section.skill #myProgress #myBarCss,
-    body section.skill #myProgress #myBarJs,
-    body section.skill #myProgress #myBarJquery,
-    body section.skill #myProgress #myBarSass,
-    body section.skill #myProgress #myBarGithub,
-    body section.skill #myProgress #myBarGulp,
-    body section.skill #myProgress #myBarProactividad,
-    body section.skill #myProgress #myBarEquipo,
-    body section.skill #myProgress #myBarLiderazgo,
-    body section.skill #myProgress #myBarResponsabilidad,
-    body section.skill #myProgress #myBarEntuciasmo,
-    body section.skill #myProgress #myBarPensamiento,
-    body section.skill #myProgress #myBarPuntualidad {
-      width: 1%;
-      height: 30px;
-      background-color: #0F8B8D;
+      z-index: 1000;
+      display: inline-block; }
+    html #hero section#section-start h2,
+    body #hero section#section-start h2 {
+      top: 20px; }
+    html #hero section#section-about-me h2,
+    body #hero section#section-about-me h2 {
+      padding-bottom: 10px; }
+    html #hero section#section-about-me img,
+    body #hero section#section-about-me img {
+      border: solid 4px #fff;
+      border-radius: 10px; }
+    html #hero section#section-about-me .info,
+    body #hero section#section-about-me .info {
+      padding: 10px;
+      height: 250px;
+      width: 250px;
+      margin: auto;
+      -webkit-perspective: 700; }
+    html #hero section#section-about-me .container_info,
+    body #hero section#section-about-me .container_info {
+      display: table;
+      height: 100%;
+      width: 100%;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: 1s; }
+      html #hero section#section-about-me .container_info .side,
+      body #hero section#section-about-me .container_info .side {
+        display: table-cell;
+        vertical-align: middle;
+        height: 100%;
+        width: 100%;
+        backface-visibility: hidden;
+        position: absolute; }
+      html #hero section#section-about-me .container_info div.front,
+      body #hero section#section-about-me .container_info div.front {
+        display: table-cell;
+        vertical-align: middle; }
+        html #hero section#section-about-me .container_info div.front h3 i,
+        body #hero section#section-about-me .container_info div.front h3 i {
+          display: table-cell;
+          vertical-align: middle;
+          font-size: 60px;
+          color: #fff; }
+      html #hero section#section-about-me .container_info .back,
+      body #hero section#section-about-me .container_info .back {
+        transform: rotateY(180deg);
+        font-size: 16px;
+        color: #fff;
+        text-align: justify;
+        display: block; }
+      html #hero section#section-about-me .container_info #awards,
+      body #hero section#section-about-me .container_info #awards {
+        color: #fff; }
+    html #hero section#section-about-me .container_info:hover,
+    body #hero section#section-about-me .container_info:hover {
+      transform: rotateY(180deg); }
+    html #hero section#section-about-me div.container-box-p,
+    body #hero section#section-about-me div.container-box-p {
       color: #fff;
-      align-content: center; }
-
-html section.projects,
-body section.projects {
-  position: relative;
-  padding: 40px 0; }
-  html section.projects h3,
-  body section.projects h3 {
-    color: #0F8B8D;
-    font-family: 'Gloria Hallelujah', cursive; }
-  html section.projects hr,
-  body section.projects hr {
-    color: #1A252F;
-    width: 50px;
-    text-align: center;
-    margin: auto;
-    border-top: 2px solid #1a252f;
-    margin-bottom: 20px; }
-  html section.projects .box-categoria-proyecto,
-  body section.projects .box-categoria-proyecto {
-    position: relative; }
-  html section.projects .box-p,
-  body section.projects .box-p {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background: rgba(240, 95, 64, 0.6);
-    opacity: 0; }
-  html section.projects .box-p:hover, html section.projects .box-p:focus, html section.projects .box-p:active,
-  body section.projects .box-p:hover,
-  body section.projects .box-p:focus,
-  body section.projects .box-p:active {
-    opacity: 1; }
-  html section.projects .box-categoria-proyecto p,
-  body section.projects .box-categoria-proyecto p {
-    position: absolute;
-    font-size: 30px;
-    color: #fff;
-    top: 50%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    transform: translateY(-50%); }
-  html section.projects .box-categoria-proyecto p:hover, html section.projects .box-categoria-proyecto p:focus, html section.projects .box-categoria-proyecto p:active,
-  body section.projects .box-categoria-proyecto p:hover,
-  body section.projects .box-categoria-proyecto p:focus,
-  body section.projects .box-categoria-proyecto p:active {
-    opacity: 1; }
-
-html section.contact-me,
-body section.contact-me {
-  position: relative;
-  padding: 40px 0; }
-  html section.contact-me h3,
-  body section.contact-me h3 {
-    color: #0F8B8D;
-    font-family: 'Gloria Hallelujah', cursive; }
-  html section.contact-me hr,
-  body section.contact-me hr {
-    color: #1A252F;
-    width: 50px;
-    text-align: center;
-    margin: auto;
-    border-top: 2px solid #1a252f;
-    margin-bottom: 20px; }
-  html section.contact-me i,
-  body section.contact-me i {
-    font-size: 32px; }
+      text-align: justify; }
+    html #hero section#section-skill h3,
+    body #hero section#section-skill h3 {
+      color: #fff;
+      padding-bottom: 10px;
+      font-family: 'Pacifico', cursive; }
+    html #hero section#section-skill #myProgress,
+    body #hero section#section-skill #myProgress {
+      width: 100%;
+      background-color: #ddd; }
+      html #hero section#section-skill #myProgress #myBarHTML5, html #hero section#section-skill #myProgress #myBarCss, html #hero section#section-skill #myProgress #myBarBootstrap, html #hero section#section-skill #myProgress #myBarJs, html #hero section#section-skill #myProgress #myBarJquery, html #hero section#section-skill #myProgress #myBarSass, html #hero section#section-skill #myProgress #myBarGithub, html #hero section#section-skill #myProgress #myBarGulp, html #hero section#section-skill #myProgress #myBarProactividad, html #hero section#section-skill #myProgress #myBarEquipo, html #hero section#section-skill #myProgress #myBarLiderazgo, html #hero section#section-skill #myProgress #myBarResponsabilidad, html #hero section#section-skill #myProgress #myBarEntuciasmo, html #hero section#section-skill #myProgress #myBarPensamiento, html #hero section#section-skill #myProgress #myBarPuntualidad,
+      body #hero section#section-skill #myProgress #myBarHTML5,
+      body #hero section#section-skill #myProgress #myBarCss,
+      body #hero section#section-skill #myProgress #myBarBootstrap,
+      body #hero section#section-skill #myProgress #myBarJs,
+      body #hero section#section-skill #myProgress #myBarJquery,
+      body #hero section#section-skill #myProgress #myBarSass,
+      body #hero section#section-skill #myProgress #myBarGithub,
+      body #hero section#section-skill #myProgress #myBarGulp,
+      body #hero section#section-skill #myProgress #myBarProactividad,
+      body #hero section#section-skill #myProgress #myBarEquipo,
+      body #hero section#section-skill #myProgress #myBarLiderazgo,
+      body #hero section#section-skill #myProgress #myBarResponsabilidad,
+      body #hero section#section-skill #myProgress #myBarEntuciasmo,
+      body #hero section#section-skill #myProgress #myBarPensamiento,
+      body #hero section#section-skill #myProgress #myBarPuntualidad {
+        width: 1%;
+        height: 30px;
+        background-color: #0F8B8D;
+        color: #fff;
+        align-content: center; }

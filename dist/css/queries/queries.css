@@ -1,28 +1,32 @@
 /*------------CELULARES-----*/
-/*------------TABLET-----*/
-/*------------DESKTOP-----*/
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-  body section.hero div.hero-container header ul#menu {
-    display: inline-flex; }
-    body section.hero div.hero-container header ul#menu li a {
-      color: #fff; } }
-/*------------DESKTOP LARGE-----*/
-@media screen and (min-width: 1200px) {
-  body section.hero div.hero-container header h3 ul#menu {
-    list-style-type: none;
+@media screen and (max-width: 767px) {
+  section.hero header h2#developer {
+    font-size: 14px; }
+  section.hero header ul#menu-xs-sm {
+    list-style: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333333; }
-    body section.hero div.hero-container header h3 ul#menu li {
-      float: right; }
-      body section.hero div.hero-container header h3 ul#menu li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 16px;
-        text-decoration: none; }
-        body section.hero div.hero-container header h3 ul#menu li a:hover {
-          background-color: #111111; } }
+    background-color: rgba(0, 0, 0, 0.7); }
+    section.hero header ul#menu-xs-sm li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 10px 20px;
+      text-decoration: none; }
+      section.hero header ul#menu-xs-sm li a:hover {
+        color: #purple;
+        background-color: #000; }
+  section.hero div#background-presentation h1 {
+    font-size: 24px; }
+  section.contact-me a i#icon-contact {
+    font-size: 32px; }
+  footer {
+    font-size: 11.2px; } }
 
-/*# sourceMappingURL=queries.css.map */
+/*------------TABLET-----*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section.contact-me a i#icon-contact {
+    font-size: 48px; } }
+
+/*------------DESKTOP-----*/
+/*------------DESKTOP LARGE-----*/
