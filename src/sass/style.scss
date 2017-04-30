@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    //outline: 1px solid purple;
+    outline: 1px solid purple;
 }
 @import "variables/variables";
 @import "mixin/mixin";
@@ -12,10 +12,10 @@ body {
     margin: 0;
     padding: 0;    
     #hero{         
-        .col-sm-10,.col-sm-2{
+        /*.col-sm-10,.col-sm-2{
             padding: 0;  
             margin: 0;
-        }
+        }*/
         div.nav{
             position: absolute;
             top: 50%;
@@ -98,34 +98,48 @@ body {
             height:100%;
             top:0;
             left:0;
+            right: 0;
             display: none;
-            opacity:0;               
-        }
+            opacity:0;            
+        }  
         .visible{
-                opacity:1;
-                display: table;
-                div.content
-                {
-                    //background: rgba(0, 255, 0, 0.1);
-                    display:table-cell;
-                    vertical-align: middle;
-                    h2{
-                        color: #fff;
-                    }
-            }
-            }               
+            opacity:1;
+            display: table;                
+        }
+        div.content
+        {
+            display:table-cell;
+            vertical-align: middle;    
+        }
         /*----section-start---*/
-        section#section-start{            
-            div.container-canvas{
-                div#particle-canvas{        
-                    overflow: hidden;
-                    height: 100vh;
-                    width: 100wh;
-                    margin: 0;
-                    padding: 0;                
-                }    
-            }             
-            h1,h2{
+        section#section-start{
+            ul#scene{     
+                li{
+                    div.container-canvas{
+                        div#particle-canvas{        
+                                overflow: hidden;
+                                height: 100vh;
+                                width: 100wh;
+                                margin: 0;
+                                padding: 0;                
+                            }
+                    } 
+                    h1{
+                        //transform: translateY(350px);    
+                    }
+                    
+                    #img2{
+                        width: 50px;
+                        //transform: translateY(450px);
+                            //transform: translate(300px,500px);
+                    }
+                    #img3{
+                        width: 300px;
+                        //transform: translateY(480px);
+                    }
+                }                
+            }                                          
+            h2{
                 position: absolute;
                 left: 0;
                 right: 0;                
@@ -133,14 +147,7 @@ body {
                 color: #fff;
                 z-index: 1000;
                 display: inline-block;
-            }
-            h1{
-                //background-color: rgba(255, 107, 87,.3);
-                background-color: rgba(0,0,0,.3);
-                display: inline;
-                bottom: 5px;
-                padding: 10px 0;
-            }
+            }            
             h2{
                top: 20px; 
             }

@@ -1,8 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  outline: 1px solid purple; }
+  box-sizing: border-box; }
 
 html,
 body {
@@ -19,8 +18,9 @@ body {
     html #hero div.nav,
     body #hero div.nav {
       position: absolute;
-      top: 0;
+      top: 50%;
       right: 0;
+      transform: translateY(-50%);
       z-index: 200; }
       html #hero div.nav ul#menu,
       body #hero div.nav ul#menu {
@@ -29,32 +29,39 @@ body {
         padding: 0;
         list-style: none;
         width: 10px; }
+        html #hero div.nav ul#menu li,
+        body #hero div.nav ul#menu li {
+          padding: 10px 0;
+          float: right;
+          text-align: center;
+          margin: 2px; }
         html #hero div.nav ul#menu #start,
         body #hero div.nav ul#menu #start {
-          background-color: #FF6B57;
-          height: 20vh;
-          float: right;
-          vertical-align: middle; }
+          background-color: #FF6B57; }
         html #hero div.nav ul#menu #about-me,
         body #hero div.nav ul#menu #about-me {
           background-color: #FF884D;
-          height: 20vh;
-          float: right; }
+          /*padding: 10px 0;
+                        float: right;
+                        text-align: center;*/ }
         html #hero div.nav ul#menu #skill,
         body #hero div.nav ul#menu #skill {
           background-color: #32526E;
-          width: 10px;
-          height: 20vh; }
+          /*padding: 10px 0;
+                        float: right;
+                        text-align: center;*/ }
         html #hero div.nav ul#menu #projects,
         body #hero div.nav ul#menu #projects {
           background-color: #81B9C3;
-          width: 10px;
-          height: 20vh; }
+          /*padding: 10px 0;
+                        float: right;
+                        text-align: center;*/ }
         html #hero div.nav ul#menu #contact-me,
         body #hero div.nav ul#menu #contact-me {
           background-color: #41C3AC;
-          width: 10px;
-          height: 20vh; }
+          /*padding: 10px 0;
+                        float: right;
+                        text-align: center;*/ }
         html #hero div.nav ul#menu .link,
         body #hero div.nav ul#menu .link {
           display: table;
@@ -107,64 +114,6 @@ body {
         html #hero .visible div.content h2,
         body #hero .visible div.content h2 {
           color: #fff; }
-    html #hero section#section-start div.container-contact-me,
-    body #hero section#section-start div.container-contact-me {
-      display: table;
-      height: 90vh;
-      margin: auto; }
-      html #hero section#section-start div.container-contact-me p,
-      body #hero section#section-start div.container-contact-me p {
-        display: table-cell;
-        vertical-align: middle; }
-        html #hero section#section-start div.container-contact-me p button,
-        body #hero section#section-start div.container-contact-me p button {
-          padding: 20px; }
-      html #hero section#section-start div.container-contact-me .overlay,
-      body #hero section#section-start div.container-contact-me .overlay {
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: black;
-        background-color: rgba(0, 0, 0, 0.9);
-        overflow-x: hidden;
-        transition: 0.5s; }
-      html #hero section#section-start div.container-contact-me .overlay-content,
-      body #hero section#section-start div.container-contact-me .overlay-content {
-        position: relative;
-        top: 25%;
-        width: 100%;
-        text-align: center;
-        margin-top: 30px; }
-      html #hero section#section-start div.container-contact-me .overlay a,
-      body #hero section#section-start div.container-contact-me .overlay a {
-        padding: 8px;
-        text-decoration: none;
-        font-size: 36px;
-        color: #818181;
-        display: block;
-        transition: 0.3s; }
-      html #hero section#section-start div.container-contact-me .overlay a:hover, html #hero section#section-start div.container-contact-me .overlay a:focus,
-      body #hero section#section-start div.container-contact-me .overlay a:hover,
-      body #hero section#section-start div.container-contact-me .overlay a:focus {
-        color: #f1f1f1; }
-      html #hero section#section-start div.container-contact-me .overlay .closebtn,
-      body #hero section#section-start div.container-contact-me .overlay .closebtn {
-        position: absolute;
-        top: 20px;
-        right: 45px;
-        font-size: 60px; }
-      @media screen and (max-height: 450px) {
-        html #hero section#section-start div.container-contact-me .overlay a,
-        body #hero section#section-start div.container-contact-me .overlay a {
-          font-size: 20px; }
-        html #hero section#section-start div.container-contact-me .overlay .closebtn,
-        body #hero section#section-start div.container-contact-me .overlay .closebtn {
-          font-size: 40px;
-          top: 15px;
-          right: 35px; } }
     html #hero section#section-start div.container-canvas div#particle-canvas,
     body #hero section#section-start div.container-canvas div#particle-canvas {
       overflow: hidden;
