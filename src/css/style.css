@@ -11,6 +11,7 @@ body div.container-canvas div#particle-canvas {
   width: 100wh;
   margin: 0;
   padding: 0; }
+
 html section.hero,
 body section.hero {
   /*background-color: rgba(255, 205, 13,.4);*/
@@ -69,6 +70,7 @@ body section.hero {
     right: 0;
     left: 50%;
     transform: translateX(-50%) translateY(-50%); }
+
 html section.about-me,
 body section.about-me {
   position: relative;
@@ -111,6 +113,7 @@ body section.about-me {
     html section.about-me div.container-colum div.content:hover,
     body section.about-me div.container-colum div.content:hover {
       opacity: 1; }
+
 html section.skill,
 body section.skill {
   padding: 40px 0; }
@@ -153,6 +156,7 @@ body section.skill {
       background-color: #0F8B8D;
       color: #fff;
       align-content: center; }
+
 html section.projects,
 body section.projects {
   position: relative;
@@ -201,6 +205,7 @@ body section.projects {
   body section.projects .box-categoria-proyecto p:focus,
   body section.projects .box-categoria-proyecto p:active {
     opacity: 1; }
+
 html section.contact-me,
 body section.contact-me {
   position: relative;
@@ -220,5 +225,3 @@ body section.contact-me {
   html section.contact-me i,
   body section.contact-me i {
     font-size: 32px; }
-
-/*# sourceMappingURL=style.css.map */
