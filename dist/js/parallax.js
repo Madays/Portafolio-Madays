@@ -263,7 +263,7 @@
       layer.style.display = 'block';
       layer.style.left = 0;
       layer.style.right = 0;
-      //layer.style.button = 0;
+      //layer.style.top = 0;
       // Cache Layer Depth
       //Graceful fallback on depth if depth-x or depth-y is absent
       var depth = this.data(layer, 'depth') || 0;

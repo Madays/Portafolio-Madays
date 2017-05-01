@@ -1,5 +1,31 @@
 @import "../variables/variables";
 /*------------DESKTOP-----*/
 @media screen and (min-width:992px) and (max-width:1199px){
-      
+    section#section-start{
+        img#layer2{
+            width: 250px;
+            transform: translate(0,70px);
+        } 
+        img#layer3{
+            transform: translate(0,70px);
+        }
+        img#layer4{
+            transform: translate(0,90px);
+        }
+        img#layer5{
+            transform: translate(0,110px);
+        }
+        img#layer6{
+            transform: translate(0,130px);
+        }
+        img#layer7{
+            transform: translate(0,150px);
+        }
+        img#layer8{
+            transform: translate(0,170px);
+        }
+        img#layer9{
+            transform: translate(0,190px);
+        }
+    }  
 }

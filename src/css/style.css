@@ -3,20 +3,85 @@
   margin: 0;
   box-sizing: border-box; }
 
-body section#section-start .box-section-start {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  opacity: .9;
-  background: #223A52;
-  background: -webkit-linear-gradient(#223A52, #C0474F);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#223A52, #C0474F);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#223A52, #C0474F);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#223A52, #C0474F);
-  /* Standard syntax */ }
+body section#section-start {
+  height: 100vh; }
+  body section#section-start div#content-section-start h3#img-box img#maday {
+    position: relative;
+    right: 0;
+    left: 0;
+    z-index: -20;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 100%; }
+  body section#section-start div#content-section-start h2 {
+    position: relative;
+    z-index: 20;
+    color: #fff; }
+    body section#section-start div#content-section-start h2 span {
+      float: right;
+      /* The switch - the box around the slider */
+      /* Hide default HTML checkbox */
+      /* The slider */
+      /* Rounded sliders */ }
+      body section#section-start div#content-section-start h2 span .switch {
+        position: relative;
+        display: inline-block;
+        /*width: 60px;
+                      height: 34px;*/ }
+      body section#section-start div#content-section-start h2 span .switch input {
+        display: none; }
+      body section#section-start div#content-section-start h2 span .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s; }
+      body section#section-start div#content-section-start h2 span .slider:before {
+        position: absolute;
+        content: "";
+        /*height: 26px;
+                      width: 26px;*/
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s; }
+      body section#section-start div#content-section-start h2 span input:checked + .slider {
+        background-color: #2196F3; }
+      body section#section-start div#content-section-start h2 span input:focus + .slider {
+        box-shadow: 0 0 1px #2196F3; }
+      body section#section-start div#content-section-start h2 span input:checked + .slider:before {
+        /*-webkit-transform: translateX(26px);
+                      -ms-transform: translateX(26px);
+                      transform: translateX(26px);*/ }
+      body section#section-start div#content-section-start h2 span .slider.round {
+        border-radius: 34px; }
+      body section#section-start div#content-section-start h2 span .slider.round:before {
+        border-radius: 50%; }
+  body section#section-start div#content-section-start h1 {
+    position: relative;
+    z-index: 20;
+    color: #fff;
+    transform: translate(0, 10px); }
+  body section#section-start .box-section-start {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -10;
+    opacity: .9;
+    background: #223A52;
+    background: -webkit-linear-gradient(#223A52, #C0474F);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#223A52, #C0474F);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#223A52, #C0474F);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#223A52, #C0474F);
+    /* Standard syntax */ }
