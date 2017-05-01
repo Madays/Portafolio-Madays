@@ -2,8 +2,13 @@ var scene = document.getElementById('scene');
 var parallax = new Parallax(scene);
 $(document).ready(init);
 function init()
-{    
-    //setInterval(moveLogo,2000);
+{   
+    $(window).resize(function(){
+        if(screen.height<=370){
+            $('h3').css('display','none');
+        };
+    });
+    
     
 }
 /*function moveLogo(){
