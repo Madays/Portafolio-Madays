@@ -9,7 +9,7 @@
 
 body {      
     section#section-start{ 
-        height: 100vh;
+        height: 100vh;        
         div#content-section-start{
             h3#img-box{  
                 img#maday{
@@ -98,25 +98,27 @@ body {
                 transform: translate(0,10px);
                 font-family: 'Josefin Sans', sans-serif;
             }
-            ul#scene{
-                li{
-                    img#layer2{
-                        
-                    }
-                    img#layer3{
-                        //transform: translate(0,200px);
-                    }
-                    img#layer4{
-                        //transform: translate(0,200px);
-                    }
-                    img#layer5{
-                        //transform: translate(0,200px);
-                    }
-                    img#layer6{
-                        //transform: translate(0,200px);
-                    }
-                }                                         
-            }    
+            div#box-scene{                
+                ul#scene{                    
+                    li{
+                        img#layer2{
+
+                        }
+                        img#layer3{
+                            //transform: translate(0,200px);
+                        }
+                        img#layer4{
+                            //transform: translate(0,200px);
+                        }
+                        img#layer5{
+                            //transform: translate(0,200px);
+                        }
+                        img#layer6{
+                            //transform: translate(0,200px);
+                        }
+                    }                         
+                }    
+            }                
         }
         .box-section-start{
             width: 100%;

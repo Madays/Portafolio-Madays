@@ -1,31 +1,52 @@
 @import "../variables/variables";
 /*------------DESKTOP LARGE-----*/
 @media screen and (min-width:1200px){
+    section#section-start *{
+        outline: solid 1px #fff;
+    }
     section#section-start{
+        ul li{
+            background: purple;    
+        }        
         img#layer2{
             width: 300px;
             transform: translate(0,120px);
         } 
         img#layer3{
-            transform: translate(0,120px);
+            width: 25px;
+            position: absolute;
+            bottom: -250px;
         }
         img#layer4{
-            transform: translate(0,140px);
+            width: 25px;
+            position: absolute;
+            bottom: -200px;
+            left: 40%;
         }
         img#layer5{
-            transform: translate(0,160px);
+            width: 25px;
+            position: absolute;
+            bottom: -250px;
         }
         img#layer6{
-            transform: translate(0,180px);
+            width: 25px;
+            position: absolute;
+            bottom: -250px;
         }
         img#layer7{
-            transform: translate(0,200px);
+            width: 25px;
+            position: absolute;
+            bottom: -250px;
         }
         img#layer8{
-            transform: translate(0,220px);
+            width: 25px;
+            position: absolute;
+            bottom: -250px;
         }
         img#layer9{
-            transform: translate(0,240px);
+            width: 25px;
+            position: absolute;
+            bottom: -250px;
         }
     }    
 }

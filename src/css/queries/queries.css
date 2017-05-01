@@ -7,22 +7,43 @@
     transform: translate(0, 70px); }
   section#section-start img#layer3 {
     width: 25px;
-    transform: translate(0, 70px); }
+    position: absolute;
+    bottom: -160px; }
   section#section-start img#layer4 {
     width: 25px;
-    transform: translate(0, 90px); }
+    position: absolute;
+    bottom: -160px;
+    left: 35%; }
   section#section-start img#layer5 {
     width: 25px;
-    transform: translate(0, 110px); }
+    position: absolute;
+    bottom: -130px;
+    left: 30%; }
   section#section-start img#layer6 {
     width: 25px;
-    transform: translate(0, 130px); }
+    position: absolute;
+    bottom: -160px;
+    left: 25%; }
   section#section-start img#layer7 {
-    transform: translate(0, 150px); }
+    width: 25px;
+    position: absolute;
+    bottom: -160px;
+    left: 65%; }
   section#section-start img#layer8 {
-    transform: translate(0, 170px); }
+    width: 25px;
+    position: absolute;
+    bottom: -130px;
+    left: 58%; }
   section#section-start img#layer9 {
-    transform: translate(0, 190px); }
+    width: 25px;
+    position: absolute;
+    bottom: -130px;
+    left: 42%; }
+  section#section-start img#layer10 {
+    width: 15px;
+    position: absolute;
+    bottom: -130px;
+    left: 70%; }
   section#section-start .switch {
     width: 30px;
     height: 17px; }
@@ -88,20 +109,39 @@
 
 /*------------DESKTOP LARGE-----*/
 @media screen and (min-width: 1200px) {
+  section#section-start * {
+    outline: solid 1px #fff; }
+  section#section-start ul li {
+    background: purple; }
   section#section-start img#layer2 {
     width: 300px;
     transform: translate(0, 120px); }
   section#section-start img#layer3 {
-    transform: translate(0, 120px); }
+    width: 25px;
+    position: absolute;
+    bottom: -250px; }
   section#section-start img#layer4 {
-    transform: translate(0, 140px); }
+    width: 25px;
+    position: absolute;
+    bottom: -200px;
+    left: 40%; }
   section#section-start img#layer5 {
-    transform: translate(0, 160px); }
+    width: 25px;
+    position: absolute;
+    bottom: -250px; }
   section#section-start img#layer6 {
-    transform: translate(0, 180px); }
+    width: 25px;
+    position: absolute;
+    bottom: -250px; }
   section#section-start img#layer7 {
-    transform: translate(0, 200px); }
+    width: 25px;
+    position: absolute;
+    bottom: -250px; }
   section#section-start img#layer8 {
-    transform: translate(0, 220px); }
+    width: 25px;
+    position: absolute;
+    bottom: -250px; }
   section#section-start img#layer9 {
-    transform: translate(0, 240px); } }
+    width: 25px;
+    position: absolute;
+    bottom: -250px; } }
