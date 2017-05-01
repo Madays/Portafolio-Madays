@@ -1,5 +1,51 @@
 @import "../variables/variables";
 /*------------CELULARES-----*/
 @media screen and (max-width:767px){
-    
+    section#section-start{
+        h1{
+            font-size: 16px;
+        }
+        img#layer2{
+            width: 150px;
+            transform: translate(0,70px);
+        } 
+        img#layer3{
+            width: 35px;
+            transform: translate(0,70px);
+        }
+        img#layer4{
+            width: 35px;
+            transform: translate(0,90px);
+        }
+        img#layer5{
+            width: 35px;
+            transform: translate(0,110px);
+        }
+        img#layer6{
+            width: 35px;
+            transform: translate(0,130px);
+        }
+        img#layer7{
+            transform: translate(0,150px);
+        }
+        img#layer8{
+            transform: translate(0,170px);
+        }
+        img#layer9{
+            transform: translate(0,190px);
+        }
+        .switch {
+            width: 30px;
+            height: 17px;    
+        }
+        .slider:before {
+            height: 13px;
+            width: 13px;    
+        }
+        input:checked + .slider:before {
+            -webkit-transform: translateX(13px);
+            -ms-transform: translateX(13px);
+            transform: translateX(13px);
+        }
+    }
 } 

@@ -2,26 +2,29 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  outline: 1px solid purple; }
+  outline: 5px solid #fff; }
 
-html section#section-start,
-body section#section-start {
+body section#section-start div#content-section-start ul#scene li#layer2 {
+  width: 100px; }
+
+body section#section-start div#content-section-start ul#scene li#layer3 {
+  width: 100px; }
+
+body section#section-start .box-section-start {
   width: 100%;
-  height: 100%; }
-  html section#section-start #cup,
-  body section#section-start #cup {
-    position: absolute;
-    z-index: 10000;
-    width: 100%;
-    height: 100%;
-    opacity: .9;
-    background: #223A52;
-    /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#223A52, #C0474F);
-    /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#223A52, #C0474F);
-    /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#223A52, #C0474F);
-    /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#223A52, #C0474F);
-    /* Standard syntax */ }
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  opacity: .9;
+  background: #223A52;
+  background: -webkit-linear-gradient(#223A52, #C0474F);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#223A52, #C0474F);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#223A52, #C0474F);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#223A52, #C0474F);
+  /* Standard syntax */ }
