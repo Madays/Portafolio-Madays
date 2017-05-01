@@ -3,13 +3,14 @@ var parallax = new Parallax(scene);
 $(document).ready(init);
 function init()
 {   
-    $(window).resize(function(){
-        if(screen.height<=370){
-            $('h3').css('display','none');
-        };
-    });
-    
-    
+    window.addEventListener('resize',resize);
+}
+function resize(evt){
+    if(screen.height<=370){
+        $('h3').hide();
+    }else{
+        $('h3').show();
+    };
 }
 /*function moveLogo(){
     $('li#liLayer6').html('<img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" id="layer6">');
