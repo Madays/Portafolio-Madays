@@ -10,10 +10,19 @@ function init()
     //$('#start').click(onClickBtnStart);
     $('#menu').mouseover(onMouseMenu);
     $('#menu').mouseleave(leaveMouseMenu);
-    $('#about-me').click(onClickBtnAboutMe);
+    //$('#about-me').click(onClickBtnAboutMe);
     $('#skill').click(onClickBtnSkill);
     $('#projects').click(onClickBtnProjects);
     $('#contact-me').click(onClickBtnContactMe);
+    /*Section skill*/
+    move("myBarHTML5",90);
+    move("myBarCss",90);
+    move("myBarBootstrap",80);
+    move("myBarJs",70);
+    move("myBarJquery",70);
+    move("myBarSass",80);
+    move("myBarGithub",70);
+    move("myBarGulp",70);
 }
 function resize(evt){
     if(screen.height<=414){
