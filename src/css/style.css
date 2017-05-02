@@ -16,11 +16,15 @@ body div.nav {
     list-style: none;
     width: 5px; }
     body div.nav ul#menu li {
-      padding: 10px 0;
       float: right;
+      height: 40px;
       text-align: center;
       margin: 5px 0;
-      background: #fff; }
+      background: #fff;
+      cursor: pointer; }
+      body div.nav ul#menu li a {
+        text-decoration: none;
+        color: #fff; }
     body div.nav ul#menu .link {
       display: table;
       width: 5px;

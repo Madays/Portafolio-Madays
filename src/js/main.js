@@ -102,7 +102,6 @@ function leaveMouseMenu(evt){
     }
 }
 function onClickBtnSkill(){
-    gotoSection('section-skill');
     move("myBarHTML5",90);
     move("myBarCss",90);
     move("myBarBootstrap",80);

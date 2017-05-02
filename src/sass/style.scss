@@ -21,11 +21,16 @@ body {
             list-style: none;
             width: 5px;             
             li{
-                padding: 10px 0;
                 float: right;
+                height: 40px;
                 text-align: center;                
                 margin: 5px 0;
                 background: #fff;
+                cursor: pointer;
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
             }
                                                  
             .link{                
