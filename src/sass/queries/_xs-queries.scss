@@ -2,58 +2,63 @@
 /*------------CELULARES-----*/
 @media screen and (max-width:767px){
     section#section-start{
-        h1{
+        img#layer1{
+            width: 230px;
+            //transform: translate(0,60px);
+        } 
+        h1#layer1-5{
             font-size: 16px;
-        }
+            transform: translate(0,320px);
+        } 
         img#layer2{
             width: 230px;
-            transform: translate(0,70px);
+            transform: translate(0,430px);
         } 
         img#layer3{
             width: 25px;
             position: absolute;
-            bottom: -160px;
+            bottom: -520px;
         }
         img#layer4{
             width: 25px;
             position: absolute;
-            bottom: -160px;
+            bottom: -520px;
             left: 35%;
         }
         img#layer5{
             width: 25px;
             position: absolute;
-            bottom: -130px;
+            bottom: -490px;//bootstrap
             left: 30%;
         }
         img#layer6{
             width: 25px;
             position: absolute;
-            bottom: -160px;
+            bottom: -520px;//js
             left: 25%;
         }
         img#layer7{
             width: 25px;
             position: absolute;
-            bottom: -160px;
+            bottom: -520px;
             left: 65%;
         }
         img#layer8{
             width: 25px;
             position: absolute;
-            bottom: -130px;
+            bottom: -490px;
             left: 58%;
         }
         img#layer9{
             width: 25px;
             position: absolute;
-            bottom: -130px;
+            bottom: -490px;
             left: 42%;
         }
         img#layer10{
             width: 15px;
             position: absolute;
-            bottom: -130px;
+            bottom: -490px;
             left: 70%;
         }
         .switch {
