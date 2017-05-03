@@ -48,7 +48,7 @@ body {
     background: -o-linear-gradient(#223A52, #C0474F); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#223A52, #C0474F); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#223A52, #C0474F); /* Standard syntax */ 
-        height: 100vh;        
+               
         div#content-section-start{ 
             header{
                 h2{
@@ -122,8 +122,8 @@ body {
                 color: #fff;
                 font-family: 'Josefin Sans', sans-serif; 
             }
-            div#box-scene{                
-                ul#scene{                    
+            div#box-scene{ 
+                ul#scene{
                     li{
                         img#layer1{
                             opacity: .3;    

@@ -40,8 +40,7 @@ body section#section-start {
   background: -moz-linear-gradient(#223A52, #C0474F);
   /* For Firefox 3.6 to 15 */
   background: linear-gradient(#223A52, #C0474F);
-  /* Standard syntax */
-  height: 100vh; }
+  /* Standard syntax */ }
   body section#section-start div#content-section-start header h2 {
     font-family: 'Josefin Sans', sans-serif;
     position: relative;
