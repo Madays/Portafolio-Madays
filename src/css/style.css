@@ -117,6 +117,8 @@ body section#section-about-me {
     color: #fff;
     margin-top: 120px;
     font-family: 'Carrois Gothic SC', sans-serif; }
+  body section#section-about-me div.content-about-me h4 {
+    font-family: 'Orbitron', sans-serif; }
   body section#section-about-me div.content-about-me hr {
     border-top: 2px solid #000; }
   body section#section-about-me div.content-about-me p {

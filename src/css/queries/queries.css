@@ -63,18 +63,13 @@
       left: 70%; }
   section#section-about-me {
     padding-bottom: 20px; }
-    section#section-about-me h3 {
-      font-family: 'Orbitron', sans-serif;
-      color: #fff; }
     section#section-about-me ul#scene1 {
       height: 70vh; }
       section#section-about-me ul#scene1 h2 {
         margin: 0;
         text-align: center; }
       section#section-about-me ul#scene1 #what {
-        text-align: center; }
-    section#section-about-me div.content-about-me h4 {
-      font-family: 'Orbitron', sans-serif; } }
+        text-align: center; } }
 
 /*------------TABLET-----*/
 @media screen and (min-width: 768px) and (max-width: 991px) {
