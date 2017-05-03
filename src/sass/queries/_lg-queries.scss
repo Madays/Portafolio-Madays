@@ -1,17 +1,26 @@
 @import "../variables/variables";
 /*------------DESKTOP LARGE-----*/
 @media screen and (min-width:1200px){
-    section#section-start *{
-        //outline: solid 1px #fff;
-    }
     section#section-start{
+        header{
+            #box-languaje{
+                .switch {
+                    width: 60px;
+                    height: 34px;    
+                }
+                .slider:before {
+                    height: 26px;
+                    width: 26px;    
+                }
+                input:checked + .slider:before {
+                    -webkit-transform: translateX(26px);
+                    -ms-transform: translateX(26px);
+                    transform: translateX(26px);
+                }    
+            }    
+        }        
         h1#layer1-5{
             font-size: 32px;
-        }
-        h2{
-            span.languaje{
-                padding-top: 10px;
-            }
         }
         img#layer1{
             width: 230px;
@@ -75,19 +84,7 @@
             position: absolute;
             bottom: -490px;
             left: 70%;
-        }
-        .switch {
-            width: 60px;
-            height: 34px;    
-        }
-        .slider:before {
-            height: 26px;
-            width: 26px;    
-        }
-        input:checked + .slider:before {
-            -webkit-transform: translateX(26px);
-            -ms-transform: translateX(26px);
-            transform: translateX(26px);
-        }
+        }        
+        
     }    
 }

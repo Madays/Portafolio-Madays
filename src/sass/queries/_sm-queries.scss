@@ -2,6 +2,23 @@
 /*------------TABLET-----*/
 @media screen and (min-width:768px) and (max-width:991px){
     section#section-start{
+        header{
+            #box-languaje{
+                .switch {
+                    width: 30px;
+                    height: 17px;    
+                }
+                .slider:before {
+                    height: 13px;
+                    width: 13px;    
+                }
+                input:checked + .slider:before {
+                    -webkit-transform: translateX(13px);
+                    -ms-transform: translateX(13px);
+                    transform: translateX(13px);
+                }    
+            }    
+        }        
         h1{
             font-size: 18px;
         }
@@ -29,19 +46,6 @@
         }
         img#layer9{
             transform: translate(0,190px);
-        }
-        .switch {
-            width: 30px;
-            height: 17px;    
-        }
-        .slider:before {
-            height: 13px;
-            width: 13px;    
-        }
-        input:checked + .slider:before {
-            -webkit-transform: translateX(13px);
-            -ms-transform: translateX(13px);
-            transform: translateX(13px);
-        }
+        }                
     }   
 }

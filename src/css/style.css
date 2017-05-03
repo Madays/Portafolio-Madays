@@ -42,59 +42,53 @@ body section#section-start {
   background: linear-gradient(#223A52, #C0474F);
   /* Standard syntax */
   height: 100vh; }
-  body section#section-start div#content-section-start h2 {
+  body section#section-start div#content-section-start header h2 {
     font-family: 'Josefin Sans', sans-serif;
     position: relative;
     z-index: 20;
-    color: #fff; }
-    body section#section-start div#content-section-start h2 span.languaje {
-      font-size: 16px;
-      line-height: 16px; }
-    body section#section-start div#content-section-start h2 span {
-      float: right;
-      /* The switch - the box around the slider */
-      /* Hide default HTML checkbox */
-      /* The slider */
-      /* Rounded sliders */ }
-      body section#section-start div#content-section-start h2 span .switch {
-        position: relative;
-        display: inline-block;
-        /*width: 60px;
-                      height: 34px;*/ }
-      body section#section-start div#content-section-start h2 span .switch input {
-        display: none; }
-      body section#section-start div#content-section-start h2 span .slider {
-        position: absolute;
-        cursor: pointer;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: #ccc;
-        -webkit-transition: .4s;
-        transition: .4s; }
-      body section#section-start div#content-section-start h2 span .slider:before {
-        position: absolute;
-        content: "";
-        /*height: 26px;
-                      width: 26px;*/
-        left: 4px;
-        bottom: 4px;
-        background-color: white;
-        -webkit-transition: .4s;
-        transition: .4s; }
-      body section#section-start div#content-section-start h2 span input:checked + .slider {
-        background-color: #C0474F; }
-      body section#section-start div#content-section-start h2 span input:focus + .slider {
-        box-shadow: 0 0 1px #C0474F; }
-      body section#section-start div#content-section-start h2 span input:checked + .slider:before {
-        /*-webkit-transform: translateX(26px);
-                      -ms-transform: translateX(26px);
-                      transform: translateX(26px);*/ }
-      body section#section-start div#content-section-start h2 span .slider.round {
-        border-radius: 34px; }
-      body section#section-start div#content-section-start h2 span .slider.round:before {
-        border-radius: 50%; }
+    color: #fff;
+    text-align: left; }
+  body section#section-start div#content-section-start header #box-languaje {
+    color: #fff;
+    text-align: right;
+    padding-top: 20px;
+    /* The switch - the box around the slider */
+    /* Hide default HTML checkbox */
+    /* The slider */
+    /* Rounded sliders */ }
+    body section#section-start div#content-section-start header #box-languaje .switch {
+      position: relative;
+      display: inline-block; }
+    body section#section-start div#content-section-start header #box-languaje .switch input {
+      display: none; }
+    body section#section-start div#content-section-start header #box-languaje .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: .4s;
+      transition: .4s; }
+    body section#section-start div#content-section-start header #box-languaje .slider:before {
+      position: absolute;
+      content: "";
+      left: 2px;
+      bottom: 2px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s; }
+    body section#section-start div#content-section-start header #box-languaje input:checked + .slider {
+      background-color: #2196F3; }
+    body section#section-start div#content-section-start header #box-languaje input:focus + .slider {
+      box-shadow: 0 0 1px #2196F3; }
+    body section#section-start div#content-section-start header #box-languaje .slider.round {
+      border-radius: 34px; }
+    body section#section-start div#content-section-start header #box-languaje .slider.round:before {
+      border-radius: 50%; }
+  body section#section-start div#content-section-start header #box-languaje span {
+    vertical-align: top; }
   body section#section-start div#content-section-start h1 {
     color: #fff;
     font-family: 'Josefin Sans', sans-serif; }
@@ -140,22 +134,22 @@ body section#section-about-me {
       body section#section-about-me div.content-about-me ul li .content-span {
         font-size: 16px; }
 
-body section#skill {
+body section#section-skill {
   background-image: url("https://developerstree.com/wp-content/uploads/2016/06/5a29ec9c683fb52770498c62d3a2a9e7f3afe074.jpg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed; }
-  body section#skill div.hard-skill {
+  body section#section-skill div.hard-skill {
     background-color: rgba(255, 255, 255, 0.7); }
-    body section#skill div.hard-skill h3 {
+    body section#section-skill div.hard-skill h3 {
       color: #fff;
       padding-bottom: 10px;
       font-family: 'Pacifico', cursive; }
-    body section#skill div.hard-skill #myProgress {
+    body section#section-skill div.hard-skill #myProgress {
       width: 100%;
       background-color: #ddd; }
-      body section#skill div.hard-skill #myProgress #myBarHTML5, body section#skill div.hard-skill #myProgress #myBarCss, body section#skill div.hard-skill #myProgress #myBarBootstrap, body section#skill div.hard-skill #myProgress #myBarJs, body section#skill div.hard-skill #myProgress #myBarJquery, body section#skill div.hard-skill #myProgress #myBarSass, body section#skill div.hard-skill #myProgress #myBarGithub, body section#skill div.hard-skill #myProgress #myBarGulp, body section#skill div.hard-skill #myProgress #myBarProactividad, body section#skill div.hard-skill #myProgress #myBarEquipo, body section#skill div.hard-skill #myProgress #myBarLiderazgo, body section#skill div.hard-skill #myProgress #myBarResponsabilidad, body section#skill div.hard-skill #myProgress #myBarEntuciasmo, body section#skill div.hard-skill #myProgress #myBarPensamiento, body section#skill div.hard-skill #myProgress #myBarPuntualidad {
+      body section#section-skill div.hard-skill #myProgress #myBarHTML5, body section#section-skill div.hard-skill #myProgress #myBarCss, body section#section-skill div.hard-skill #myProgress #myBarBootstrap, body section#section-skill div.hard-skill #myProgress #myBarJs, body section#section-skill div.hard-skill #myProgress #myBarJquery, body section#section-skill div.hard-skill #myProgress #myBarSass, body section#section-skill div.hard-skill #myProgress #myBarGithub, body section#section-skill div.hard-skill #myProgress #myBarGulp, body section#section-skill div.hard-skill #myProgress #myBarProactividad, body section#section-skill div.hard-skill #myProgress #myBarEquipo, body section#section-skill div.hard-skill #myProgress #myBarLiderazgo, body section#section-skill div.hard-skill #myProgress #myBarResponsabilidad, body section#section-skill div.hard-skill #myProgress #myBarEntuciasmo, body section#section-skill div.hard-skill #myProgress #myBarPensamiento, body section#section-skill div.hard-skill #myProgress #myBarPuntualidad {
         width: 1%;
         height: 30px;
         background-color: #0F8B8D;
