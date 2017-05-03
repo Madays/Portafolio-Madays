@@ -42,7 +42,7 @@ body section#section-start {
   background: linear-gradient(#223A52, #C0474F);
   /* Standard syntax */ }
   body section#section-start div#content-section-start header h2 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     position: relative;
     z-index: 20;
     color: #fff;
@@ -87,10 +87,11 @@ body section#section-start {
     body section#section-start div#content-section-start header #box-languaje .slider.round:before {
       border-radius: 50%; }
   body section#section-start div#content-section-start header #box-languaje span {
-    vertical-align: top; }
+    vertical-align: top;
+    font-family: 'Orbitron', sans-serif; }
   body section#section-start div#content-section-start h1 {
     color: #fff;
-    font-family: 'Josefin Sans', sans-serif; }
+    font-family: 'Carrois Gothic SC', sans-serif; }
   body section#section-start div#content-section-start div#box-scene ul#scene li img#layer1 {
     opacity: .3;
     border-radius: 100%; }

@@ -52,7 +52,7 @@ body {
         div#content-section-start{ 
             header{
                 h2{
-                    font-family: 'Josefin Sans', sans-serif;
+                    font-family: 'Orbitron', sans-serif;
                     position: relative;
                     z-index: 20;
                     color: #fff;  
@@ -116,11 +116,12 @@ body {
                 }
                 #box-languaje span{
                     vertical-align: top;
+                    font-family: 'Orbitron', sans-serif;
                 }
             }            
             h1{
                 color: #fff;
-                font-family: 'Josefin Sans', sans-serif; 
+                font-family: 'Carrois Gothic SC', sans-serif;
             }
             div#box-scene{ 
                 ul#scene{
@@ -153,6 +154,7 @@ body {
         background-color: #f9564f;
         h3{
             font-family: 'Orbitron', sans-serif;
+            //font-family: 'Cormorant SC', serif; 
             color: #fff;
             padding-bottom: 10px;
         }
