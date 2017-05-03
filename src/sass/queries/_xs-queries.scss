@@ -83,4 +83,35 @@
             left: 70%;
         }                
     }
+    section#section-about-me{
+        padding-bottom: 20px;
+        h3{
+            font-family: 'Orbitron', sans-serif;
+            color: #fff;
+        }
+        ul#scene1{
+            height: 70vh;
+            h2{
+                margin:0;
+                text-align: center;
+                #name{
+                    //margin-left: -10px;     
+                }
+                #last-name{
+                    //font-size: 48px;
+                    //margin-left: -10px;
+                }    
+            }            
+            #what{
+                text-align: center;
+                //margin-left: -10px;
+            }
+        }
+        div.content-about-me{
+            h4{
+                font-family: 'Orbitron', sans-serif;
+                //font-family: 'Carrois Gothic SC', sans-serif;
+            }
+        }
+    }
 } 

@@ -2,6 +2,7 @@
 /*------------DESKTOP LARGE-----*/
 @media screen and (min-width:1200px){
     section#section-start{
+        height: 100vh;
         header{
             #box-languaje{
                 .switch {
@@ -87,4 +88,28 @@
         }        
         
     }    
+    section#section-about-me{
+        ul#scene1{
+            height: 70vh;
+            h2{
+                margin:0;
+                #name{
+                    font-size: 48px;
+                    margin-left: -40px;
+                    font-family: 'Cormorant SC', serif;     
+                }
+                #last-name{
+                    font-size: 48px;
+                    margin-left: -40px;
+                    font-family: 'Orbitron', sans-serif;
+                }    
+            }            
+            #what{
+                color: #fff;
+                margin-left: -40px;
+                margin-top: 120px;
+                font-family: 'Carrois Gothic SC', sans-serif;
+            }
+        }    
+    }
 }

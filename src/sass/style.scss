@@ -151,9 +151,10 @@ body {
     }
     section#section-about-me{
         background-color: #f9564f;
-        height: 100vh;
-        #title-about-me{
-            padding: 20px 0;
+        h3{
+            font-family: 'Orbitron', sans-serif;
+            color: #fff;
+            padding-bottom: 10px;
         }
         ul#scene1{
             img#img-maday{
@@ -165,18 +166,15 @@ body {
                 margin:0;
                 #name{
                     font-size: 48px;
-                    margin-left: -40px;
                     font-family: 'Cormorant SC', serif;     
                 }
                 #last-name{
                     font-size: 48px;
-                    margin-left: -40px;
                     font-family: 'Orbitron', sans-serif;
                 }    
             }            
             #what{
                 color: #fff;
-                margin-left: -40px;
                 margin-top: 120px;
                 font-family: 'Carrois Gothic SC', sans-serif;
             }
