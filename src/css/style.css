@@ -104,7 +104,8 @@ body section#section-about-me {
     padding-bottom: 10px; }
   body section#section-about-me div.box-img-maday ul#scene1 img#img-maday {
     opacity: .4;
-    background-color: #f9564f; }
+    background-color: #f9564f;
+    margin: 0 auto; }
   body section#section-about-me div.box-img-maday ul#scene1 h2 {
     margin: 0; }
     body section#section-about-me div.box-img-maday ul#scene1 h2 #name {
