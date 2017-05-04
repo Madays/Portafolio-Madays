@@ -87,9 +87,6 @@
             left: 70%;
         }                
     }
-    section#section-about-me *{
-        outline: solid 1px #fff;
-    }
     section#section-about-me{
         padding-bottom: 20px;
         div.box-img-maday{
@@ -119,5 +116,8 @@
         }        
         div.content-about-me{  
         }
+    }
+    section#section-skill{
+        padding: 0 20px;
     }
 } 

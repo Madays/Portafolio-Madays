@@ -147,11 +147,11 @@ body section#section-skill {
       padding-bottom: 10px;
       font-family: 'Pacifico', cursive; }
     body section#section-skill div.hard-skill #myProgress {
-      width: 100%;
+      width: 40%;
       background-color: #ddd; }
       body section#section-skill div.hard-skill #myProgress #myBarHTML5, body section#section-skill div.hard-skill #myProgress #myBarCss, body section#section-skill div.hard-skill #myProgress #myBarBootstrap, body section#section-skill div.hard-skill #myProgress #myBarJs, body section#section-skill div.hard-skill #myProgress #myBarJquery, body section#section-skill div.hard-skill #myProgress #myBarSass, body section#section-skill div.hard-skill #myProgress #myBarGithub, body section#section-skill div.hard-skill #myProgress #myBarGulp, body section#section-skill div.hard-skill #myProgress #myBarProactividad, body section#section-skill div.hard-skill #myProgress #myBarEquipo, body section#section-skill div.hard-skill #myProgress #myBarLiderazgo, body section#section-skill div.hard-skill #myProgress #myBarResponsabilidad, body section#section-skill div.hard-skill #myProgress #myBarEntuciasmo, body section#section-skill div.hard-skill #myProgress #myBarPensamiento, body section#section-skill div.hard-skill #myProgress #myBarPuntualidad {
         width: 1%;
-        height: 30px;
+        height: 18px;
         background-color: #0F8B8D;
         color: #fff;
         align-content: center; }
