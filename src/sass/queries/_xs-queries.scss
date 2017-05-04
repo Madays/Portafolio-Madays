@@ -29,10 +29,14 @@
         } 
         h1#layer1-5{//h1 texto dinámico
             font-size: 16px;
+            -webkit-transform: translate(0,260px);
+            -ms-transform: translate(0,260px);
             transform: translate(0,260px);
         } 
         img#layer2{
             width: 230px;
+            -webkit-transform: translate(0,350px);//laptop img
+            -ms-transform: translate(0,350px);//laptop img
             transform: translate(0,350px);//laptop img
         } 
         img#layer3{
