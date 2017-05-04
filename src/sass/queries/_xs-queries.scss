@@ -85,27 +85,27 @@
     }
     section#section-about-me{
         padding-bottom: 20px;
-        
-        ul#scene1{
-            height: 70vh;
-            h2{
-                margin:0;
-                text-align: center;
-                #name{
-                    //margin-left: -10px;     
-                }
-                #last-name{
-                    //font-size: 48px;
+        div.box-img-maday{
+            height: 500px;
+            ul#scene1{
+                h2{
+                    margin:0;
+                    text-align: center;
+                    #name{
+                        //margin-left: -10px;     
+                    }
+                    #last-name{
+                        //font-size: 48px;
+                        //margin-left: -10px;
+                    }    
+                }            
+                #what{
+                    text-align: center;
                     //margin-left: -10px;
-                }    
-            }            
-            #what{
-                text-align: center;
-                //margin-left: -10px;
-            }
-        }
-        div.content-about-me{
-            
+                }
+            }    
+        }        
+        div.content-about-me{  
         }
     }
 } 

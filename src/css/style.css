@@ -102,19 +102,18 @@ body section#section-about-me {
     font-family: 'Orbitron', sans-serif;
     color: #fff;
     padding-bottom: 10px; }
-  body section#section-about-me ul#scene1 img#img-maday {
-    width: 100%;
-    height: 60%;
-    opacity: .2; }
-  body section#section-about-me ul#scene1 h2 {
+  body section#section-about-me div.box-img-maday ul#scene1 img#img-maday {
+    opacity: .4;
+    background-color: #f9564f; }
+  body section#section-about-me div.box-img-maday ul#scene1 h2 {
     margin: 0; }
-    body section#section-about-me ul#scene1 h2 #name {
+    body section#section-about-me div.box-img-maday ul#scene1 h2 #name {
       font-size: 48px;
       font-family: 'Cormorant SC', serif; }
-    body section#section-about-me ul#scene1 h2 #last-name {
+    body section#section-about-me div.box-img-maday ul#scene1 h2 #last-name {
       font-size: 48px;
       font-family: 'Orbitron', sans-serif; }
-  body section#section-about-me ul#scene1 #what {
+  body section#section-about-me div.box-img-maday ul#scene1 #what {
     color: #fff;
     margin-top: 120px;
     font-family: 'Carrois Gothic SC', sans-serif; }

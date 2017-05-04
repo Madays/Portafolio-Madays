@@ -154,34 +154,37 @@ body {
     section#section-about-me{
         background-color: #f9564f;
         h3{
-            font-family: 'Orbitron', sans-serif;
-            //font-family: 'Cormorant SC', serif; 
+            font-family: 'Orbitron', sans-serif; 
             color: #fff;
             padding-bottom: 10px;
         }
-        ul#scene1{
-            img#img-maday{
-                width: 100%;
-                height: 60%;
-                opacity: .2;
-            }
-            h2{
-                margin:0;
-                #name{
-                    font-size: 48px;
-                    font-family: 'Cormorant SC', serif;     
+        div.box-img-maday{
+            ul#scene1{
+                #layer-height{
+
                 }
-                #last-name{
-                    font-size: 48px;
-                    font-family: 'Orbitron', sans-serif;
-                }    
-            }            
-            #what{
-                color: #fff;
-                margin-top: 120px;
-                font-family: 'Carrois Gothic SC', sans-serif;
-            }
-        }
+                img#img-maday{
+                    opacity: .4;
+                    background-color: rgb(249, 86, 79);
+                }
+                h2{
+                    margin:0;
+                    #name{
+                        font-size: 48px;
+                        font-family: 'Cormorant SC', serif;     
+                    }
+                    #last-name{
+                        font-size: 48px;
+                        font-family: 'Orbitron', sans-serif;
+                    }    
+                }            
+                #what{
+                    color: #fff;
+                    margin-top: 120px;
+                    font-family: 'Carrois Gothic SC', sans-serif;
+                }
+            }    
+        }        
         div.content-about-me{
             h4{
                 font-family: 'Orbitron', sans-serif;

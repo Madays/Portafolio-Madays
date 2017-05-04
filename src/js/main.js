@@ -5,7 +5,7 @@ var parallax1 = new Parallax(scene1);
 $(document).ready(init);
 function init()
 {   
-    //window.addEventListener('resize',resize);
+    window.addEventListener('resize',resize);
     loadLinkMenu();
     //$('#start').click(onClickBtnStart);
     $('#menu').mouseover(onMouseMenu);
@@ -26,13 +26,9 @@ function init()
 }
 function resize(evt){
     if(screen.height<=414){
-        $('#section-start').css('height','150vh');
-        $('ul#scene img#layer1').hide();
-        $('#layer2').css('transform','translate(0,230px)');
-        $('#layer3').css('bottom','-120px');
+        $('.box-img-maday').css('height','700px');
     }else{
-        $('ul#scene img#layer1').show();
-        $('#layer3').css('bottom','-520px');
+        $('.box-img-maday').css('height','500px');
     };
 }
 /*-----animacion de menu-----*/

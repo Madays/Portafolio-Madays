@@ -63,12 +63,12 @@
       left: 70%; }
   section#section-about-me {
     padding-bottom: 20px; }
-    section#section-about-me ul#scene1 {
-      height: 70vh; }
-      section#section-about-me ul#scene1 h2 {
+    section#section-about-me div.box-img-maday {
+      height: 500px; }
+      section#section-about-me div.box-img-maday ul#scene1 h2 {
         margin: 0;
         text-align: center; }
-      section#section-about-me ul#scene1 #what {
+      section#section-about-me div.box-img-maday ul#scene1 #what {
         text-align: center; } }
 
 /*------------TABLET-----*/
@@ -133,7 +133,14 @@
       width: 15px;
       position: absolute;
       bottom: -390px;
-      left: 70%; } }
+      left: 70%; }
+  section#section-about-me {
+    padding-bottom: 20px; }
+    section#section-about-me div.img-maday1 ul#scene1 h2 {
+      margin: 0;
+      text-align: center; }
+    section#section-about-me div.img-maday1 ul#scene1 #what {
+      text-align: center; } }
 
 /*------------DESKTOP-----*/
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -266,8 +273,8 @@
       position: absolute;
       bottom: -490px;
       left: 70%; }
-  section#section-about-me ul#scene1 {
-    height: 70vh; }
+  section#section-about-me {
+    height: 100vh; }
     section#section-about-me ul#scene1 h2 {
       margin: 0; }
       section#section-about-me ul#scene1 h2 #name {
