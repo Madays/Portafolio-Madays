@@ -20,9 +20,6 @@
                 }    
             }    
         }        
-        h1#layer1-5{
-            font-size: 32px;
-        }
         img#layer1{
             width: 230px;
             //transform: translate(0,60px);
@@ -90,27 +87,39 @@
     }    
     section#section-about-me{
         height: 100vh;
-        ul#scene1{
-   
-            h2{
-                margin:0;
-                #name{
-                    font-size: 48px;
-                    margin-left: -40px;
-                    font-family: 'Cormorant SC', serif;     
+        .box-img-maday{
+            ul#scene1{
+                #img-maday{
+
                 }
-                #last-name{
-                    font-size: 48px;
+                h2{
+                    margin:0;
+                    #name{
+                        font-size: 48px;
+                        margin-left: -40px;
+                        font-family: 'Cormorant SC', serif;     
+                    }
+                    #last-name{
+                        font-size: 48px;
+                        margin-left: -40px;
+                        font-family: 'Orbitron', sans-serif;
+                    }    
+                }            
+                #what{
+                    color: #fff;
                     margin-left: -40px;
-                    font-family: 'Orbitron', sans-serif;
-                }    
-            }            
-            #what{
-                color: #fff;
-                margin-left: -40px;
-                margin-top: 120px;
-                font-family: 'Carrois Gothic SC', sans-serif;
-            }
-        }    
+                    margin-top: 120px;
+                    font-family: 'Carrois Gothic SC', sans-serif;
+                }
+            }        
+        } 
+        .box-content-about-me{
+            height: 100vh;
+            display: table;
+            .content-about-me{
+                display: table-cell;
+                vertical-align: middle;
+            }    
+        }  
     }
 }
