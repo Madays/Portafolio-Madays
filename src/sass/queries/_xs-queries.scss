@@ -92,6 +92,11 @@
         div.box-img-maday{
             height: 500px;
             ul#scene1{
+                #img-maday{
+                    -webkit-transform: translate(0,260px);
+                    -ms-transform: translate(0,100px);
+                    transform: translate(0,100px);    
+                }
                 h2{
                     margin:0;
                     text-align: center;
