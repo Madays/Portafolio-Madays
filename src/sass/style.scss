@@ -196,6 +196,7 @@ body {
             p{
                 text-align: justify;
                 color: #fff;
+                font-family: 'Carrois Gothic SC', sans-serif;
             }
             ul{
                 list-style: none;
@@ -204,6 +205,7 @@ body {
                     //margin-bottom: 10px;
                     span{
                         font-size: 30px;
+                        font-family: 'Carrois Gothic SC', sans-serif;
                     }
                     .content-span{
                         font-size: 16px;
@@ -253,7 +255,8 @@ body {
                 color: #17a398;
             }            
             h4{
-                color: #f9564f;    
+                color: #f9564f;
+                font-family: 'Carrois Gothic SC', sans-serif;
             }
             #myProgress{
                 margin: auto;
@@ -291,6 +294,24 @@ body {
                 border: solid 1px #fff;    
             }
         }   
+    }
+    section#section-contact-me{
+        background-color: #43aa8b;
+        h3{
+            color: #fff;
+            font-family: 'Orbitron', sans-serif;                
+        }
+        .box-icono i{
+            color: #4adbc8;
+            font-size: 40px;
+            a{
+                text-decoration: none;
+            }
+        }
+        p{
+            color: #fff;
+            font-family: 'Carrois Gothic SC', sans-serif;
+        }
     }
 }
 

@@ -124,13 +124,15 @@ body section#section-about-me {
     border-top: 2px solid #000; }
   body section#section-about-me div.content-about-me p {
     text-align: justify;
-    color: #fff; }
+    color: #fff;
+    font-family: 'Carrois Gothic SC', sans-serif; }
   body section#section-about-me div.content-about-me ul {
     list-style: none; }
     body section#section-about-me div.content-about-me ul li {
       color: #fff; }
       body section#section-about-me div.content-about-me ul li span {
-        font-size: 30px; }
+        font-size: 30px;
+        font-family: 'Carrois Gothic SC', sans-serif; }
       body section#section-about-me div.content-about-me ul li .content-span {
         font-size: 16px; }
 
@@ -167,7 +169,8 @@ body section#section-skill {
       font-family: 'Orbitron', sans-serif;
       color: #17a398; }
     body section#section-skill div.soft-skill h4 {
-      color: #f9564f; }
+      color: #f9564f;
+      font-family: 'Carrois Gothic SC', sans-serif; }
     body section#section-skill div.soft-skill #myProgress {
       margin: auto;
       width: 40%;
@@ -195,3 +198,17 @@ body section#section-projects {
     color: #fff; }
     body section#section-projects #see:hover {
       border: solid 1px #fff; }
+
+body section#section-contact-me {
+  background-color: #43aa8b; }
+  body section#section-contact-me h3 {
+    color: #fff;
+    font-family: 'Orbitron', sans-serif; }
+  body section#section-contact-me .box-icono i {
+    color: #4adbc8;
+    font-size: 40px; }
+    body section#section-contact-me .box-icono i a {
+      text-decoration: none; }
+  body section#section-contact-me p {
+    color: #fff;
+    font-family: 'Carrois Gothic SC', sans-serif; }
