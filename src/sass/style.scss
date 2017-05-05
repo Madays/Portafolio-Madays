@@ -223,7 +223,6 @@ body {
             background-color: rgba(255,255,255,.7);
             padding-bottom: 20px;
             h3{
-                color: #fff;
                 font-family: 'Orbitron', sans-serif; 
                 //color: #f9564f;
                 color: #17a398;
@@ -270,6 +269,42 @@ body {
                 }
         }
         }
+    section#section-projects{
+        background-color: #112437;        
+        h3{
+            color: #fff;
+            font-family: 'Orbitron', sans-serif;                
+        }
+        .carousel-indicators li{
+            background-color: purple;
+        }
+        .carousel-indicators .active{
+            background-color: #112437;
+        }
+        #see{            
+            padding: 10px;
+            background-color: rgba(17, 36, 55,.7);
+            text-decoration: none;
+            &:hover{
+                border: solid 1px #fff;    
+            }
+        }   
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
