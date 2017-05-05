@@ -5,9 +5,12 @@
         height: 566px; 
         header{
             h2,#box-languaje span{
-                font-size: 16px;
+                font-size: 32px;
             }
-            #box-languaje{                  
+            #box-languaje{  
+                img{
+                    width: 50px;    
+                }
                 .switch {
                     width: 30px;
                     height: 17px;    
