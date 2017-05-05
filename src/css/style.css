@@ -189,8 +189,9 @@ body section#section-projects {
   body section#section-projects .carousel-indicators .active {
     background-color: #112437; }
   body section#section-projects #see {
-    padding: 10px;
+    padding: 10px 20px;
     background-color: rgba(17, 36, 55, 0.7);
-    text-decoration: none; }
+    text-decoration: none;
+    color: #fff; }
     body section#section-projects #see:hover {
       border: solid 1px #fff; }
