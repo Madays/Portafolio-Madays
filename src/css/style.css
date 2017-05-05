@@ -183,7 +183,8 @@ body section#section-skill {
         align-content: center; }
 
 body section#section-projects {
-  background-color: #112437; }
+  background-color: #112437;
+  padding-bottom: 20px; }
   body section#section-projects h3 {
     color: #fff;
     font-family: 'Orbitron', sans-serif; }
@@ -211,4 +212,5 @@ body section#section-contact-me {
       text-decoration: none; }
   body section#section-contact-me p {
     color: #fff;
-    font-family: 'Carrois Gothic SC', sans-serif; }
+    font-family: 'Carrois Gothic SC', sans-serif;
+    padding: 10px 0; }

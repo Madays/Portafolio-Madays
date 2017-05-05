@@ -273,7 +273,8 @@ body {
         }
         }
     section#section-projects{
-        background-color: #112437;        
+        background-color: #112437; 
+        padding-bottom: 20px;
         h3{
             color: #fff;
             font-family: 'Orbitron', sans-serif;                
@@ -297,6 +298,7 @@ body {
     }
     section#section-contact-me{
         background-color: #43aa8b;
+        //padding-bottom: 20px;
         h3{
             color: #fff;
             font-family: 'Orbitron', sans-serif;                
@@ -311,6 +313,7 @@ body {
         p{
             color: #fff;
             font-family: 'Carrois Gothic SC', sans-serif;
+            padding: 10px 0;
         }
     }
 }
