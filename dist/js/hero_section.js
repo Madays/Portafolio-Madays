@@ -1,6 +1,6 @@
 /*Texto dinámico en seccion start*/
 document.addEventListener('DOMContentLoaded',function(event){
-  var dataText = ["DESARROLLADORA FRONTEND", "DESARROLLADORA FRONTEND", "DESARROLLADORA FRONTEND", "DESARROLLADORA FRONTEND", "DESARROLLADORA FRONTEND", "DESARROLLADORA FRONTEND"];
+  var dataText = ["DESARROLLADORA - FRONTEND", "DESARROLLADORA - FRONTEND", "DESARROLLADORA - FRONTEND", "DESARROLLADORA - FRONTEND", "DESARROLLADORA - FRONTEND", "DESARROLLADORA - FRONTEND"];
   console.log(dataText[0].length);
   function typeWriter(text, i, fnCallback) {
     if (i < (text.length)) {

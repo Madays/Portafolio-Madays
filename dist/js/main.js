@@ -1,5 +1,7 @@
 var scene = document.getElementById('scene');
 var parallax = new Parallax(scene);
+var scene = document.getElementById('scene1');
+var parallax1 = new Parallax(scene1);
 $(document).ready(init);
 function init()
 {   
@@ -8,19 +10,32 @@ function init()
     //$('#start').click(onClickBtnStart);
     $('#menu').mouseover(onMouseMenu);
     $('#menu').mouseleave(leaveMouseMenu);
-    $('#about-me').click(onClickBtnAboutMe);
+    //$('#about-me').click(onClickBtnAboutMe);
     $('#skill').click(onClickBtnSkill);
     $('#projects').click(onClickBtnProjects);
     $('#contact-me').click(onClickBtnContactMe);
+    /*Section skill*/
+    move("myBarHTML5",90);
+    move("myBarCss",90);
+    move("myBarBootstrap",80);
+    move("myBarJs",70);
+    move("myBarJquery",70);
+    move("myBarSass",80);
+    move("myBarGithub",70);
+    move("myBarGulp",70);
+    //soft-skill
+    move("myBarProactividad",99);
+    move("myBarEquipo",90);
+    move("myBarPensamiento",80);
+    move("myBarEntusiasmo",90);
+    move("myBarPerseverancia",100);
+    move("myBarResponsabilidad",80);
 }
 function resize(evt){
     if(screen.height<=414){
-        $('ul#scene li#maday').hide();
-        $('#layer2').css('transform','translate(0,130px)');
-        $('#layer3').css('bottom','-120px');
+        $('.box-img-maday').css('height','700px');
     }else{
-        $('ul#scene li#maday').show();
-        $('#layer3').css('bottom','-520px');
+        $('.box-img-maday').css('height','500px');
     };
 }
 /*-----animacion de menu-----*/
@@ -91,7 +106,6 @@ function leaveMouseMenu(evt){
     }
 }
 function onClickBtnSkill(){
-    gotoSection('section-skill');
     move("myBarHTML5",90);
     move("myBarCss",90);
     move("myBarBootstrap",80);
