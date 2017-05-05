@@ -286,11 +286,15 @@ body {
         .carousel-indicators .active{
             background-color: #112437;
         }
+        p{
+            font-family: 'Carrois Gothic SC', sans-serif;    
+        }
         #see{            
             padding: 10px 20px;
             background-color: rgba(17, 36, 55,.7);
             text-decoration: none;
             color: #fff;
+            font-family: 'Carrois Gothic SC', sans-serif;
             &:hover{
                 border: solid 1px #fff;    
             }

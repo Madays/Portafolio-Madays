@@ -192,11 +192,14 @@ body section#section-projects {
     border: solid 1px #112437; }
   body section#section-projects .carousel-indicators .active {
     background-color: #112437; }
+  body section#section-projects p {
+    font-family: 'Carrois Gothic SC', sans-serif; }
   body section#section-projects #see {
     padding: 10px 20px;
     background-color: rgba(17, 36, 55, 0.7);
     text-decoration: none;
-    color: #fff; }
+    color: #fff;
+    font-family: 'Carrois Gothic SC', sans-serif; }
     body section#section-projects #see:hover {
       border: solid 1px #fff; }
 
