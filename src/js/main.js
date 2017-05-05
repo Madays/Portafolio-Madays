@@ -23,6 +23,13 @@ function init()
     move("myBarSass",80);
     move("myBarGithub",70);
     move("myBarGulp",70);
+    //soft-skill
+    move("myBarProactividad",99);
+    move("myBarEquipo",90);
+    move("myBarPensamiento",80);
+    move("myBarEntusiasmo",90);
+    move("myBarPerseverancia",100);
+    move("myBarResponsabilidad",80);
 }
 function resize(evt){
     if(screen.height<=414){

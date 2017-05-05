@@ -141,17 +141,41 @@ body section#section-skill {
   background-repeat: no-repeat;
   background-attachment: fixed; }
   body section#section-skill div.hard-skill {
-    background-color: rgba(255, 255, 255, 0.7); }
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 20px; }
     body section#section-skill div.hard-skill h3 {
       color: #fff;
-      padding-bottom: 10px;
-      font-family: 'Pacifico', cursive; }
+      font-family: 'Orbitron', sans-serif;
+      color: #17a398; }
+    body section#section-skill div.hard-skill img {
+      width: 50px;
+      padding: 10px 0; }
     body section#section-skill div.hard-skill #myProgress {
+      margin: auto;
       width: 40%;
       background-color: #ddd; }
-      body section#section-skill div.hard-skill #myProgress #myBarHTML5, body section#section-skill div.hard-skill #myProgress #myBarCss, body section#section-skill div.hard-skill #myProgress #myBarBootstrap, body section#section-skill div.hard-skill #myProgress #myBarJs, body section#section-skill div.hard-skill #myProgress #myBarJquery, body section#section-skill div.hard-skill #myProgress #myBarSass, body section#section-skill div.hard-skill #myProgress #myBarGithub, body section#section-skill div.hard-skill #myProgress #myBarGulp, body section#section-skill div.hard-skill #myProgress #myBarProactividad, body section#section-skill div.hard-skill #myProgress #myBarEquipo, body section#section-skill div.hard-skill #myProgress #myBarLiderazgo, body section#section-skill div.hard-skill #myProgress #myBarResponsabilidad, body section#section-skill div.hard-skill #myProgress #myBarEntuciasmo, body section#section-skill div.hard-skill #myProgress #myBarPensamiento, body section#section-skill div.hard-skill #myProgress #myBarPuntualidad {
+      body section#section-skill div.hard-skill #myProgress #myBarHTML5, body section#section-skill div.hard-skill #myProgress #myBarCss, body section#section-skill div.hard-skill #myProgress #myBarBootstrap, body section#section-skill div.hard-skill #myProgress #myBarJs, body section#section-skill div.hard-skill #myProgress #myBarJquery, body section#section-skill div.hard-skill #myProgress #myBarSass, body section#section-skill div.hard-skill #myProgress #myBarGithub, body section#section-skill div.hard-skill #myProgress #myBarGulp {
         width: 1%;
         height: 18px;
-        background-color: #0F8B8D;
+        background-color: #17a398;
+        color: #fff;
+        align-content: center; }
+  body section#section-skill div.soft-skill {
+    padding-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.7); }
+    body section#section-skill div.soft-skill h3 {
+      color: #fff;
+      font-family: 'Orbitron', sans-serif;
+      color: #17a398; }
+    body section#section-skill div.soft-skill h4 {
+      color: #f9564f; }
+    body section#section-skill div.soft-skill #myProgress {
+      margin: auto;
+      width: 40%;
+      background-color: #ddd; }
+      body section#section-skill div.soft-skill #myProgress #myBarProactividad, body section#section-skill div.soft-skill #myProgress #myBarEquipo, body section#section-skill div.soft-skill #myProgress #myBarPensamiento, body section#section-skill div.soft-skill #myProgress #myBarEntusiasmo, body section#section-skill div.soft-skill #myProgress #myBarPerseverancia, body section#section-skill div.soft-skill #myProgress #myBarResponsabilidad {
+        width: 1%;
+        height: 18px;
+        background-color: #17a398;
         color: #fff;
         align-content: center; }
