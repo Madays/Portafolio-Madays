@@ -9,7 +9,7 @@ body div.nav {
   top: 50%;
   right: 0;
   transform: translateY(-50%);
-  z-index: 30; }
+  z-index: 1000; }
   body div.nav ul#menu {
     opacity: 0;
     margin: 0;
@@ -30,71 +30,71 @@ body div.nav {
       width: 5px;
       height: 25px; }
 
-body section#section-start {
-  opacity: .9;
-  background: #223A52;
-  background: -webkit-linear-gradient(#223A52, #C0474F);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#223A52, #C0474F);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#223A52, #C0474F);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#223A52, #C0474F);
-  /* Standard syntax */ }
-  body section#section-start div#content-section-start header h2 {
-    font-family: 'Orbitron', sans-serif;
+body section#section-start div.container-canvas div#particle-canvas {
+  overflow: hidden;
+  height: 100vh;
+  width: 100wh;
+  margin: 0;
+  padding: 0; }
+  body section#section-start div.container-canvas div#particle-canvas header {
     position: relative;
-    z-index: 20;
-    color: #fff;
-    text-align: left; }
-  body section#section-start div#content-section-start header #box-languaje {
-    color: #fff;
-    text-align: right;
-    padding-top: 20px;
-    /* The switch - the box around the slider */
-    /* Hide default HTML checkbox */
-    /* The slider */
-    /* Rounded sliders */ }
-    body section#section-start div#content-section-start header #box-languaje .switch {
+    z-index: 1000;
+    top: 0;
+    right: 10px;
+    left: 10px; }
+    body section#section-start div.container-canvas div#particle-canvas header h2 {
+      font-family: 'Orbitron', sans-serif;
       position: relative;
-      display: inline-block; }
-    body section#section-start div#content-section-start header #box-languaje .switch input {
-      display: none; }
-    body section#section-start div#content-section-start header #box-languaje .slider {
-      position: absolute;
-      cursor: pointer;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: #ccc;
-      -webkit-transition: .4s;
-      transition: .4s; }
-    body section#section-start div#content-section-start header #box-languaje .slider:before {
-      position: absolute;
-      content: "";
-      left: 2px;
-      bottom: 2px;
-      background-color: white;
-      -webkit-transition: .4s;
-      transition: .4s; }
-    body section#section-start div#content-section-start header #box-languaje input:checked + .slider {
-      background-color: #2196F3; }
-    body section#section-start div#content-section-start header #box-languaje input:focus + .slider {
-      box-shadow: 0 0 1px #2196F3; }
-    body section#section-start div#content-section-start header #box-languaje .slider.round {
-      border-radius: 34px; }
-    body section#section-start div#content-section-start header #box-languaje .slider.round:before {
-      border-radius: 50%; }
-  body section#section-start div#content-section-start header #box-languaje span {
-    vertical-align: top;
-    font-family: 'Orbitron', sans-serif; }
-  body section#section-start div#content-section-start h1 {
+      z-index: 20;
+      color: #fff;
+      text-align: left; }
+    body section#section-start div.container-canvas div#particle-canvas header #box-languaje {
+      color: #fff;
+      text-align: right;
+      padding-top: 20px;
+      /* The switch - the box around the slider */
+      /* Hide default HTML checkbox */
+      /* The slider */
+      /* Rounded sliders */ }
+      body section#section-start div.container-canvas div#particle-canvas header #box-languaje .switch {
+        position: relative;
+        display: inline-block; }
+      body section#section-start div.container-canvas div#particle-canvas header #box-languaje .switch input {
+        display: none; }
+      body section#section-start div.container-canvas div#particle-canvas header #box-languaje .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s; }
+      body section#section-start div.container-canvas div#particle-canvas header #box-languaje .slider:before {
+        position: absolute;
+        content: "";
+        left: 2px;
+        bottom: 2px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s; }
+      body section#section-start div.container-canvas div#particle-canvas header #box-languaje input:checked + .slider {
+        background-color: #2196F3; }
+      body section#section-start div.container-canvas div#particle-canvas header #box-languaje input:focus + .slider {
+        box-shadow: 0 0 1px #2196F3; }
+      body section#section-start div.container-canvas div#particle-canvas header #box-languaje .slider.round {
+        border-radius: 34px; }
+      body section#section-start div.container-canvas div#particle-canvas header #box-languaje .slider.round:before {
+        border-radius: 50%; }
+    body section#section-start div.container-canvas div#particle-canvas header #box-languaje span {
+      vertical-align: top;
+      font-family: 'Orbitron', sans-serif; }
+  body section#section-start div.container-canvas div#particle-canvas h1 {
+    position: relative;
+    z-index: 1000;
     color: #fff;
     font-family: 'Orbitron', sans-serif; }
-  body section#section-start div#content-section-start div#box-scene ul#scene li img#layer1 {
-    opacity: .3;
-    border-radius: 100%; }
 
 body section#section-about-me {
   background-color: #f9564f; }

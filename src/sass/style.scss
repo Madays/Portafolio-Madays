@@ -14,7 +14,7 @@ body {
         top: 50%;
         right: 0;
         transform: translateY(-50%);
-         z-index: 30;
+         z-index: 1000;
         ul#menu{
             opacity: 0;
             margin: 0;
@@ -41,115 +41,96 @@ body {
         }
     }
         
-    section#section-start{
-        opacity: .9;
-            background: #223A52;
-        background: -webkit-linear-gradient(#223A52, #C0474F); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#223A52, #C0474F); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#223A52, #C0474F); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#223A52, #C0474F); /* Standard syntax */ 
-               
-        div#content-section-start{ 
-            header{
-                h2{
-                    font-family: 'Orbitron', sans-serif;
+    section#section-start{                            
+        div.container-canvas{
+            div#particle-canvas{        
+                overflow: hidden;
+                height: 100vh;
+                width: 100wh;
+                margin: 0;
+                padding: 0;    
+                header{
                     position: relative;
-                    z-index: 20;
-                    color: #fff;  
-                    text-align: left;
-                } 
-                #box-languaje{
-                    color: #fff;
-                    text-align: right;
-                    padding-top: 20px;
-                    /* The switch - the box around the slider */
-                    .switch {
-                      position: relative;
-                      display: inline-block;
+                    z-index: 1000;
+                    top: 0;
+                    right: 10px;
+                    left: 10px;
+                    h2{
+                        font-family: 'Orbitron', sans-serif;
+                        position: relative;
+                        z-index: 20;
+                        color: #fff;  
+                        text-align: left;
+                    } 
+                    #box-languaje{
+                        color: #fff;
+                        text-align: right;
+                        padding-top: 20px;
+                            /* The switch - the box around the slider */
+                        .switch {
+                          position: relative;
+                          display: inline-block;
+                        }
+
+                            /* Hide default HTML checkbox */
+                        .switch input {display:none;}
+
+                            /* The slider */
+                        .slider {
+                          position: absolute;
+                          cursor: pointer;
+                          top: 0;
+                          left: 0;
+                          right: 0;
+                          bottom: 0;
+                          background-color: #ccc;
+                          -webkit-transition: .4s;
+                          transition: .4s;
+                        }
+
+                        .slider:before {
+                          position: absolute;
+                          content: "";                     
+                          left: 2px;
+                          bottom: 2px;
+                          background-color: white;
+                          -webkit-transition: .4s;
+                          transition: .4s;
+                        }
+
+                        input:checked + .slider {
+                          background-color: #2196F3;
+                        }
+
+                        input:focus + .slider {
+                          box-shadow: 0 0 1px #2196F3;
+                        }
+
+                        input:checked + .slider:before{
+                        }
+
+                        /* Rounded sliders */
+                        .slider.round {
+                          border-radius: 34px;
+                        }
+
+                        .slider.round:before {
+                          border-radius: 50%;
+                        }    
                     }
-
-                    /* Hide default HTML checkbox */
-                    .switch input {display:none;}
-
-                    /* The slider */
-                    .slider {
-                      position: absolute;
-                      cursor: pointer;
-                      top: 0;
-                      left: 0;
-                      right: 0;
-                      bottom: 0;
-                      background-color: #ccc;
-                      -webkit-transition: .4s;
-                      transition: .4s;
-                    }
-
-                    .slider:before {
-                      position: absolute;
-                      content: "";                     
-                      left: 2px;
-                      bottom: 2px;
-                      background-color: white;
-                      -webkit-transition: .4s;
-                      transition: .4s;
-                    }
-
-                    input:checked + .slider {
-                      background-color: #2196F3;
-                    }
-
-                    input:focus + .slider {
-                      box-shadow: 0 0 1px #2196F3;
-                    }
-
-                    input:checked + .slider:before{
-                    }
-
-                    /* Rounded sliders */
-                    .slider.round {
-                      border-radius: 34px;
-                    }
-
-                    .slider.round:before {
-                      border-radius: 50%;
-                    }    
+                    #box-languaje span{
+                        vertical-align: top;
+                        font-family: 'Orbitron', sans-serif;
+                    }                    
                 }
-                #box-languaje span{
-                    vertical-align: top;
-                    font-family: 'Orbitron', sans-serif;
-                }
-            }            
-            h1{
-                color: #fff;
-                //font-family: 'Carrois Gothic SC', sans-serif;
-                font-family: 'Orbitron', sans-serif;
-            }
-            div#box-scene{ 
-                ul#scene{
-                    li{
-                        img#layer1{
-                            opacity: .3;    
-                            border-radius: 100%;
-                        }
-                        img#layer2{
-
-                        }
-                        img#layer3{
-                            //transform: translate(0,200px);
-                        }
-                        img#layer4{
-                            //transform: translate(0,200px);
-                        }
-                        img#layer5{
-                            //transform: translate(0,200px);
-                        }
-                        img#layer6{
-                            //transform: translate(0,200px);
-                        }
-                    }                         
-                }    
-            }                
-        }                                        
+                h1{
+                        position: relative;
+                        z-index: 1000;
+                        color: #fff;
+                        font-family: 'Orbitron', sans-serif;
+                    }
+            }    
+        }                             
     }
     section#section-about-me{
         background-color: #f9564f;
