@@ -1,6 +1,6 @@
-var scene = document.getElementById('scene');
-var parallax = new Parallax(scene);
-var scene = document.getElementById('scene1');
+//var scene = document.getElementById('scene');
+//var parallax = new Parallax(scene);
+var scene1 = document.getElementById('scene1');
 var parallax1 = new Parallax(scene1);
 $(document).ready(init);
 function init()
