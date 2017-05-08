@@ -4,24 +4,11 @@
     section#section-start{
         height: 100vh;
         header{
-            #box-languaje{
-                img{
-                    width: 50px;    
-                }
-                .switch {
-                    width: 60px;
-                    height: 34px;    
-                }
-                .slider:before {
-                    height: 26px;
-                    width: 26px;    
-                }
-                input:checked + .slider:before {
-                    -webkit-transform: translateX(26px);
-                    -ms-transform: translateX(26px);
-                    transform: translateX(26px);
-                }    
-            }    
+            right: 100px;
+            left: 100px;
+            button{
+                margin-top: 20px;
+            }
         }        
         img#layer1{
             width: 230px;

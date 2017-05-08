@@ -2,29 +2,17 @@
 /*------------CELULARES-----*/
 @media screen and (max-width:767px){
     section#section-start{
-        height: 566px; 
+        height: 100vh; 
         header{
-            h2,#box-languaje span{
+            right: 10px;
+            left: 10px;
+            h2{
                 font-size: 14px;
-            }
-            #box-languaje{ 
-                img{
-                    width: 25px;    
-                }                
-                .switch {
-                    width: 30px;
-                    height: 17px;    
-                }
-                .slider:before {
-                    height: 13px;
-                    width: 13px;    
-                }
-                input:checked + .slider:before {
-                    -webkit-transform: translateX(13px);
-                    -ms-transform: translateX(13px);
-                    transform: translateX(13px);
-                }    
-            }    
+                margin-top: 25px;
+            }                    
+            button{
+                margin-top: 20px;
+            }  
         }        
         img#layer1{
             width: 180px;//img-Maday

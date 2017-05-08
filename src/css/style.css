@@ -3,217 +3,213 @@
   margin: 0;
   box-sizing: border-box; }
 
-body div.nav {
-  position: fixed;
-  padding-right: 10px;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  z-index: 1000; }
-  body div.nav ul#menu {
-    opacity: 0;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    width: 5px; }
-    body div.nav ul#menu li {
-      float: right;
-      height: 40px;
-      text-align: center;
-      margin: 5px 0;
-      background: #fff; }
-      body div.nav ul#menu li a {
-        text-decoration: none;
-        color: #fff; }
-    body div.nav ul#menu .link {
-      display: table;
-      width: 5px;
-      height: 25px; }
-
-body section#section-start div.container-canvas div#particle-canvas {
-  overflow: hidden;
-  height: 100vh;
-  width: 100wh;
-  margin: 0;
-  padding: 0; }
-  body section#section-start div.container-canvas div#particle-canvas header {
-    position: relative;
-    z-index: 1000;
-    top: 0;
-    right: 10px;
-    left: 10px; }
-    body section#section-start div.container-canvas div#particle-canvas header h2 {
-      font-family: 'Orbitron', sans-serif;
-      position: relative;
-      z-index: 20;
-      color: #fff;
-      text-align: left; }
-    body section#section-start div.container-canvas div#particle-canvas header #box-languaje {
-      color: #fff;
-      text-align: right;
-      padding-top: 20px;
-      /* The switch - the box around the slider */
-      /* Hide default HTML checkbox */
-      /* The slider */
-      /* Rounded sliders */ }
-      body section#section-start div.container-canvas div#particle-canvas header #box-languaje .switch {
-        position: relative;
-        display: inline-block; }
-      body section#section-start div.container-canvas div#particle-canvas header #box-languaje .switch input {
-        display: none; }
-      body section#section-start div.container-canvas div#particle-canvas header #box-languaje .slider {
-        position: absolute;
-        cursor: pointer;
-        top: 0;
-        left: 0;
+body {
+  /*div.nav{
+        position: fixed;
+        padding-right: 10px;
+        top: 50%;
         right: 0;
-        bottom: 0;
-        background-color: #ccc;
-        -webkit-transition: .4s;
-        transition: .4s; }
-      body section#section-start div.container-canvas div#particle-canvas header #box-languaje .slider:before {
-        position: absolute;
-        content: "";
-        left: 2px;
-        bottom: 2px;
-        background-color: white;
-        -webkit-transition: .4s;
-        transition: .4s; }
-      body section#section-start div.container-canvas div#particle-canvas header #box-languaje input:checked + .slider {
-        background-color: #2196F3; }
-      body section#section-start div.container-canvas div#particle-canvas header #box-languaje input:focus + .slider {
-        box-shadow: 0 0 1px #2196F3; }
-      body section#section-start div.container-canvas div#particle-canvas header #box-languaje .slider.round {
-        border-radius: 34px; }
-      body section#section-start div.container-canvas div#particle-canvas header #box-languaje .slider.round:before {
-        border-radius: 50%; }
-    body section#section-start div.container-canvas div#particle-canvas header #box-languaje span {
-      vertical-align: top;
-      font-family: 'Orbitron', sans-serif; }
-  body section#section-start div.container-canvas div#particle-canvas h1 {
-    position: relative;
-    z-index: 1000;
-    color: #fff;
-    font-family: 'Orbitron', sans-serif; }
-
-body section#section-about-me {
-  background-color: #f9564f; }
-  body section#section-about-me h3 {
-    font-family: 'Orbitron', sans-serif;
-    color: #fff;
-    padding-bottom: 10px; }
-  body section#section-about-me div.box-img-maday ul#scene1 img#img-maday {
-    opacity: .4;
-    background-color: #f9564f;
-    margin: 0 auto; }
-  body section#section-about-me div.box-img-maday ul#scene1 h2 {
-    margin: 0; }
-    body section#section-about-me div.box-img-maday ul#scene1 h2 #name {
-      font-size: 48px;
-      font-family: 'Cormorant SC', serif; }
-    body section#section-about-me div.box-img-maday ul#scene1 h2 #last-name {
-      font-size: 48px;
-      font-family: 'Orbitron', sans-serif; }
-  body section#section-about-me div.box-img-maday ul#scene1 #what {
-    color: #fff;
-    margin-top: 120px;
-    font-family: 'Carrois Gothic SC', sans-serif; }
-  body section#section-about-me div.content-about-me h4 {
-    font-family: 'Orbitron', sans-serif; }
-  body section#section-about-me div.content-about-me hr {
-    border-top: 2px solid #000; }
-  body section#section-about-me div.content-about-me p {
-    text-align: justify;
-    color: #fff;
-    font-family: 'Carrois Gothic SC', sans-serif; }
-  body section#section-about-me div.content-about-me ul {
-    list-style: none; }
-    body section#section-about-me div.content-about-me ul li {
-      color: #fff; }
-      body section#section-about-me div.content-about-me ul li span {
-        font-size: 30px;
-        font-family: 'Carrois Gothic SC', sans-serif; }
-      body section#section-about-me div.content-about-me ul li .content-span {
-        font-size: 16px; }
-
-body section#section-skill {
-  background-image: url("http://sdtimes.com/wp-content/uploads/2017/03/pexels-photo-160107.jpeg");
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; }
-  body section#section-skill div.hard-skill {
-    background-color: rgba(255, 255, 255, 0.7);
-    padding-bottom: 20px; }
-    body section#section-skill div.hard-skill h3 {
-      font-family: 'Orbitron', sans-serif;
-      color: #17a398; }
-    body section#section-skill div.hard-skill img {
-      width: 50px;
-      padding: 10px 0; }
-    body section#section-skill div.hard-skill #myProgress {
-      margin: auto;
-      width: 40%;
-      background-color: #ddd; }
-      body section#section-skill div.hard-skill #myProgress #myBarHTML5, body section#section-skill div.hard-skill #myProgress #myBarCss, body section#section-skill div.hard-skill #myProgress #myBarBootstrap, body section#section-skill div.hard-skill #myProgress #myBarJs, body section#section-skill div.hard-skill #myProgress #myBarJquery, body section#section-skill div.hard-skill #myProgress #myBarSass, body section#section-skill div.hard-skill #myProgress #myBarGithub, body section#section-skill div.hard-skill #myProgress #myBarGulp {
-        width: 1%;
-        height: 18px;
-        background-color: #17a398;
+        transform: translateY(-50%);
+         z-index: 1000;
+        ul#menu{
+            opacity: 0;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            width: 5px;             
+            li{
+                float: right;
+                height: 40px;
+                text-align: center;                
+                margin: 5px 0;
+                background: #fff;
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+                                                 
+            .link{                
+                display: table;                 
+                width: 5px;
+                height: 25px;
+            }    
+        }
+    }*/ }
+  body section#section-start div.container-canvas div#particle-canvas {
+    overflow: hidden;
+    height: 100vh;
+    width: 100wh;
+    margin: 0;
+    padding: 0; }
+    body section#section-start div.container-canvas div#particle-canvas header {
+      position: fixed;
+      z-index: 1000;
+      top: 0; }
+      body section#section-start div.container-canvas div#particle-canvas header h2 {
+        font-family: 'Orbitron', sans-serif;
         color: #fff;
-        align-content: center; }
-  body section#section-skill div.soft-skill {
-    padding-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.7); }
-    body section#section-skill div.soft-skill h3 {
+        text-align: left; }
+      body section#section-start div.container-canvas div#particle-canvas header div.container-menu button {
+        padding: 5px 10px; }
+      body section#section-start div.container-canvas div#particle-canvas header div.container-menu .overlay {
+        font-family: 'Orbitron', sans-serif;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 11001;
+        top: 0px;
+        left: 0;
+        background-color: rgba(17, 36, 55, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s; }
+        body section#section-start div.container-canvas div#particle-canvas header div.container-menu .overlay a {
+          padding: 8px;
+          text-decoration: none;
+          color: #818181;
+          display: block;
+          transition: 0.3s; }
+          body section#section-start div.container-canvas div#particle-canvas header div.container-menu .overlay a:hover, body section#section-start div.container-canvas div#particle-canvas header div.container-menu .overlay a:focus {
+            color: #f1f1f1; }
+        body section#section-start div.container-canvas div#particle-canvas header div.container-menu .overlay .overlay-content {
+          position: relative;
+          top: 25%;
+          width: 100%;
+          text-align: center;
+          margin-top: 30px; }
+        body section#section-start div.container-canvas div#particle-canvas header div.container-menu .overlay .closebtn {
+          position: absolute;
+          top: 20px;
+          right: 45px;
+          font-size: 60px; }
+      @media screen and (max-height: 450px) {
+        body section#section-start div.container-canvas div#particle-canvas header div.container-menu .overlay a {
+          font-size: 20px; }
+        body section#section-start div.container-canvas div#particle-canvas header div.container-menu .overlay .closebtn {
+          font-size: 40px;
+          top: 15px;
+          right: 35px; } }
+    body section#section-start div.container-canvas div#particle-canvas h1 {
+      position: relative;
+      top: 50%;
+      z-index: 900;
       color: #fff;
+      font-family: 'Orbitron', sans-serif; }
+  body section#section-about-me {
+    background-color: #f9564f; }
+    body section#section-about-me h3 {
       font-family: 'Orbitron', sans-serif;
-      color: #17a398; }
-    body section#section-skill div.soft-skill h4 {
+      color: #fff;
+      padding-bottom: 10px; }
+    body section#section-about-me div.box-img-maday ul#scene1 img#img-maday {
+      opacity: .4;
+      background-color: #f9564f;
+      margin: 0 auto; }
+    body section#section-about-me div.box-img-maday ul#scene1 h2 {
+      margin: 0; }
+      body section#section-about-me div.box-img-maday ul#scene1 h2 #name {
+        font-size: 48px;
+        font-family: 'Cormorant SC', serif; }
+      body section#section-about-me div.box-img-maday ul#scene1 h2 #last-name {
+        font-size: 48px;
+        font-family: 'Orbitron', sans-serif; }
+    body section#section-about-me div.box-img-maday ul#scene1 #what {
+      color: #fff;
+      margin-top: 120px;
+      font-family: 'Carrois Gothic SC', sans-serif; }
+    body section#section-about-me div.content-about-me h4 {
+      font-family: 'Orbitron', sans-serif; }
+    body section#section-about-me div.content-about-me hr {
+      border-top: 2px solid #000; }
+    body section#section-about-me div.content-about-me p {
+      text-align: justify;
       color: #fff;
       font-family: 'Carrois Gothic SC', sans-serif; }
-    body section#section-skill div.soft-skill #myProgress {
-      margin: auto;
-      width: 40%;
-      background-color: #ddd; }
-      body section#section-skill div.soft-skill #myProgress #myBarProactividad, body section#section-skill div.soft-skill #myProgress #myBarEquipo, body section#section-skill div.soft-skill #myProgress #myBarPensamiento, body section#section-skill div.soft-skill #myProgress #myBarEntusiasmo, body section#section-skill div.soft-skill #myProgress #myBarPerseverancia, body section#section-skill div.soft-skill #myProgress #myBarResponsabilidad {
-        width: 1%;
-        height: 18px;
-        background-color: #17a398;
+    body section#section-about-me div.content-about-me ul {
+      list-style: none; }
+      body section#section-about-me div.content-about-me ul li {
+        color: #fff; }
+        body section#section-about-me div.content-about-me ul li span {
+          font-size: 30px;
+          font-family: 'Carrois Gothic SC', sans-serif; }
+        body section#section-about-me div.content-about-me ul li .content-span {
+          font-size: 16px; }
+  body section#section-skill {
+    background-image: url("http://sdtimes.com/wp-content/uploads/2017/03/pexels-photo-160107.jpeg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; }
+    body section#section-skill div.hard-skill {
+      background-color: rgba(255, 255, 255, 0.7);
+      padding-bottom: 20px; }
+      body section#section-skill div.hard-skill h3 {
+        font-family: 'Orbitron', sans-serif;
+        color: #17a398; }
+      body section#section-skill div.hard-skill img {
+        width: 50px;
+        padding: 10px 0; }
+      body section#section-skill div.hard-skill #myProgress {
+        margin: auto;
+        width: 40%;
+        background-color: #ddd; }
+        body section#section-skill div.hard-skill #myProgress #myBarHTML5, body section#section-skill div.hard-skill #myProgress #myBarCss, body section#section-skill div.hard-skill #myProgress #myBarBootstrap, body section#section-skill div.hard-skill #myProgress #myBarJs, body section#section-skill div.hard-skill #myProgress #myBarJquery, body section#section-skill div.hard-skill #myProgress #myBarSass, body section#section-skill div.hard-skill #myProgress #myBarGithub, body section#section-skill div.hard-skill #myProgress #myBarGulp {
+          width: 1%;
+          height: 18px;
+          background-color: #17a398;
+          color: #fff;
+          align-content: center; }
+    body section#section-skill div.soft-skill {
+      padding-bottom: 20px;
+      background-color: rgba(255, 255, 255, 0.7); }
+      body section#section-skill div.soft-skill h3 {
         color: #fff;
-        align-content: center; }
-
-body section#section-projects {
-  background-color: #112437;
-  padding-bottom: 20px; }
-  body section#section-projects h3 {
-    color: #fff;
-    font-family: 'Orbitron', sans-serif; }
-  body section#section-projects .carousel-indicators li {
-    border: solid 1px #112437; }
-  body section#section-projects .carousel-indicators .active {
-    background-color: #112437; }
-  body section#section-projects p {
-    font-family: 'Carrois Gothic SC', sans-serif; }
-  body section#section-projects #see {
-    padding: 10px 20px;
-    background-color: rgba(17, 36, 55, 0.7);
-    text-decoration: none;
-    color: #fff;
-    font-family: 'Carrois Gothic SC', sans-serif; }
-    body section#section-projects #see:hover {
-      border: solid 1px #fff; }
-
-body section#section-contact-me {
-  background-color: #43aa8b; }
-  body section#section-contact-me h3 {
-    color: #fff;
-    font-family: 'Orbitron', sans-serif; }
-  body section#section-contact-me .box-icono i {
-    color: #4adbc8;
-    font-size: 40px; }
-    body section#section-contact-me .box-icono i a {
-      text-decoration: none; }
-  body section#section-contact-me p {
-    color: #fff;
-    font-family: 'Carrois Gothic SC', sans-serif;
-    padding: 10px 0; }
+        font-family: 'Orbitron', sans-serif;
+        color: #17a398; }
+      body section#section-skill div.soft-skill h4 {
+        color: #fff;
+        font-family: 'Carrois Gothic SC', sans-serif; }
+      body section#section-skill div.soft-skill #myProgress {
+        margin: auto;
+        width: 40%;
+        background-color: #ddd; }
+        body section#section-skill div.soft-skill #myProgress #myBarProactividad, body section#section-skill div.soft-skill #myProgress #myBarEquipo, body section#section-skill div.soft-skill #myProgress #myBarPensamiento, body section#section-skill div.soft-skill #myProgress #myBarEntusiasmo, body section#section-skill div.soft-skill #myProgress #myBarPerseverancia, body section#section-skill div.soft-skill #myProgress #myBarResponsabilidad {
+          width: 1%;
+          height: 18px;
+          background-color: #17a398;
+          color: #fff;
+          align-content: center; }
+  body section#section-projects {
+    background-color: #112437;
+    padding-bottom: 20px; }
+    body section#section-projects h3 {
+      color: #fff;
+      font-family: 'Orbitron', sans-serif; }
+    body section#section-projects .carousel-indicators li {
+      border: solid 1px #112437; }
+    body section#section-projects .carousel-indicators .active {
+      background-color: #112437; }
+    body section#section-projects p {
+      font-family: 'Carrois Gothic SC', sans-serif; }
+    body section#section-projects #see {
+      padding: 10px 20px;
+      background-color: rgba(17, 36, 55, 0.7);
+      text-decoration: none;
+      color: #fff;
+      font-family: 'Carrois Gothic SC', sans-serif; }
+      body section#section-projects #see:hover {
+        border: solid 1px #fff; }
+  body section#section-contact-me {
+    background-color: #43aa8b; }
+    body section#section-contact-me h3 {
+      color: #fff;
+      font-family: 'Orbitron', sans-serif; }
+    body section#section-contact-me .box-icono i {
+      color: #4adbc8;
+      font-size: 40px; }
+      body section#section-contact-me .box-icono i a {
+        text-decoration: none; }
+    body section#section-contact-me p {
+      color: #fff;
+      font-family: 'Carrois Gothic SC', sans-serif;
+      padding: 10px 0; }

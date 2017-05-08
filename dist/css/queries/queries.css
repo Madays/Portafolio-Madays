@@ -1,19 +1,15 @@
 /*------------CELULARES-----*/
 @media screen and (max-width: 767px) {
   section#section-start {
-    height: 566px; }
-    section#section-start header h2, section#section-start header #box-languaje span {
-      font-size: 14px; }
-    section#section-start header #box-languaje .switch {
-      width: 30px;
-      height: 17px; }
-    section#section-start header #box-languaje .slider:before {
-      height: 13px;
-      width: 13px; }
-    section#section-start header #box-languaje input:checked + .slider:before {
-      -webkit-transform: translateX(13px);
-      -ms-transform: translateX(13px);
-      transform: translateX(13px); }
+    height: 100vh; }
+    section#section-start header header {
+      right: 10px;
+      left: 10px; }
+      section#section-start header header h2 {
+        font-size: 20px;
+        color: purple; }
+      section#section-start header header button {
+        margin-top: 20px; }
     section#section-start img#layer1 {
       width: 180px; }
     section#section-start h1#layer1-5 {
@@ -85,18 +81,6 @@
 @media screen and (min-width: 768px) and (max-width: 991px) {
   section#section-start {
     height: 566px; }
-    section#section-start header h2, section#section-start header #box-languaje span {
-      font-size: 16px; }
-    section#section-start header #box-languaje .switch {
-      width: 30px;
-      height: 17px; }
-    section#section-start header #box-languaje .slider:before {
-      height: 13px;
-      width: 13px; }
-    section#section-start header #box-languaje input:checked + .slider:before {
-      -webkit-transform: translateX(13px);
-      -ms-transform: translateX(13px);
-      transform: translateX(13px); }
     section#section-start img#layer1 {
       width: 180px; }
     section#section-start h1#layer1-5 {
@@ -160,18 +144,6 @@
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   section#section-start {
     height: 566px; }
-    section#section-start header h2, section#section-start header #box-languaje span {
-      font-size: 16px; }
-    section#section-start header #box-languaje .switch {
-      width: 30px;
-      height: 17px; }
-    section#section-start header #box-languaje .slider:before {
-      height: 13px;
-      width: 13px; }
-    section#section-start header #box-languaje input:checked + .slider:before {
-      -webkit-transform: translateX(13px);
-      -ms-transform: translateX(13px);
-      transform: translateX(13px); }
     section#section-start img#layer1 {
       width: 180px; }
     section#section-start h1#layer1-5 {
@@ -228,16 +200,11 @@
 @media screen and (min-width: 1200px) {
   section#section-start {
     height: 100vh; }
-    section#section-start header #box-languaje .switch {
-      width: 60px;
-      height: 34px; }
-    section#section-start header #box-languaje .slider:before {
-      height: 26px;
-      width: 26px; }
-    section#section-start header #box-languaje input:checked + .slider:before {
-      -webkit-transform: translateX(26px);
-      -ms-transform: translateX(26px);
-      transform: translateX(26px); }
+    section#section-start header {
+      right: 100px;
+      left: 100px; }
+      section#section-start header button {
+        margin-top: 20px; }
     section#section-start img#layer1 {
       width: 230px; }
     section#section-start h1#layer1-5 {
@@ -293,15 +260,15 @@
     margin: 0; }
     section#section-about-me .box-img-maday ul#scene1 h2 #name {
       font-size: 48px;
-      margin-left: -40px;
+      margin-left: -20px;
       font-family: 'Cormorant SC', serif; }
     section#section-about-me .box-img-maday ul#scene1 h2 #last-name {
       font-size: 48px;
-      margin-left: -40px;
+      margin-left: -20px;
       font-family: 'Orbitron', sans-serif; }
   section#section-about-me .box-img-maday ul#scene1 #what {
     color: #fff;
-    margin-left: -40px;
+    margin-left: -20px;
     margin-top: 120px;
     font-family: 'Carrois Gothic SC', sans-serif; }
   section#section-about-me .box-content-about-me {

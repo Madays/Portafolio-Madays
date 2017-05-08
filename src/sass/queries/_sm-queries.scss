@@ -2,30 +2,18 @@
 /*------------TABLET-----*/
 @media screen and (min-width:768px) and (max-width:991px){
     section#section-start{
-        height: 566px; 
+        height: 100vh; 
         header{
-            h2,#box-languaje span{
-                font-size: 16px;
-            }
-            #box-languaje{ 
-                img{
-                    width: 25px;    
-                }
-                .switch {
-                    width: 30px;
-                    height: 17px;    
-                }
-                .slider:before {
-                    height: 13px;
-                    width: 13px;    
-                }
-                input:checked + .slider:before {
-                    -webkit-transform: translateX(13px);
-                    -ms-transform: translateX(13px);
-                    transform: translateX(13px);
-                }    
-            }    
-        }        
+            right: 20px;
+            left: 20px;
+            h2{
+                font-size: 20px;
+                margin-top: 25px;
+            }                    
+            button{
+                margin-top: 20px;
+            }  
+        }       
         img#layer1{
             width: 180px;//img-Maday
             //transform: translate(0,60px);

@@ -30,7 +30,7 @@ function init()
     move("myBarPensamiento",80);
     move("myBarEntusiasmo",90);
     move("myBarPerseverancia",100);
-    move("myBarResponsabilidad",80);
+    move("myBarResponsabilidad",100);
 }
 function resize(evt){
     if(screen.height<=414){
@@ -122,13 +122,20 @@ function onClickBtnSkill(){
     move("myBarPensamiento",80);
     move("myBarEntusiasmo",90);
     move("myBarPerseverancia",100);
-    move("myBarResponsabilidad",80);
+    move("myBarResponsabilidad",100);
 }
 function onClickBtnProjects(){
 
 }
 function onClickBtnContactMe(){
 
+}
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
 }
 function move(_id,_valor) {
     var elem = document.getElementById(_id);   

@@ -8,7 +8,7 @@
 @import "mixin/mixin";
 
 body { 
-    div.nav{
+    /*div.nav{
         position: fixed;
         padding-right: 10px;
         top: 50%;
@@ -39,9 +39,8 @@ body {
                 height: 25px;
             }    
         }
-    }
-        
-    section#section-start{                            
+    }*/        
+    section#section-start{ 
         div.container-canvas{
             div#particle-canvas{        
                 overflow: hidden;
@@ -50,85 +49,71 @@ body {
                 margin: 0;
                 padding: 0;    
                 header{
-                    position: relative;
+                    position: fixed;
                     z-index: 1000;
-                    top: 0;
-                    right: 10px;
-                    left: 10px;
+                    top: 0;                    
                     h2{
                         font-family: 'Orbitron', sans-serif;
-                        position: relative;
-                        z-index: 20;
                         color: #fff;  
                         text-align: left;
                     } 
-                    #box-languaje{
-                        color: #fff;
-                        text-align: right;
-                        padding-top: 20px;
-                            /* The switch - the box around the slider */
-                        .switch {
-                          position: relative;
-                          display: inline-block;
+                    div.container-menu{
+                        button{
+                            padding: 5px 10px;
                         }
-
-                            /* Hide default HTML checkbox */
-                        .switch input {display:none;}
-
-                            /* The slider */
-                        .slider {
-                          position: absolute;
-                          cursor: pointer;
-                          top: 0;
-                          left: 0;
-                          right: 0;
-                          bottom: 0;
-                          background-color: #ccc;
-                          -webkit-transition: .4s;
-                          transition: .4s;
+                        .overlay {
+                            font-family: 'Orbitron', sans-serif;
+                            height: 100%;
+                            width: 0;
+                            position: fixed;
+                            z-index: 11001;
+                            top: 0px;
+                            left: 0;
+                            //background-color: rgb(0,0,0);
+                            background-color: rgba(17, 36, 55,.9);
+                            overflow-x: hidden;
+                            transition: 0.5s;
+                            a {
+                                padding: 8px;
+                                text-decoration: none;
+                                color: #818181;
+                                display: block;
+                                transition: 0.3s;
+                                &:hover, &:focus{
+                                    color: #f1f1f1;    
+                                }
+                            }
+                            .overlay-content {
+                                position: relative;
+                                top: 25%;
+                                width: 100%;
+                                text-align: center;
+                                margin-top: 30px;
+                            }
+                            .closebtn {
+                                position: absolute;
+                                top: 20px;
+                                right: 45px;
+                                font-size: 60px;
+                            }
                         }
-
-                        .slider:before {
-                          position: absolute;
-                          content: "";                     
-                          left: 2px;
-                          bottom: 2px;
-                          background-color: white;
-                          -webkit-transition: .4s;
-                          transition: .4s;
+                        @media screen and (max-height: 450px) {
+                          .overlay a {font-size: 20px}
+                          .overlay .closebtn {
+                            font-size: 40px;
+                            top: 15px;
+                            right: 35px;
+                          }
                         }
-
-                        input:checked + .slider {
-                          background-color: #2196F3;
-                        }
-
-                        input:focus + .slider {
-                          box-shadow: 0 0 1px #2196F3;
-                        }
-
-                        input:checked + .slider:before{
-                        }
-
-                        /* Rounded sliders */
-                        .slider.round {
-                          border-radius: 34px;
-                        }
-
-                        .slider.round:before {
-                          border-radius: 50%;
-                        }    
-                    }
-                    #box-languaje span{
-                        vertical-align: top;
-                        font-family: 'Orbitron', sans-serif;
-                    }                    
+                    }                      
                 }
                 h1{
-                        position: relative;
-                        z-index: 1000;
-                        color: #fff;
-                        font-family: 'Orbitron', sans-serif;
-                    }
+                    position: relative;
+                    top: 50%;
+                    z-index: 900;
+                    color: #fff;
+                    font-family: 'Orbitron', sans-serif;
+                }
             }    
         }                             
     }

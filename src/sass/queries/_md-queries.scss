@@ -2,30 +2,21 @@
 /*------------DESKTOP-----*/
 @media screen and (min-width:992px) and (max-width:1199px){
     section#section-start{
-        height: 566px; 
+        height: 100vh; 
         header{
-            h2,#box-languaje span{
-                font-size: 32px;
-            }
-            #box-languaje{  
-                img{
-                    width: 50px;    
-                }
-                .switch {
-                    width: 30px;
-                    height: 17px;    
-                }
-                .slider:before {
-                    height: 13px;
-                    width: 13px;    
-                }
-                input:checked + .slider:before {
-                    -webkit-transform: translateX(13px);
-                    -ms-transform: translateX(13px);
-                    transform: translateX(13px);
-                }    
-            }    
-        }        
+            right:40px;
+            left: 40px;
+            h2{
+                font-size: 20px;
+                margin-top: 25px;
+            }                    
+            button{
+                margin-top: 20px;
+            }  
+        } 
+        h1{
+            
+        }
         img#layer1{
             width: 180px;//img-Maday
             //transform: translate(0,60px);

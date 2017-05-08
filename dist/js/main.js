@@ -1,6 +1,6 @@
-var scene = document.getElementById('scene');
-var parallax = new Parallax(scene);
-var scene = document.getElementById('scene1');
+//var scene = document.getElementById('scene');
+//var parallax = new Parallax(scene);
+var scene1 = document.getElementById('scene1');
 var parallax1 = new Parallax(scene1);
 $(document).ready(init);
 function init()
@@ -8,13 +8,14 @@ function init()
     window.addEventListener('resize',resize);
     loadLinkMenu();
     //$('#start').click(onClickBtnStart);
-    $('#menu').mouseover(onMouseMenu);
-    $('#menu').mouseleave(leaveMouseMenu);
+    //$('#menu').mouseover(onMouseMenu);
+    //$('#menu').mouseleave(leaveMouseMenu);
     //$('#about-me').click(onClickBtnAboutMe);
     $('#skill').click(onClickBtnSkill);
     $('#projects').click(onClickBtnProjects);
     $('#contact-me').click(onClickBtnContactMe);
     /*Section skill*/
+    //hard-skill
     move("myBarHTML5",90);
     move("myBarCss",90);
     move("myBarBootstrap",80);
@@ -29,7 +30,7 @@ function init()
     move("myBarPensamiento",80);
     move("myBarEntusiasmo",90);
     move("myBarPerseverancia",100);
-    move("myBarResponsabilidad",80);
+    move("myBarResponsabilidad",100);
 }
 function resize(evt){
     if(screen.height<=414){
@@ -39,7 +40,7 @@ function resize(evt){
     };
 }
 /*-----animacion de menu-----*/
-function onMouseMenu(evt){
+/*function onMouseMenu(evt){
     switch(evt.target.id){
         case 'start':
             $('li#start').css('width','100px');
@@ -62,7 +63,7 @@ function leaveMouseMenu(evt){
             $('li#about-me').text('');
             break;        
     }
-}
+}*/
 function loadLinkMenu(){
     setInterval(function(){
         $('ul#menu').css('opacity','1');
@@ -81,7 +82,7 @@ function loadLinkMenu(){
     },800);
 }
 /*-----Funcione animacion de menu-----*/
-function onMouseMenu(evt){
+/*function onMouseMenu(evt){
     switch(evt.target.id){
         case 'start':
             $('li#start').css('width','100px');
@@ -104,8 +105,9 @@ function leaveMouseMenu(evt){
             $('li#about-me').text('');
             break;        
     }
-}
+}*/
 function onClickBtnSkill(){
+    //hard-skill
     move("myBarHTML5",90);
     move("myBarCss",90);
     move("myBarBootstrap",80);
@@ -114,12 +116,26 @@ function onClickBtnSkill(){
     move("myBarSass",80);
     move("myBarGithub",70);
     move("myBarGulp",70);
+    //soft-skill
+    move("myBarProactividad",99);
+    move("myBarEquipo",90);
+    move("myBarPensamiento",80);
+    move("myBarEntusiasmo",90);
+    move("myBarPerseverancia",100);
+    move("myBarResponsabilidad",100);
 }
 function onClickBtnProjects(){
 
 }
 function onClickBtnContactMe(){
 
+}
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
 }
 function move(_id,_valor) {
     var elem = document.getElementById(_id);   
