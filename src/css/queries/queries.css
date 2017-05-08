@@ -2,65 +2,12 @@
 @media screen and (max-width: 767px) {
   section#section-start {
     height: 100vh; }
-    section#section-start header {
-      right: 10px;
-      left: 10px; }
-      section#section-start header h2 {
-        font-size: 14px;
-        margin-top: 25px; }
-      section#section-start header button {
-        margin-top: 20px; }
-    section#section-start img#layer1 {
-      width: 180px; }
-    section#section-start h1#layer1-5 {
-      font-size: 16px;
-      -webkit-transform: translate(0, 260px);
-      -ms-transform: translate(0, 260px);
-      transform: translate(0, 260px); }
-    section#section-start img#layer2 {
-      width: 230px;
-      -webkit-transform: translate(0, 350px);
-      -ms-transform: translate(0, 350px);
-      transform: translate(0, 350px); }
-    section#section-start img#layer3 {
-      width: 25px;
-      position: absolute;
-      bottom: -430px; }
-    section#section-start img#layer4 {
-      width: 25px;
-      position: absolute;
-      bottom: -430px;
-      left: 35%; }
-    section#section-start img#layer5 {
-      width: 25px;
-      position: absolute;
-      bottom: -390px;
-      left: 30%; }
-    section#section-start img#layer6 {
-      width: 25px;
-      position: absolute;
-      bottom: -430px;
-      left: 25%; }
-    section#section-start img#layer7 {
-      width: 25px;
-      position: absolute;
-      bottom: -430px;
-      left: 65%; }
-    section#section-start img#layer8 {
-      width: 25px;
-      position: absolute;
-      bottom: -390px;
-      left: 58%; }
-    section#section-start img#layer9 {
-      width: 25px;
-      position: absolute;
-      bottom: -390px;
-      left: 42%; }
-    section#section-start img#layer10 {
-      width: 15px;
-      position: absolute;
-      bottom: -390px;
-      left: 70%; }
+    section#section-start header h2 {
+      font-size: 14px; }
+    section#section-start header button {
+      right: 20px; }
+    section#section-start h1 {
+      font-size: 14px; }
   section#section-about-me {
     padding-bottom: 20px; }
     section#section-about-me div.box-img-maday {
@@ -81,65 +28,14 @@
 @media screen and (min-width: 768px) and (max-width: 991px) {
   section#section-start {
     height: 100vh; }
-    section#section-start header {
-      right: 20px;
-      left: 20px; }
-      section#section-start header h2 {
-        font-size: 20px;
-        margin-top: 25px; }
-      section#section-start header button {
-        margin-top: 20px; }
-    section#section-start img#layer1 {
-      width: 180px; }
-    section#section-start h1#layer1-5 {
-      font-size: 16px;
-      -webkit-transform: translate(0, 260px);
-      -ms-transform: translate(0, 260px);
-      transform: translate(0, 260px); }
-    section#section-start img#layer2 {
-      width: 230px;
-      -webkit-transform: translate(0, 350px);
-      -ms-transform: translate(0, 350px);
-      transform: translate(0, 350px); }
-    section#section-start img#layer3 {
-      width: 25px;
-      position: absolute;
-      bottom: -430px; }
-    section#section-start img#layer4 {
-      width: 25px;
-      position: absolute;
-      bottom: -430px;
-      left: 35%; }
-    section#section-start img#layer5 {
-      width: 25px;
-      position: absolute;
-      bottom: -390px;
-      left: 30%; }
-    section#section-start img#layer6 {
-      width: 25px;
-      position: absolute;
-      bottom: -430px;
-      left: 25%; }
-    section#section-start img#layer7 {
-      width: 25px;
-      position: absolute;
-      bottom: -430px;
-      left: 65%; }
-    section#section-start img#layer8 {
-      width: 25px;
-      position: absolute;
-      bottom: -390px;
-      left: 58%; }
-    section#section-start img#layer9 {
-      width: 25px;
-      position: absolute;
-      bottom: -390px;
-      left: 42%; }
-    section#section-start img#layer10 {
-      width: 15px;
-      position: absolute;
-      bottom: -390px;
-      left: 70%; }
+    section#section-start header h2 {
+      font-size: 20px;
+      top: 20px; }
+    section#section-start header button {
+      top: 20px;
+      right: 20px; }
+    section#section-start h1 {
+      font-size: 20px; }
   section#section-about-me {
     padding-bottom: 20px; }
     section#section-about-me div.img-maday1 ul#scene1 h2 {
@@ -152,126 +48,27 @@
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   section#section-start {
     height: 100vh; }
-    section#section-start header {
-      right: 40px;
-      left: 40px; }
-      section#section-start header h2 {
-        font-size: 20px;
-        margin-top: 25px; }
-      section#section-start header button {
-        margin-top: 20px; }
-    section#section-start img#layer1 {
-      width: 180px; }
-    section#section-start h1#layer1-5 {
-      font-size: 16px;
-      -webkit-transform: translate(0, 260px);
-      -ms-transform: translate(0, 260px);
-      transform: translate(0, 260px); }
-    section#section-start img#layer2 {
-      width: 230px;
-      -webkit-transform: translate(0, 350px);
-      -ms-transform: translate(0, 350px);
-      transform: translate(0, 350px); }
-    section#section-start img#layer3 {
-      width: 25px;
-      position: absolute;
-      bottom: -430px; }
-    section#section-start img#layer4 {
-      width: 25px;
-      position: absolute;
-      bottom: -430px;
-      left: 35%; }
-    section#section-start img#layer5 {
-      width: 25px;
-      position: absolute;
-      bottom: -390px;
-      left: 30%; }
-    section#section-start img#layer6 {
-      width: 25px;
-      position: absolute;
-      bottom: -430px;
-      left: 25%; }
-    section#section-start img#layer7 {
-      width: 25px;
-      position: absolute;
-      bottom: -430px;
-      left: 65%; }
-    section#section-start img#layer8 {
-      width: 25px;
-      position: absolute;
-      bottom: -390px;
-      left: 58%; }
-    section#section-start img#layer9 {
-      width: 25px;
-      position: absolute;
-      bottom: -390px;
-      left: 42%; }
-    section#section-start img#layer10 {
-      width: 15px;
-      position: absolute;
-      bottom: -390px;
-      left: 70%; } }
+    section#section-start header h2 {
+      font-size: 20px;
+      top: 20px; }
+    section#section-start header button {
+      top: 30px;
+      right: 40px; }
+    section#section-start h1 {
+      font-size: 20px; } }
 
 /*------------DESKTOP LARGE-----*/
 @media screen and (min-width: 1200px) {
   section#section-start {
     height: 100vh; }
-    section#section-start header {
-      right: 100px;
-      left: 100px; }
-      section#section-start header button {
-        margin-top: 20px; }
-    section#section-start img#layer1 {
-      width: 230px; }
-    section#section-start h1#layer1-5 {
-      font-size: 16px;
-      -webkit-transform: translate(0, 320px);
-      -ms-transform: translate(0, 320px);
-      transform: translate(0, 320px); }
-    section#section-start img#layer2 {
-      width: 230px;
-      -webkit-transform: translate(0, 430px);
-      -ms-transform: translate(0, 430px);
-      transform: translate(0, 430px); }
-    section#section-start img#layer3 {
-      width: 25px;
-      position: absolute;
-      bottom: -520px; }
-    section#section-start img#layer4 {
-      width: 25px;
-      position: absolute;
-      bottom: -520px;
-      left: 35%; }
-    section#section-start img#layer5 {
-      width: 25px;
-      position: absolute;
-      bottom: -490px;
-      left: 30%; }
-    section#section-start img#layer6 {
-      width: 25px;
-      position: absolute;
-      bottom: -520px;
-      left: 25%; }
-    section#section-start img#layer7 {
-      width: 25px;
-      position: absolute;
-      bottom: -520px;
-      left: 65%; }
-    section#section-start img#layer8 {
-      width: 25px;
-      position: absolute;
-      bottom: -490px;
-      left: 58%; }
-    section#section-start img#layer9 {
-      width: 25px;
-      position: absolute;
-      bottom: -490px;
-      left: 42%; }
-    section#section-start img#layer10 {
-      width: 15px;
-      position: absolute;
-      bottom: -490px;
-      left: 70%; }
+    section#section-start header h2 {
+      font-size: 20px;
+      top: 20px; }
+    section#section-start header button {
+      top: 20px;
+      right: 100px; }
+    section#section-start h1 {
+      font-size: 20px; }
   section#section-about-me .box-img-maday ul#scene1 h2 {
     margin: 0; }
     section#section-about-me .box-img-maday ul#scene1 h2 #name {

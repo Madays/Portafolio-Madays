@@ -43,15 +43,19 @@ body {
     margin: 0;
     padding: 0; }
     body section#section-start div.container-canvas div#particle-canvas header {
-      position: fixed;
-      z-index: 1000;
-      top: 0; }
+      /*position: fixed;
+                    z-index: 1000;
+                    top: 0;*/ }
       body section#section-start div.container-canvas div#particle-canvas header h2 {
         font-family: 'Orbitron', sans-serif;
         color: #fff;
-        text-align: left; }
+        text-align: left;
+        position: relative;
+        z-index: 2000; }
       body section#section-start div.container-canvas div#particle-canvas header div.container-menu button {
-        padding: 5px 10px; }
+        padding: 5px 10px;
+        position: fixed;
+        z-index: 11000; }
       body section#section-start div.container-canvas div#particle-canvas header div.container-menu .overlay {
         font-family: 'Orbitron', sans-serif;
         height: 100%;
@@ -90,7 +94,9 @@ body {
           top: 15px;
           right: 35px; } }
     body section#section-start div.container-canvas div#particle-canvas h1 {
-      position: relative;
+      position: absolute;
+      right: 0;
+      left: 0;
       top: 50%;
       z-index: 900;
       color: #fff;

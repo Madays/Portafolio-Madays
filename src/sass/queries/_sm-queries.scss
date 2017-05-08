@@ -4,80 +4,21 @@
     section#section-start{
         height: 100vh; 
         header{
-            right: 20px;
-            left: 20px;
+            //padding-top: 20px;
             h2{
                 font-size: 20px;
-                margin-top: 25px;
+                top: 20px;
             }                    
             button{
-                margin-top: 20px;
+                top: 20px;
+                right: 20px;
             }  
-        }       
-        img#layer1{
-            width: 180px;//img-Maday
-            //transform: translate(0,60px);
-        } 
-        h1#layer1-5{//h1 texto dinámico
-            font-size: 16px;
-            -webkit-transform: translate(0,260px);
-            -ms-transform: translate(0,260px);
-            transform: translate(0,260px);
-        } 
-        img#layer2{
-            width: 230px;
-            -webkit-transform: translate(0,350px);//laptop img
-            -ms-transform: translate(0,350px);//laptop img
-            transform: translate(0,350px);//laptop img
-        } 
-        img#layer3{
-            width: 25px;
-            position: absolute;
-            bottom: -430px;//css
         }
-        img#layer4{
-            width: 25px;
-            position: absolute;
-            bottom: -430px;//html
-            left: 35%;
+        h1{
+            font-size: 20px;
         }
-        img#layer5{
-            width: 25px;
-            position: absolute;
-            bottom: -390px;//bootstrap
-            left: 30%;
-        }
-        img#layer6{
-            width: 25px;
-            position: absolute;
-            bottom: -430px;//js
-            left: 25%;
-        }
-        img#layer7{
-            width: 25px;
-            position: absolute;
-            bottom: -430px;//jquery
-            left: 65%;
-        }
-        img#layer8{
-            width: 25px;
-            position: absolute;
-            bottom: -390px;
-            left: 58%;
-        }
-        img#layer9{
-            width: 25px;
-            position: absolute;
-            bottom: -390px;
-            left: 42%;
-        }
-        img#layer10{
-            width: 15px;
-            position: absolute;
-            bottom: -390px;
-            left: 70%;
-        }                
     }
+
     section#section-about-me{
         padding-bottom: 20px;
         div.img-maday1{
