@@ -7,7 +7,39 @@
 @import "variables/variables";
 @import "mixin/mixin";
 
-body {             
+body { 
+    /*div.nav{
+        position: fixed;
+        padding-right: 10px;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+         z-index: 1000;
+        ul#menu{
+            opacity: 0;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            width: 5px;             
+            li{
+                float: right;
+                height: 40px;
+                text-align: center;                
+                margin: 5px 0;
+                background: #fff;
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+                                                 
+            .link{                
+                display: table;                 
+                width: 5px;
+                height: 25px;
+            }    
+        }
+    }*/        
     section#section-start{ 
         div.container-canvas{
             div#particle-canvas{        
@@ -17,21 +49,17 @@ body {
                 margin: 0;
                 padding: 0;    
                 header{
-                    /*position: fixed;
+                    position: fixed;
                     z-index: 1000;
-                    top: 0;*/                    
+                    top: 0;                    
                     h2{
                         font-family: 'Orbitron', sans-serif;
                         color: #fff;  
-                        //text-align: left;
-                        position: relative;
-                        z-index: 2000;
-                    }        
+                        text-align: left;
+                    } 
                     div.container-menu{
                         button{
                             padding: 5px 10px;
-                            position: fixed;
-                            z-index: 11000;
                         }
                         .overlay {
                             font-family: 'Orbitron', sans-serif;
@@ -80,9 +108,7 @@ body {
                     }                      
                 }
                 h1{
-                    position: absolute;
-                    right: 0;
-                    left: 0;
+                    position: relative;
                     top: 50%;
                     z-index: 900;
                     color: #fff;
